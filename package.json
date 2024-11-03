@@ -1,6 +1,6 @@
 {
   "name": "library",
-  "homepage": "https://ghitab.github.io/library/"
+  "homepage": "https://ghitab.github.io/library/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
