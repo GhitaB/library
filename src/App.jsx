@@ -5,14 +5,15 @@ const Stats = (props) => {
   /* eslint-disable react/prop-types */
   const { books } = props;
   return (
-    <div>
+    <div className="stats">
       <p>
         Indexed: {books.length} books,{" "}
         {books.reduce((acc, book) => acc + book.Pages, 0)} pages.
       </p>
       <p>
         I have read: {books.filter((book) => book.Read === book.Pages).length}{" "}
-        books, {books.reduce((acc, book) => acc + book.Read, 0)} pages.
+        books, {books.reduce((acc, book) => acc + book.Read + book.Reread, 0)}{" "}
+        pages.
       </p>
     </div>
   );
@@ -50,7 +51,6 @@ const App = () => {
       <h1>Ghiță B.&#39;s Library</h1>
       <p>Work in progress... (600/1000)</p>
 
-      <Stats books={books} />
       <input
         type="text"
         placeholder="Search by any detail (author, title, id, etc)..."
@@ -59,6 +59,7 @@ const App = () => {
       />
 
       <div className="book-list">
+        <Stats books={filteredBooks} />
         {filteredBooks.map((book) => (
           <div
             key={book.ID}

@@ -54,3 +54,7 @@ input[type="text"] {
 .book.notread {
   border-bottom: solid 7px gray;
 }
+
+.stats {
+  width: 100%;
+}
