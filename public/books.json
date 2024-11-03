@@ -1,0 +1,24 @@
+[
+  {
+    "ID": 1,
+    "LibraryID": "A1_003",
+    "Title": "Lorem ipsum",
+    "Author": "Someone",
+    "Pages": 218,
+    "Read": 218,
+    "Reread": 100,
+    "IMG": "IMG_0000.png",
+    "Details": "A classic novel"
+  },
+  {
+    "ID": 2,
+    "LibraryID": "B2_001",
+    "Title": "Isum dolor",
+    "Author": "Someone2",
+    "Pages": 281,
+    "Read": 281,
+    "Reread": 0,
+    "IMG": "IMG_0000.png",
+    "Details": "Bla bla"
+  }
+]

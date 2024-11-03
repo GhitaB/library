@@ -1,35 +1,61 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from "react";
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [books, setBooks] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  useEffect(() => {
+    fetch("books.json")
+      .then((response) => response.json())
+      .then((data) => setBooks(data));
+  }, []);
+
+  const filteredBooks = books.filter((book) => {
+    const searchIn = `${book.ID} ${book.LibraryID} ${book.Title} ${book.Author} ${book.Pages} ${book.Read} ${book.Reread} ${book.Details}`;
+    return searchIn.toLowerCase().includes(searchTerm.toLowerCase());
+  });
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className="App">
+      <h1>Biblioteca mea</h1>
 
-export default App
+      <input
+        type="text"
+        placeholder="Caută în bibliotecă..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
+
+      <div className="book-list">
+        {filteredBooks.map((book) => (
+          <div key={book.ID} className="book">
+            <img src={`/images/${book.IMG}`} alt={book.Title} />
+            <div className="book-info">
+              <h2>{book.Title}</h2>
+              <p>
+                <strong>Autor:</strong> {book.Author}
+              </p>
+              <p>
+                <strong>Cod Bibliotecă:</strong> {book.LibraryID}
+              </p>
+              <p>
+                <strong>Pagini:</strong> {book.Pages}
+              </p>
+              <p>
+                <strong>Citite:</strong> {book.Read}
+              </p>
+              <p>
+                <strong>Recitite:</strong> {book.Reread}
+              </p>
+              <p>
+                <strong>Detalii:</strong> {book.Details}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+export default App;
