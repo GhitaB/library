@@ -1,6 +1,23 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
+const Stats = (props) => {
+  /* eslint-disable react/prop-types */
+  const { books } = props;
+  return (
+    <div>
+      <p>
+        Indexed: {books.length} books,{" "}
+        {books.reduce((acc, book) => acc + book.Pages, 0)} pages.
+      </p>
+      <p>
+        I have read: {books.filter((book) => book.Read === book.Pages).length}{" "}
+        books, {books.reduce((acc, book) => acc + book.Read, 0)} pages.
+      </p>
+    </div>
+  );
+};
+
 const App = () => {
   const [books, setBooks] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -30,9 +47,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Ghiță B.'s Library</h1>
+      <h1>Ghiță B.&#39;s Library</h1>
       <p>Work in progress... (600/1000)</p>
 
+      <Stats books={books} />
       <input
         type="text"
         placeholder="Search by any detail (author, title, id, etc)..."
