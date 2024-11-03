@@ -16,6 +16,18 @@ const App = () => {
     return searchIn.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
+  const bookStatusClass = (read, pages) => {
+    if (read === pages) {
+      return "read";
+    }
+    if (read > 0) {
+      return "inprogress";
+    }
+    if (read === 0) {
+      return "notread";
+    }
+  };
+
   return (
     <div className="App">
       <h1>Ghiță B.'s Library</h1>
@@ -30,7 +42,10 @@ const App = () => {
 
       <div className="book-list">
         {filteredBooks.map((book) => (
-          <div key={book.ID} className="book">
+          <div
+            key={book.ID}
+            className={`book ${bookStatusClass(book.Read, book.Pages)}`}
+          >
             <img src={`/images/${book.IMG}`} alt={book.Title} />
             <div className="book-info">
               <h2>{book.Title}</h2>

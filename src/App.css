@@ -19,7 +19,6 @@ input[type="text"] {
 
 .book {
   border: 1px solid #ddd;
-  border-radius: 8px;
   padding: 16px;
   width: 200px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
@@ -28,7 +27,6 @@ input[type="text"] {
 .book img {
   width: 100%;
   height: auto;
-  border-radius: 4px;
 }
 
 .book-info {
@@ -43,4 +41,16 @@ input[type="text"] {
 .book-info p {
   margin: 4px 0;
   font-size: 14px;
+}
+
+.book.read {
+  border-top: solid 10px green;
+}
+
+.book.inprogress {
+  border-top: solid 10px yellow;
+}
+
+.book.notread {
+  border-top: solid 10px gray;
 }
