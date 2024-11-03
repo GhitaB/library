@@ -18,11 +18,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Biblioteca mea</h1>
+      <h1>Ghiță B.'s Library</h1>
+      <p>Work in progress... (600/1000)</p>
 
       <input
         type="text"
-        placeholder="Caută în bibliotecă..."
+        placeholder="Search by any detail (author, title, id, etc)..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
@@ -34,22 +35,25 @@ const App = () => {
             <div className="book-info">
               <h2>{book.Title}</h2>
               <p>
-                <strong>Autor:</strong> {book.Author}
+                <strong>Author:</strong> {book.Author}
               </p>
               <p>
-                <strong>Cod Bibliotecă:</strong> {book.LibraryID}
+                <strong>ID:</strong> {book.ID}
               </p>
               <p>
-                <strong>Pagini:</strong> {book.Pages}
+                <strong>LibraryID:</strong> {book.LibraryID}
               </p>
               <p>
-                <strong>Citite:</strong> {book.Read}
+                <strong>Pages:</strong> {book.Pages}
               </p>
               <p>
-                <strong>Recitite:</strong> {book.Reread}
+                <strong>Read:</strong> {book.Read}
               </p>
               <p>
-                <strong>Detalii:</strong> {book.Details}
+                <strong>Reread:</strong> {book.Reread}
+              </p>
+              <p>
+                <strong>Details:</strong> {book.Details}
               </p>
             </div>
           </div>

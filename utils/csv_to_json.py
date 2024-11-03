@@ -14,8 +14,8 @@ def csv_to_json(csv_file_path, json_file_path):
                     "LibraryID": row[1].strip(),
                     "Author": row[2].strip(),
                     "Title": row[3].strip(),
-                    "Pages": int(row[4].strip()),
-                    "Read": int(row[5].strip()),
+                    "Read": int(row[4].strip()),
+                    "Pages": int(row[5].strip()),
                     "Reread": int(row[6].strip()),
                     "IMG": "IMG_0000.png",  # default
                     "Details": "",
