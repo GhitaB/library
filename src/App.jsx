@@ -65,7 +65,7 @@ const App = () => {
             key={book.ID}
             className={`book ${bookStatusClass(book.Read, book.Pages)}`}
           >
-            <img src={`/images/${book.IMG}`} alt={book.Title} />
+            <img src={`/library/images/${book.IMG}`} alt={book.Title} />
             <div className="book-info">
               <h2>{book.Title}</h2>
               <p>
