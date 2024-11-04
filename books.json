@@ -246,253 +246,474 @@
     "LibraryID": "A1_010",
     "Author": "Ellen G. White",
     "Title": "Mărturii pentru biserică – vol. 2 mic",
+    "OriginalTitle": "-- ?? --",
     "Read": 5,
     "Pages": 283,
     "Reread": 0,
     "IMG": "IMG_0010.png",
-    "Details": ""
+    "Details": "Nicio informație despre editură, traducător etc. Pare a fi o compilație realizată în stil românesc. Subiecte: evanghelia, misiunea, familia, biserica, sănătatea, libertatea religioasă, sfârșitul.",
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church", "Testimonies"]
   },
   {
     "ID": "0011",
     "LibraryID": "A1_011",
     "Author": "Ellen G. White",
     "Title": "Solii alese - vol 1",
+    "OriginalTitle": "Selected Messages, book 1 (1958)",
     "Read": 32,
     "Pages": 358,
     "Reread": 0,
     "IMG": "IMG_0011.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"]
   },
   {
     "ID": "0012",
     "LibraryID": "A1_012",
     "Author": "Ellen G. White",
     "Title": "Solii alese - vol 2",
+    "OriginalTitle": "Selected Messages, book 2 (1958)",
     "Read": 5,
     "Pages": 426,
     "Reread": 0,
     "IMG": "IMG_0012.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"]
   },
   {
     "ID": "0013",
     "LibraryID": "A1_013",
     "Author": "Ellen G. White",
     "Title": "Solii alese - vol 3",
+    "OriginalTitle": "Selected Messages, book 3 (1980)",
     "Read": 5,
     "Pages": 383,
     "Reread": 0,
     "IMG": "IMG_0013.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"]
   },
   {
     "ID": "0014",
     "LibraryID": "A1_014",
     "Author": "Ellen G. White",
     "Title": "Patriarhi și profeți",
+    "OriginalTitle": "The Story of Patriarchs and Prophets",
     "Read": 383,
     "Pages": 383,
     "Reread": 383,
     "IMG": "IMG_0014.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Ancient",
+      "Conflict of the Ages"
+    ]
   },
   {
     "ID": "0015",
     "LibraryID": "A1_015",
     "Author": "Ellen G. White",
     "Title": "Profeți și regi",
+    "OriginalTitle": "The Story of Prophets and Kings",
     "Read": 510,
     "Pages": 510,
     "Reread": 390,
     "IMG": "IMG_0015.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Ancient",
+      "Conflict of the Ages"
+    ]
   },
   {
     "ID": "0016",
     "LibraryID": "A1_016",
     "Author": "Ellen G. White",
     "Title": "Cel așteptat de veacuri",
+    "OriginalTitle": "The Desire of Ages",
     "Read": 687,
     "Pages": 687,
     "Reread": 80,
     "IMG": "IMG_0016.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Jesus",
+      "Conflict of the Ages"
+    ]
   },
   {
     "ID": "0017",
     "LibraryID": "A1_017",
     "Author": "Ellen G. White",
     "Title": "Istoria Faptelor Apostolilor",
+    "OriginalTitle": "The Acts of the Apostles",
     "Read": 438,
     "Pages": 438,
     "Reread": 0,
     "IMG": "IMG_0017.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Church",
+      "Conflict of the Ages"
+    ]
   },
   {
     "ID": "0018",
     "LibraryID": "A1_018",
     "Author": "Ellen G. White",
     "Title": "Marea luptă",
+    "OriginalTitle": "The Great Controversy",
     "Read": 536,
     "Pages": 536,
     "Reread": 1608,
     "IMG": "IMG_0018.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Church",
+      "Prophecy",
+      "Future",
+      "Eschatology",
+      "Conflict of the Ages"
+    ]
   },
   {
     "ID": "0019",
     "LibraryID": "A1_019",
     "Author": "Ellen G. White",
     "Title": "Viața lui Isus",
+    "OriginalTitle": "-- ?? --",
     "Read": 504,
     "Pages": 504,
     "Reread": 0,
     "IMG": "IMG_0019.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Jesus"
+    ]
   },
   {
     "ID": "0020",
     "LibraryID": "A1_020",
     "Author": "Ellen G. White",
     "Title": "Istoria mântuirii",
+    "OriginalTitle": "The Story of Redemption",
     "Read": 368,
     "Pages": 368,
     "Reread": 0,
     "IMG": "IMG_0020.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Church",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0021",
     "LibraryID": "A1_021",
     "Author": "Ellen G. White",
     "Title": "Minte, caracter, personalitate - vol. 1",
+    "OriginalTitle": "Mind, Character, and Personality, vol. 1",
     "Read": 375,
     "Pages": 375,
     "Reread": 0,
     "IMG": "IMG_0021.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Psychology",
+      "Mind",
+      "Character",
+      "Personality",
+      "Personal development"
+    ]
   },
   {
     "ID": "0022",
     "LibraryID": "A1_022",
     "Author": "Ellen G. White",
     "Title": "Minte, caracter, personalitate - vol. 2",
+    "OriginalTitle": "Mind, Character, and Personality, vol. 2",
     "Read": 608,
     "Pages": 608,
     "Reread": 0,
     "IMG": "IMG_0022.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Psychology",
+      "Mind",
+      "Character",
+      "Personality",
+      "Personal development"
+    ]
   },
   {
     "ID": "0023",
     "LibraryID": "A1_023",
     "Author": "Ellen G. White",
     "Title": "Educație",
+    "OriginalTitle": "Education",
     "Read": 270,
     "Pages": 270,
     "Reread": 0,
     "IMG": "IMG_0023.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Psychology",
+      "Education",
+      "Mind",
+      "Character",
+      "Personality",
+      "Personal development"
+    ]
   },
   {
     "ID": "0024",
     "LibraryID": "A1_024",
     "Author": "Ellen G. White",
     "Title": "Dietă și hrană",
+    "OriginalTitle": "Counsels on Diet and Foods",
     "Read": 597,
     "Pages": 597,
     "Reread": 597,
     "IMG": "IMG_0024.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Health",
+      "Food",
+      "Education",
+      "Personal development"
+    ]
   },
   {
     "ID": "0025",
     "LibraryID": "A1_025",
     "Author": "Ellen G. White",
     "Title": "Căminul adventist",
+    "OriginalTitle": "The Adventist Home",
     "Read": 80,
     "Pages": 510,
     "Reread": 0,
     "IMG": "IMG_0025.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Family",
+      "Relationships",
+      "Education",
+      "Personal development"
+    ]
   },
   {
     "ID": "0026",
     "LibraryID": "A1_026",
     "Author": "Ellen G. White",
     "Title": "Familia împlinită",
+    "OriginalTitle": "-- ?? --",
     "Read": 2,
     "Pages": 192,
     "Reread": 0,
     "IMG": "IMG_0026.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Family",
+      "Relationships",
+      "Education",
+      "Personal development"
+    ]
   },
   {
     "ID": "0027",
     "LibraryID": "A1_027",
     "Author": "Ellen G. White",
     "Title": "Credința și faptele",
+    "OriginalTitle": "Faith and Works (1979)",
     "Read": 107,
     "Pages": 107,
     "Reread": 0,
     "IMG": "IMG_0027.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Faith", "Character"]
   },
   {
     "ID": "0028",
     "LibraryID": "A1_028",
     "Author": "Ellen G. White",
     "Title": "Evenimentele ultimelor zile",
+    "OriginalTitle": "Last Day Events",
     "Read": 224,
     "Pages": 224,
     "Reread": 0,
     "IMG": "IMG_0028.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "Church",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0029",
     "LibraryID": "A1_029",
     "Author": "Ellen G. White",
     "Title": "Materialele 1888 - vol 1",
+    "OriginalTitle": "-- ?? --",
     "Read": 40,
     "Pages": 208,
     "Reread": 0,
     "IMG": "IMG_0029.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Faith",
+      "Minneapolis 1888",
+      "1880s",
+      "1890s"
+    ]
   },
   {
     "ID": "0030",
     "LibraryID": "A1_030",
     "Author": "Ellen G. White",
     "Title": "Materialele 1888 - vol 2",
+    "OriginalTitle": "-- ?? --",
     "Read": 2,
     "Pages": 204,
     "Reread": 0,
     "IMG": "IMG_0030.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Faith",
+      "Minneapolis 1888",
+      "1880s",
+      "1890s"
+    ]
   },
   {
     "ID": "0031",
     "LibraryID": "A1_031",
     "Author": "Ellen G. White",
     "Title": "Materialele 1888 - vol 3",
+    "OriginalTitle": "-- ?? --",
     "Read": 2,
     "Pages": 192,
     "Reread": 0,
     "IMG": "IMG_0031.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Faith",
+      "Minneapolis 1888",
+      "1880s",
+      "1890s"
+    ]
   },
   {
     "ID": "0032",
     "LibraryID": "A1_032",
     "Author": "Ellen G. White",
     "Title": "Materialele 1888 - vol 4",
+    "OriginalTitle": "-- ?? --",
     "Read": 2,
     "Pages": 186,
     "Reread": 0,
     "IMG": "IMG_0032.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Faith",
+      "Minneapolis 1888",
+      "1880s",
+      "1890s"
+    ]
   },
   {
     "ID": "0033",
