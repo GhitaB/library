@@ -125,6 +125,10 @@ h1 {
   cursor: pointer;
 }
 
+h2 {
+  margin-bottom: 0px;
+}
+
 .author {
   margin-bottom: 10px !important;
   color: #bf3100;
