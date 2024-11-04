@@ -58,3 +58,8 @@ input[type="text"] {
 .stats {
   width: 100%;
 }
+
+.original-title {
+  font-size: 10px !important;
+  margin-bottom: 10px !important;
+}

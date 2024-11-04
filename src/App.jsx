@@ -30,7 +30,7 @@ const App = () => {
   }, []);
 
   const filteredBooks = books.filter((book) => {
-    const searchIn = `${book.ID} ${book.LibraryID} ${book.Title} ${book.Author} ${book.Pages} ${book.Read} ${book.Reread} ${book.Details}`;
+    const searchIn = `${book.ID} ${book.LibraryID} ${book.Title} ${book.OriginalTitle} ${book.Author} ${book.Pages} ${book.Read} ${book.Reread} ${book.Details}`;
     return searchIn.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
@@ -68,6 +68,11 @@ const App = () => {
             <img src={`/library/images/${book.IMG}`} alt={book.Title} />
             <div className="book-info">
               <h2>{book.Title}</h2>
+              {book.OriginalTitle && (
+                <p className="original-title">
+                  <em>({book.OriginalTitle})</em>
+                </p>
+              )}
               <p>
                 <strong>Author:</strong> {book.Author}
               </p>
