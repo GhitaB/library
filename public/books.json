@@ -265,7 +265,11 @@
     "Reread": 0,
     "IMG": "IMG_0011.png",
     "Details": "",
-    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"]
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b13851",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0012",
@@ -278,7 +282,11 @@
     "Reread": 0,
     "IMG": "IMG_0012.png",
     "Details": "",
-    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"]
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b13852",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0013",
@@ -291,7 +299,11 @@
     "Reread": 0,
     "IMG": "IMG_0013.png",
     "Details": "",
-    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"]
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b13853",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0014",
@@ -313,7 +325,11 @@
       "History",
       "Ancient",
       "Conflict of the Ages"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2674",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0015",
@@ -335,7 +351,11 @@
       "History",
       "Ancient",
       "Conflict of the Ages"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2679",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0016",
@@ -357,7 +377,11 @@
       "History",
       "Jesus",
       "Conflict of the Ages"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2000",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0017",
@@ -379,7 +403,11 @@
       "History",
       "Church",
       "Conflict of the Ages"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2013",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0018",
@@ -404,7 +432,11 @@
       "Future",
       "Eschatology",
       "Conflict of the Ages"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2711",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0019",
@@ -425,7 +457,11 @@
       "Bible",
       "History",
       "Jesus"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2727",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0020",
@@ -449,7 +485,11 @@
       "Prophecy",
       "Future",
       "Eschatology"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2002",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0021",
@@ -472,7 +512,11 @@
       "Character",
       "Personality",
       "Personal development"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2669",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0022",
@@ -495,7 +539,11 @@
       "Character",
       "Personality",
       "Personal development"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2670",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0023",
@@ -519,7 +567,11 @@
       "Character",
       "Personality",
       "Personal development"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2029",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0024",
@@ -541,7 +593,11 @@
       "Food",
       "Education",
       "Personal development"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2031",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0025",
@@ -563,7 +619,11 @@
       "Relationships",
       "Education",
       "Personal development"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2026",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0026",
@@ -585,7 +645,11 @@
       "Relationships",
       "Education",
       "Personal development"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2707",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0027",
@@ -598,7 +662,11 @@
     "Reread": 0,
     "IMG": "IMG_0027.png",
     "Details": "",
-    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Faith", "Character"]
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Faith", "Character"],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2027",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0028",
@@ -621,7 +689,11 @@
       "Prophecy",
       "Future",
       "Eschatology"
-    ]
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2708",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0029",
