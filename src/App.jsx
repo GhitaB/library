@@ -67,7 +67,7 @@
 ===============================================================================
  ^ Last update
 */
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./App.css";
 
 const Stats = (props) => {
@@ -106,6 +106,7 @@ const Stars = (props) => {
 };
 
 const App = () => {
+  const resultsTitleRef = useRef(null);
   const [books, setBooks] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [resultsTitle, setResultsTitle] = useState("Toate cărțile");
@@ -152,9 +153,19 @@ const App = () => {
     return `Rezultatele căutării: ${term}`;
   };
 
+  const scrollToResultsTitle = () => {
+    if (resultsTitleRef.current) {
+      resultsTitleRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   const searchFor = (term) => {
     setSearchTerm(term);
     setResultsTitle(humanReadableTitle(term));
+    scrollToResultsTitle();
   };
 
   useEffect(() => {
@@ -306,6 +317,7 @@ const App = () => {
         </table>
       </div>
 
+      <h2 ref={resultsTitleRef}>{resultsTitle}</h2>
       <input
         type="text"
         placeholder="🔎︎ Caută cărți (după autor, titlu, ID, detalii)..."
@@ -313,7 +325,6 @@ const App = () => {
         onChange={(e) => searchFor(e.target.value)}
       />
 
-      <h2>{resultsTitle}</h2>
       <div className="book-list">
         <Stats books={filteredBooks} />
         {filteredBooks.map((book) => (
