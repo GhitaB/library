@@ -264,7 +264,8 @@
     "Pages": 358,
     "Reread": 0,
     "IMG": "IMG_0011.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"]
   },
   {
     "ID": "0012",
@@ -276,7 +277,8 @@
     "Pages": 426,
     "Reread": 0,
     "IMG": "IMG_0012.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"]
   },
   {
     "ID": "0013",
@@ -288,7 +290,8 @@
     "Pages": 383,
     "Reread": 0,
     "IMG": "IMG_0013.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"]
   },
   {
     "ID": "0014",
@@ -300,7 +303,17 @@
     "Pages": 383,
     "Reread": 383,
     "IMG": "IMG_0014.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Ancient",
+      "Conflict of the Ages"
+    ]
   },
   {
     "ID": "0015",
@@ -312,7 +325,17 @@
     "Pages": 510,
     "Reread": 390,
     "IMG": "IMG_0015.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Ancient",
+      "Conflict of the Ages"
+    ]
   },
   {
     "ID": "0016",
@@ -324,7 +347,17 @@
     "Pages": 687,
     "Reread": 80,
     "IMG": "IMG_0016.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Jesus",
+      "Conflict of the Ages"
+    ]
   },
   {
     "ID": "0017",
@@ -336,7 +369,17 @@
     "Pages": 438,
     "Reread": 0,
     "IMG": "IMG_0017.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Church",
+      "Conflict of the Ages"
+    ]
   },
   {
     "ID": "0018",
@@ -348,7 +391,20 @@
     "Pages": 536,
     "Reread": 1608,
     "IMG": "IMG_0018.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Church",
+      "Prophecy",
+      "Future",
+      "Eschatology",
+      "Conflict of the Ages"
+    ]
   },
   {
     "ID": "0019",
@@ -360,7 +416,16 @@
     "Pages": 504,
     "Reread": 0,
     "IMG": "IMG_0019.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Jesus"
+    ]
   },
   {
     "ID": "0020",
@@ -372,7 +437,19 @@
     "Pages": 368,
     "Reread": 0,
     "IMG": "IMG_0020.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "History",
+      "Church",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0021",
@@ -384,7 +461,18 @@
     "Pages": 375,
     "Reread": 0,
     "IMG": "IMG_0021.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Psychology",
+      "Mind",
+      "Character",
+      "Personality",
+      "Personal development"
+    ]
   },
   {
     "ID": "0022",
@@ -396,7 +484,18 @@
     "Pages": 608,
     "Reread": 0,
     "IMG": "IMG_0022.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Psychology",
+      "Mind",
+      "Character",
+      "Personality",
+      "Personal development"
+    ]
   },
   {
     "ID": "0023",
@@ -408,7 +507,19 @@
     "Pages": 270,
     "Reread": 0,
     "IMG": "IMG_0023.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Psychology",
+      "Education",
+      "Mind",
+      "Character",
+      "Personality",
+      "Personal development"
+    ]
   },
   {
     "ID": "0024",
@@ -420,7 +531,17 @@
     "Pages": 597,
     "Reread": 597,
     "IMG": "IMG_0024.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Health",
+      "Food",
+      "Education",
+      "Personal development"
+    ]
   },
   {
     "ID": "0025",
@@ -432,7 +553,17 @@
     "Pages": 510,
     "Reread": 0,
     "IMG": "IMG_0025.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Family",
+      "Relationships",
+      "Education",
+      "Personal development"
+    ]
   },
   {
     "ID": "0026",
@@ -444,7 +575,17 @@
     "Pages": 192,
     "Reread": 0,
     "IMG": "IMG_0026.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Family",
+      "Relationships",
+      "Education",
+      "Personal development"
+    ]
   },
   {
     "ID": "0027",
@@ -456,7 +597,8 @@
     "Pages": 107,
     "Reread": 0,
     "IMG": "IMG_0027.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Faith", "Character"]
   },
   {
     "ID": "0028",
@@ -468,7 +610,18 @@
     "Pages": 224,
     "Reread": 0,
     "IMG": "IMG_0028.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Bible",
+      "Church",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0029",
@@ -480,7 +633,18 @@
     "Pages": 208,
     "Reread": 0,
     "IMG": "IMG_0029.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Faith",
+      "Minneapolis 1888",
+      "1880s",
+      "1890s"
+    ]
   },
   {
     "ID": "0030",
@@ -492,7 +656,18 @@
     "Pages": 204,
     "Reread": 0,
     "IMG": "IMG_0030.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Faith",
+      "Minneapolis 1888",
+      "1880s",
+      "1890s"
+    ]
   },
   {
     "ID": "0031",
@@ -504,7 +679,18 @@
     "Pages": 192,
     "Reread": 0,
     "IMG": "IMG_0031.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Faith",
+      "Minneapolis 1888",
+      "1880s",
+      "1890s"
+    ]
   },
   {
     "ID": "0032",
@@ -516,7 +702,18 @@
     "Pages": 186,
     "Reread": 0,
     "IMG": "IMG_0032.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Faith",
+      "Minneapolis 1888",
+      "1880s",
+      "1890s"
+    ]
   },
   {
     "ID": "0033",

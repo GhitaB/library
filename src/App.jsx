@@ -29,7 +29,7 @@
       STATUS: 1    2         3    4                             5
 ===============================================================================
               1.1  2.1  2.2  3.1  4.1  4.2  4.3  4.4  4.5  4.6  5.1  5.2  5.3
-04.11 A1 ###################################
+04.11 A1 ########################################
 04.11 A2 #####?
 04.11 A3 #####?
 04.11 A4 #####?
@@ -144,6 +144,7 @@ const App = () => {
       E4_: "Cărțile de pe raftul E4",
       E5_: "Cărțile de pe raftul E5",
       E6_: "Cărțile de pe raftul E6",
+      "Conflict of the Ages": "Cărțile din seria Conflictul Veacurilor",
     };
     if (Object.prototype.hasOwnProperty.call(dictionary, term)) {
       return dictionary[term];
