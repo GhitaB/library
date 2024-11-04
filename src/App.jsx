@@ -189,124 +189,126 @@ const App = () => {
 
       <div className="library-table-container">
         <table className="library-table" border="1">
-          <tr>
-            <th>A</th>
-            <th>B</th>
-            <th>C</th>
-            <th>D</th>
-            <th>E</th>
-          </tr>
-          <tr>
-            <td>
-              <button className="pr-5" onClick={() => searchFor("A1_")}>
-                Raftul A1
-              </button>
-              <button className="pr-3" onClick={() => searchFor("A2_")}>
-                Raftul A2
-              </button>
-              <button className="pr-3" onClick={() => searchFor("A3_")}>
-                Raftul A3
-              </button>
-              <button className="pr-3" onClick={() => searchFor("A4_")}>
-                Raftul A4
-              </button>
-              <button className="pr-3" onClick={() => searchFor("A5_")}>
-                Raftul A5
-              </button>
-              <button className="pr-3" onClick={() => searchFor("A6_")}>
-                Raftul A6
-              </button>
-            </td>
-            <td>
-              <button className="pr-3" onClick={() => searchFor("B1_")}>
-                Raftul B1
-              </button>
-              <button className="pr-3" onClick={() => searchFor("B2_")}>
-                Raftul B2
-              </button>
-              <button className="pr-3" onClick={() => searchFor("B3_")}>
-                Raftul B3
-              </button>
-              <button className="pr-1" onClick={() => searchFor("B4_")}>
-                Raftul B4
-              </button>
-              <button className="pr-1" onClick={() => searchFor("B5_")}>
-                Raftul B5
-              </button>
-              <button className="pr-1" onClick={() => searchFor("B6_")}>
-                Raftul B6
-              </button>
-            </td>
-            <td>
-              <button className="pr-1" onClick={() => searchFor("C1_")}>
-                Raftul C1
-              </button>
-              <button className="pr-1" onClick={() => searchFor("C2_")}>
-                Raftul C2
-              </button>
-              <button className="pr-1" onClick={() => searchFor("C3_")}>
-                Raftul C3
-              </button>
-              <button className="pr-1" onClick={() => searchFor("C4_")}>
-                Raftul C4
-              </button>
-              <button className="pr-1" onClick={() => searchFor("C5_")}>
-                Raftul C5
-              </button>
-              <button className="pr-1" onClick={() => searchFor("C6_")}>
-                Raftul C6
-              </button>
-              <button className="pr-1" onClick={() => searchFor("C7_")}>
-                Raftul C7
-              </button>
-            </td>
-            <td>
-              <button className="pr-3" onClick={() => searchFor("D1_")}>
-                Raftul D1
-              </button>
-              <button className="pr-1" onClick={() => searchFor("D2_")}>
-                Raftul D2
-              </button>
-              <button className="pr-1" onClick={() => searchFor("D3_")}>
-                Raftul D3
-              </button>
-              <button className="pr-1" onClick={() => searchFor("D4_")}>
-                Raftul D4
-              </button>
-              <button className="pr-1" onClick={() => searchFor("D5_")}>
-                Raftul D5
-              </button>
-              <button className="pr-1" onClick={() => searchFor("D6_")}>
-                Raftul D6
-              </button>
-            </td>
-            <td>
-              <button className="pr-3" onClick={() => searchFor("E1_")}>
-                Raftul E1
-              </button>
-              <button className="pr-3" onClick={() => searchFor("E2_")}>
-                Raftul E2
-              </button>
-              <button className="pr-1" onClick={() => searchFor("E3_")}>
-                Raftul E3
-              </button>
-              <button className="pr-3" onClick={() => searchFor("E4_")}>
-                Raftul E4
-              </button>
-              <button className="pr-3" onClick={() => searchFor("E5_")}>
-                Raftul E5
-              </button>
-              <button className="pr-3" onClick={() => searchFor("E6_")}>
-                Raftul E6
-              </button>
-            </td>
-          </tr>
+          <tbody>
+            <tr>
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+              <th>E</th>
+            </tr>
+            <tr>
+              <td>
+                <button className="pr-5" onClick={() => searchFor("A1_")}>
+                  Raftul A1
+                </button>
+                <button className="pr-3" onClick={() => searchFor("A2_")}>
+                  Raftul A2
+                </button>
+                <button className="pr-3" onClick={() => searchFor("A3_")}>
+                  Raftul A3
+                </button>
+                <button className="pr-3" onClick={() => searchFor("A4_")}>
+                  Raftul A4
+                </button>
+                <button className="pr-3" onClick={() => searchFor("A5_")}>
+                  Raftul A5
+                </button>
+                <button className="pr-3" onClick={() => searchFor("A6_")}>
+                  Raftul A6
+                </button>
+              </td>
+              <td>
+                <button className="pr-3" onClick={() => searchFor("B1_")}>
+                  Raftul B1
+                </button>
+                <button className="pr-3" onClick={() => searchFor("B2_")}>
+                  Raftul B2
+                </button>
+                <button className="pr-3" onClick={() => searchFor("B3_")}>
+                  Raftul B3
+                </button>
+                <button className="pr-1" onClick={() => searchFor("B4_")}>
+                  Raftul B4
+                </button>
+                <button className="pr-1" onClick={() => searchFor("B5_")}>
+                  Raftul B5
+                </button>
+                <button className="pr-1" onClick={() => searchFor("B6_")}>
+                  Raftul B6
+                </button>
+              </td>
+              <td>
+                <button className="pr-1" onClick={() => searchFor("C1_")}>
+                  Raftul C1
+                </button>
+                <button className="pr-1" onClick={() => searchFor("C2_")}>
+                  Raftul C2
+                </button>
+                <button className="pr-1" onClick={() => searchFor("C3_")}>
+                  Raftul C3
+                </button>
+                <button className="pr-1" onClick={() => searchFor("C4_")}>
+                  Raftul C4
+                </button>
+                <button className="pr-1" onClick={() => searchFor("C5_")}>
+                  Raftul C5
+                </button>
+                <button className="pr-1" onClick={() => searchFor("C6_")}>
+                  Raftul C6
+                </button>
+                <button className="pr-1" onClick={() => searchFor("C7_")}>
+                  Raftul C7
+                </button>
+              </td>
+              <td>
+                <button className="pr-3" onClick={() => searchFor("D1_")}>
+                  Raftul D1
+                </button>
+                <button className="pr-1" onClick={() => searchFor("D2_")}>
+                  Raftul D2
+                </button>
+                <button className="pr-1" onClick={() => searchFor("D3_")}>
+                  Raftul D3
+                </button>
+                <button className="pr-1" onClick={() => searchFor("D4_")}>
+                  Raftul D4
+                </button>
+                <button className="pr-1" onClick={() => searchFor("D5_")}>
+                  Raftul D5
+                </button>
+                <button className="pr-1" onClick={() => searchFor("D6_")}>
+                  Raftul D6
+                </button>
+              </td>
+              <td>
+                <button className="pr-3" onClick={() => searchFor("E1_")}>
+                  Raftul E1
+                </button>
+                <button className="pr-3" onClick={() => searchFor("E2_")}>
+                  Raftul E2
+                </button>
+                <button className="pr-1" onClick={() => searchFor("E3_")}>
+                  Raftul E3
+                </button>
+                <button className="pr-3" onClick={() => searchFor("E4_")}>
+                  Raftul E4
+                </button>
+                <button className="pr-3" onClick={() => searchFor("E5_")}>
+                  Raftul E5
+                </button>
+                <button className="pr-3" onClick={() => searchFor("E6_")}>
+                  Raftul E6
+                </button>
+              </td>
+            </tr>
+          </tbody>
         </table>
       </div>
 
       <input
         type="text"
-        placeholder="Caută cărți (după autor, titlu, ID, detalii)..."
+        placeholder="🔎︎ Caută cărți (după autor, titlu, ID, detalii)..."
         value={searchTerm}
         onChange={(e) => searchFor(e.target.value)}
       />
@@ -321,12 +323,12 @@ const App = () => {
           >
             <img src={`/library/images/${book.IMG}`} alt={book.Title} />
             <div className="book-info">
-              <p className="small">
+              <p className="small light">
                 {book.ID} / {book.LibraryID}
               </p>
               <h2>{book.Title}</h2>
               {book.OriginalTitle && (
-                <p className="original-title">
+                <p className="original-title small light">
                   <em>({book.OriginalTitle})</em>
                 </p>
               )}
@@ -351,7 +353,7 @@ const App = () => {
                   ))}
                 </p>
               )}
-              <p className="small book-stats">
+              <p className="small light book-stats">
                 Citit: {book.Read} / {book.Pages} pagini. Recitit: {book.Reread}{" "}
                 pagini.
               </p>
