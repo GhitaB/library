@@ -7,9 +7,28 @@
     "OriginalTitle": "Testimonies for the Church, vol. 1",
     "Read": 612,
     "Pages": 612,
-    "Reread": 30,
+    "Reread": 230,
     "IMG": "IMG_0001.png",
-    "Details": ""
+    "Details": "Lecții pentru poporul advent. Perioada acoperită de primele 14 Mărturii, cuprinse în vol 1, a fost de 13 ani: 1855-1868. Cartea începe cu o schiță biografică a autoarei.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Testimonies",
+      "History",
+      "1820s",
+      "1830s",
+      "1840s",
+      "1850s",
+      "1860s"
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b14687",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0002",
@@ -19,9 +38,25 @@
     "OriginalTitle": "Testimonies for the Church, vol. 2",
     "Read": 565,
     "Pages": 565,
-    "Reread": 0,
+    "Reread": 10,
     "IMG": "IMG_0002.png",
-    "Details": ""
+    "Details": "Dedicat aproape în întregime evlaviei personale a membrilor poporului advent. Acoperă 3 ani: februarie 1868 - mai 1871. Instrucțiunile sunt directe, clare și practice, tratând aproape orice aspect al experienței creștine, de la bârfă, îngăduirea apetitului, căsătorie, zelul greșit orientat, avariție și fanatism.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Testimonies",
+      "History",
+      "1860s",
+      "1870s"
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b14688",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0003",
@@ -31,9 +66,24 @@
     "OriginalTitle": "Testimonies for the Church, vol. 3",
     "Read": 510,
     "Pages": 510,
-    "Reread": 0,
+    "Reread": 3,
     "IMG": "IMG_0003.png",
-    "Details": ""
+    "Details": "Decembrie 1871 - ianuarie 1875. Mărturii pentru poporul advent care au ajutat la dezvoltarea, avansarea și extinderea lucrării.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Testimonies",
+      "History",
+      "1870s"
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b14689",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0004",
@@ -43,9 +93,25 @@
     "OriginalTitle": "Testimonies for the Church, vol. 4",
     "Read": 574,
     "Pages": 574,
-    "Reread": 0,
+    "Reread": 11,
     "IMG": "IMG_0004.png",
-    "Details": ""
+    "Details": "1875-1881. Ultimii 7 ani din viața lui James White. Biserica trebuia păstrată curată, standardele ei trebuiau menținute la înălțime, iar membrii ei trebuiau să rămână vii în slujire, bucurându-se zilnic de o experiență spirituală personală.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Testimonies",
+      "History",
+      "1870s",
+      "1880s"
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b14690",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0005",
@@ -57,7 +123,22 @@
     "Pages": 638,
     "Reread": 0,
     "IMG": "IMG_0005.png",
-    "Details": ""
+    "Details": "1882-1889. Mărturii pentru poporul advent, membri, pastori, medici, administratori, profesori, educatori, evangheliști, colportori, părinți, copii. Conferința Generală Minneapolis 1888.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Testimonies",
+      "History",
+      "1880s"
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2666",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0006",
@@ -69,7 +150,20 @@
     "Pages": 383,
     "Reread": 0,
     "IMG": "IMG_0006.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Testimonies",
+      "History"
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2667",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0007",
@@ -81,7 +175,20 @@
     "Pages": 235,
     "Reread": 0,
     "IMG": "IMG_0007.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Testimonies",
+      "History"
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2668",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0008",
@@ -93,7 +200,20 @@
     "Pages": 267,
     "Reread": 0,
     "IMG": "IMG_0008.png",
-    "Details": ""
+    "Details": "",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Testimonies",
+      "History"
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2671",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0009",
@@ -105,7 +225,21 @@
     "Pages": 220,
     "Reread": 0,
     "IMG": "IMG_0009.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Testimonies",
+      "History"
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b14703",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0010",
@@ -203,7 +337,7 @@
     "Read": 536,
     "Pages": 536,
     "Reread": 1608,
-    "IMG": "IMG_0000.png",
+    "IMG": "IMG_0018.png",
     "Details": ""
   },
   {
@@ -225,7 +359,7 @@
     "Read": 368,
     "Pages": 368,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "IMG_0020.png",
     "Details": ""
   },
   {
@@ -236,7 +370,7 @@
     "Read": 375,
     "Pages": 375,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "IMG_0021.png",
     "Details": ""
   },
   {
@@ -247,7 +381,7 @@
     "Read": 608,
     "Pages": 608,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "IMG_0022.png",
     "Details": ""
   },
   {
@@ -269,7 +403,7 @@
     "Read": 597,
     "Pages": 597,
     "Reread": 597,
-    "IMG": "IMG_0000.png",
+    "IMG": "IMG_0024.png",
     "Details": ""
   },
   {
@@ -280,7 +414,7 @@
     "Read": 80,
     "Pages": 510,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "IMG_0025.png",
     "Details": ""
   },
   {
@@ -291,7 +425,7 @@
     "Read": 2,
     "Pages": 192,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "IMG_0026.png",
     "Details": ""
   },
   {
@@ -313,7 +447,7 @@
     "Read": 224,
     "Pages": 224,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "IMG_0028.png",
     "Details": ""
   },
   {
