@@ -10,6 +10,8 @@
     2.2. Introduc în Excel (ID, titlu, autor, pagini, citite, recitite)
  3. YELLOW
     3.1. Export .csv import în .json.
+    3.2. Setez Updated cu ziua curentă ca să mi le afișeze primele în listă.
+         Mai ușor de urmărit așa.
  4. BLUE
     4.1. Imagine cu coperta
     4.2. Titlul în original
@@ -20,9 +22,7 @@
  5. GREEN
     5.1. Link review pe blog TODO implement feature
     5.2. Link cumpără cartea TODO implement feature
-    5.3. Latest TODO optiune de sortare - cele mai recent citite primele
 
-  TODO: implement sorting: alfabetic
   TODO:Anul publicării - ar putea fi util pentru o sortare viitoare
 
 ===============================================================================
