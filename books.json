@@ -841,7 +841,7 @@
     "Read": 95,
     "Pages": 95,
     "Reread": 200,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0033.png",
     "Details": ""
   },
   {
@@ -850,11 +850,19 @@
     "Updated": "2024_11_05",
     "Author": "Ellen G. White",
     "Title": "Divina vindecare",
-    "Read": 25,
+    "Read": 391,
     "Pages": 391,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "A2/IMG_0034.png",
+    "Details": "",
+    "ReadOnline": {
+      "url": "https://ghitab.net/2024/10/08/divina-vindecare-ellen-g-white/",
+      "text": "Test"
+    },
+    "Review": {
+      "url": "https://ghitab.net/2024/10/08/divina-vindecare-ellen-g-white/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0035",
@@ -865,7 +873,7 @@
     "Read": 424,
     "Pages": 424,
     "Reread": 200,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0035.png",
     "Details": ""
   },
   {
@@ -877,7 +885,7 @@
     "Read": 560,
     "Pages": 560,
     "Reread": 230,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0036.png",
     "Details": ""
   },
   {
@@ -889,7 +897,7 @@
     "Read": 36,
     "Pages": 236,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0037.png",
     "Details": ""
   },
   {
@@ -901,7 +909,7 @@
     "Read": 308,
     "Pages": 308,
     "Reread": 50,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0038.png",
     "Details": ""
   },
   {
@@ -913,7 +921,7 @@
     "Read": 12,
     "Pages": 232,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0039.png",
     "Details": ""
   },
   {
@@ -925,7 +933,7 @@
     "Read": 424,
     "Pages": 424,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0040.png",
     "Details": ""
   },
   {
@@ -937,7 +945,7 @@
     "Read": 60,
     "Pages": 480,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0041.png",
     "Details": ""
   },
   {
@@ -949,7 +957,7 @@
     "Read": 1,
     "Pages": 370,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0042.png",
     "Details": ""
   },
   {
@@ -961,7 +969,7 @@
     "Read": 100,
     "Pages": 384,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0043.png",
     "Details": ""
   },
   {
@@ -973,7 +981,7 @@
     "Read": 1,
     "Pages": 384,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0044.png",
     "Details": ""
   },
   {
@@ -985,7 +993,7 @@
     "Read": 298,
     "Pages": 298,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0045.png",
     "Details": ""
   },
   {
@@ -997,7 +1005,7 @@
     "Read": 1,
     "Pages": 440,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0046.png",
     "Details": ""
   },
   {
@@ -1009,7 +1017,7 @@
     "Read": 1,
     "Pages": 464,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0047.png",
     "Details": ""
   },
   {
@@ -1021,7 +1029,7 @@
     "Read": 120,
     "Pages": 120,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0048.png",
     "Details": ""
   },
   {
@@ -1033,7 +1041,7 @@
     "Read": 1,
     "Pages": 156,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0049.png",
     "Details": ""
   },
   {
@@ -1045,7 +1053,7 @@
     "Read": 1,
     "Pages": 144,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0050.png",
     "Details": ""
   },
   {
@@ -1057,7 +1065,7 @@
     "Read": 128,
     "Pages": 128,
     "Reread": 128,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0051.png",
     "Details": ""
   },
   {
@@ -1069,7 +1077,7 @@
     "Read": 1,
     "Pages": 103,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0052.png",
     "Details": ""
   },
   {
@@ -1081,7 +1089,7 @@
     "Read": 132,
     "Pages": 132,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0053.png",
     "Details": ""
   },
   {
@@ -1093,7 +1101,7 @@
     "Read": 40,
     "Pages": 80,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0054.png",
     "Details": ""
   },
   {
@@ -1105,7 +1113,7 @@
     "Read": 1,
     "Pages": 72,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0055.png",
     "Details": ""
   },
   {
@@ -1117,7 +1125,7 @@
     "Read": 1,
     "Pages": 24,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0056.png",
     "Details": ""
   },
   {
@@ -1129,7 +1137,7 @@
     "Read": 1,
     "Pages": 112,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0057.png",
     "Details": ""
   },
   {
@@ -1141,7 +1149,7 @@
     "Read": 1,
     "Pages": 200,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0058.png",
     "Details": ""
   },
   {
@@ -1153,7 +1161,7 @@
     "Read": 1,
     "Pages": 294,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0059.png",
     "Details": ""
   },
   {
@@ -1165,7 +1173,7 @@
     "Read": 1,
     "Pages": 400,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0060.png",
     "Details": ""
   },
   {
@@ -1177,7 +1185,7 @@
     "Read": 43,
     "Pages": 366,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0061.png",
     "Details": ""
   },
   {
@@ -1189,7 +1197,7 @@
     "Read": 3,
     "Pages": 380,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0062.png",
     "Details": ""
   },
   {
@@ -1201,7 +1209,7 @@
     "Read": 72,
     "Pages": 220,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0063.png",
     "Details": ""
   },
   {
@@ -1213,7 +1221,7 @@
     "Read": 688,
     "Pages": 688,
     "Reread": 15,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0064.png",
     "Details": ""
   },
   {
@@ -1225,7 +1233,7 @@
     "Read": 1,
     "Pages": 188,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0065.png",
     "Details": ""
   },
   {
@@ -1237,7 +1245,7 @@
     "Read": 308,
     "Pages": 308,
     "Reread": 10,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0066.png",
     "Details": ""
   },
   {
@@ -1249,7 +1257,7 @@
     "Read": 32,
     "Pages": 32,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0067.png",
     "Details": ""
   },
   {
@@ -1261,7 +1269,7 @@
     "Read": 80,
     "Pages": 80,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0068.png",
     "Details": ""
   },
   {
@@ -1273,7 +1281,7 @@
     "Read": 10,
     "Pages": 267,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0069.png",
     "Details": ""
   },
   {
@@ -1285,7 +1293,7 @@
     "Read": 1,
     "Pages": 664,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0070.png",
     "Details": ""
   },
   {
@@ -1297,7 +1305,7 @@
     "Read": 1,
     "Pages": 654,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0071.png",
     "Details": ""
   },
   {
@@ -1309,7 +1317,7 @@
     "Read": 460,
     "Pages": 460,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0072.png",
     "Details": ""
   },
   {
@@ -1321,7 +1329,7 @@
     "Read": 514,
     "Pages": 514,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0073.png",
     "Details": ""
   },
   {
@@ -1333,7 +1341,7 @@
     "Read": 8,
     "Pages": 303,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "A2/IMG_0256.png",
     "Details": ""
   },
   {
