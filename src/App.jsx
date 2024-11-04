@@ -179,6 +179,12 @@ const App = () => {
     return searchIn.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
+  const booksLatestUpdated = [...filteredBooks].sort((a, b) => {
+    if (a.Updated < b.Updated) return 1;
+    if (a.Updated > b.Updated) return -1;
+    return 0;
+  });
+
   const bookStatusClass = (read, pages) => {
     if (read === pages) {
       return "read";
@@ -327,7 +333,7 @@ const App = () => {
 
       <div className="book-list">
         <Stats books={filteredBooks} />
-        {filteredBooks.map((book) => (
+        {booksLatestUpdated.map((book) => (
           <div
             key={book.ID}
             className={`book ${bookStatusClass(book.Read, book.Pages)}`}
