@@ -1,4 +1,10 @@
 /*
+ HOW TO:
+ Convert all jpegs to png:
+    $ mogrify -format png *.jpeg
+ Resize width 300 px for all pngs in this folder:
+    $ mogrify -resize 300x *.png
+
  TODO: Plan indexare cărți:
  Un raft nu primește culoarea următoare decât după ce sunt bifate toDateString();
  subpunctele de la nivelul anterior.
@@ -32,8 +38,8 @@
 05.11 A1 ######################################################################
 05.11 A2 ######################################################################
 05.11 A3 ######################################################################
-05.11 A4 #############################
-04.11 A5 #####?
+05.11 A4 ###################################################################### TODO add book
+04.11 A5 ########################
 04.11 A6 #####?
 -------------------------------------------------------------------------------
 04.11 B1 #####?
@@ -203,11 +209,11 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>05.11.2024</strong>: NOU! Rafturile A1, A2 și A3 sunt indexate
+        <strong>06.11.2024</strong>: NOU! Acum și raftul A4 este indexat
         detaliat.
       </p>
       <p className="small">
-        În lucru... (cărți indexate: aproximativ 600/1000 din care 120+ indexate
+        În lucru... (cărți indexate: aproximativ 600/1000 din care 170+ indexate
         detaliat.)
       </p>
 
@@ -232,7 +238,7 @@ const App = () => {
                 <button className="pr-5" onClick={() => searchFor("A3_")}>
                   Raftul A3
                 </button>
-                <button className="pr-4" onClick={() => searchFor("A4_")}>
+                <button className="pr-5" onClick={() => searchFor("A4_")}>
                   Raftul A4
                 </button>
                 <button className="pr-3" onClick={() => searchFor("A5_")}>
