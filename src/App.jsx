@@ -106,6 +106,17 @@ const App = () => {
   const [books, setBooks] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [resultsTitle, setResultsTitle] = useState("Toate cărțile");
+  const [tagCounts, setTagCounts] = useState({});
+
+  useEffect(() => {
+    const tagMap = {};
+    books.forEach((book) => {
+      book.Tags?.forEach((tag) => {
+        tagMap[tag] = (tagMap[tag] || 0) + 1;
+      });
+    });
+    setTagCounts(tagMap);
+  }, [books]);
 
   const humanReadableTitle = (term) => {
     const dictionary = {
@@ -334,6 +345,35 @@ const App = () => {
             </tr>
           </tbody>
         </table>
+      </div>
+
+      <div className="tags-container">
+        <div
+          style={{
+            marginTop: "20px",
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "2px",
+          }}
+        >
+          {Object.entries(tagCounts)
+            .sort((a, b) => a[0].localeCompare(b[0]))
+            .map(([tag, count]) => (
+              <span
+                key={tag}
+                onClick={() => searchFor(tag)}
+                style={{
+                  fontSize: "10px",
+                  padding: "3px 5px",
+                  border: "1px solid #ccc",
+                  borderRadius: "5px",
+                  cursor: "pointer",
+                }}
+              >
+                {tag} ({count})
+              </span>
+            ))}
+        </div>
       </div>
 
       <h2 ref={resultsTitleRef}>{resultsTitle}</h2>
