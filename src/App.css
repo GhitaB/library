@@ -100,11 +100,6 @@ p.tags {
 
 p.tags span {
   background: #f5bb00;
-  /* Green #8EA604 */
-  /* Blue #7D83FF */
-  /* Yellow #F5BB00 */
-  /* Orange #EC9F05 */
-  /* Red #BF3100 */
   border-radius: 3px;
   margin-right: 3px;
   margin-bottom: 3px;
@@ -118,6 +113,7 @@ p.tags span {
   right: 10px;
   bottom: 1px;
   margin: 0px;
+  cursor: pointer;
 }
 
 h1 {
@@ -181,4 +177,9 @@ button.pr-4 {
 
 button.pr-5 {
   background: #8ea604;
+}
+
+p.news {
+  padding: 10px;
+  background: #f5bb00;
 }

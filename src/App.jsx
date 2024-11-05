@@ -30,8 +30,8 @@
 ===============================================================================
               1.1  2.1  2.2  3.1  3.2 4.1  4.2  4.3  4.4  4.5  4.6  5.1  5.2
 04.11 A1 ######################################################################
-05.11 A2 ##################################
-04.11 A3 #####?
+05.11 A2 ######################################################################
+04.11 A3 ############################################
 04.11 A4 #####?
 04.11 A5 #####?
 04.11 A6 #####?
@@ -95,16 +95,6 @@ const Stats = (props) => {
   );
 };
 
-const Stars = (props) => {
-  /* eslint-disable react/prop-types */
-  const { stars } = props;
-  return (
-    <div className="stars">
-      <p>{"★".repeat(stars)}</p>
-    </div>
-  );
-};
-
 const App = () => {
   const resultsTitleRef = useRef(null);
   const [books, setBooks] = useState([]);
@@ -146,6 +136,11 @@ const App = () => {
       E5_: "Cărțile de pe raftul E5",
       E6_: "Cărțile de pe raftul E6",
       "Conflict of the Ages": "Cărțile din seria Conflictul Veacurilor",
+      stars_1: "Cărți de 1 steluță",
+      stars_2: "Cărți de 2 steluțe",
+      stars_3: "Cărți de 3 steluțe",
+      stars_4: "Cărți de 4 steluțe",
+      stars_5: "Cărți de 5 steluțe",
     };
     if (Object.prototype.hasOwnProperty.call(dictionary, term)) {
       return dictionary[term];
@@ -174,8 +169,15 @@ const App = () => {
       .then((data) => setBooks(data));
   }, []);
 
+  const textStars = (stars) => {
+    if (stars) {
+      return `stars_${stars}`;
+    }
+    return "";
+  };
+
   const filteredBooks = books.filter((book) => {
-    const searchIn = `${book.ID} ${book.LibraryID} ${book.Title} ${book.OriginalTitle || ""} ${book.Author} ${book.Pages} ${book.Read} ${book.Reread} ${book.Details} ${(book.Tags || []).join(" ")}`;
+    const searchIn = `${textStars(book.Stars)} ${book.ID} ${book.LibraryID} ${book.Title} ${book.OriginalTitle || ""} ${book.Author} ${book.Pages} ${book.Read} ${book.Reread} ${book.Details} ${(book.Tags || []).join(" ")}`;
     return searchIn.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
@@ -200,8 +202,15 @@ const App = () => {
   return (
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
+      <p className="news">
+        <strong>05.11.2024</strong>: NOU! Rafturile A1 și A2 sunt indexate
+        detaliat. <br />
+        Descoperă peste 70 de cărți importante pentru adventiști. Cele mai multe
+        dintre ele pot fi citite online.
+      </p>
       <p className="small">
-        În lucru... (cărți indexate: aproximativ 600/1000)
+        În lucru... (cărți indexate: aproximativ 600/1000 din care 70+ indexate
+        detaliat.)
       </p>
 
       <div className="library-table-container">
@@ -219,10 +228,10 @@ const App = () => {
                 <button className="pr-5" onClick={() => searchFor("A1_")}>
                   Raftul A1
                 </button>
-                <button className="pr-4" onClick={() => searchFor("A2_")}>
+                <button className="pr-5" onClick={() => searchFor("A2_")}>
                   Raftul A2
                 </button>
-                <button className="pr-3" onClick={() => searchFor("A3_")}>
+                <button className="pr-4" onClick={() => searchFor("A3_")}>
                   Raftul A3
                 </button>
                 <button className="pr-3" onClick={() => searchFor("A4_")}>
@@ -383,7 +392,14 @@ const App = () => {
                 pagini.
               </p>
             </div>
-            {book.Stars && <Stars stars={book.Stars}></Stars>}
+            {book.Stars && (
+              <div
+                className="stars"
+                onClick={() => searchFor(`stars_${book.Stars}`)}
+              >
+                <p>{"★".repeat(book.Stars)}</p>
+              </div>
+            )}
           </div>
         ))}
       </div>
