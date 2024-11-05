@@ -31,7 +31,7 @@
               1.1  2.1  2.2  3.1  3.2 4.1  4.2  4.3  4.4  4.5  4.6  5.1  5.2
 04.11 A1 ######################################################################
 05.11 A2 ######################################################################
-04.11 A3 ############################################
+04.11 A3 ######################################################################
 04.11 A4 #####?
 04.11 A5 #####?
 04.11 A6 #####?
@@ -203,13 +203,11 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>05.11.2024</strong>: NOU! Rafturile A1 și A2 sunt indexate
-        detaliat. <br />
-        Descoperă peste 70 de cărți importante pentru adventiști. Cele mai multe
-        dintre ele pot fi citite online.
+        <strong>05.11.2024</strong>: NOU! Rafturile A1, A2 și A3 sunt indexate
+        detaliat.
       </p>
       <p className="small">
-        În lucru... (cărți indexate: aproximativ 600/1000 din care 70+ indexate
+        În lucru... (cărți indexate: aproximativ 600/1000 din care 120+ indexate
         detaliat.)
       </p>
 
@@ -231,7 +229,7 @@ const App = () => {
                 <button className="pr-5" onClick={() => searchFor("A2_")}>
                   Raftul A2
                 </button>
-                <button className="pr-4" onClick={() => searchFor("A3_")}>
+                <button className="pr-5" onClick={() => searchFor("A3_")}>
                   Raftul A3
                 </button>
                 <button className="pr-3" onClick={() => searchFor("A4_")}>
