@@ -39,7 +39,7 @@
 05.11 A2 ######################################################################
 05.11 A3 ######################################################################
 05.11 A4 ###################################################################### TODO add book
-04.11 A5 #################################
+04.11 A5 ########################################
 04.11 A6 #####?
 -------------------------------------------------------------------------------
 04.11 B1 #####?
@@ -75,6 +75,7 @@
 */
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
+import Accordion from "./Accordion";
 
 const Stats = (props) => {
   /* eslint-disable react/prop-types */
@@ -107,6 +108,7 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [resultsTitle, setResultsTitle] = useState("Toate cărțile");
   const [tagCounts, setTagCounts] = useState({});
+  const [authorCounts, setAuthorCounts] = useState({});
 
   useEffect(() => {
     const tagMap = {};
@@ -116,6 +118,14 @@ const App = () => {
       });
     });
     setTagCounts(tagMap);
+  }, [books]);
+
+  useEffect(() => {
+    const tagMap = {};
+    books.forEach((book) => {
+      tagMap[book.Author] = (tagMap[book.Author] || 0) + 1;
+    });
+    setAuthorCounts(tagMap);
   }, [books]);
 
   const humanReadableTitle = (term) => {
@@ -174,8 +184,15 @@ const App = () => {
     }
   };
 
-  const searchFor = (term) => {
-    setSearchTerm(term);
+  const searchFor = (term, searchType = undefined) => {
+    let finalTerm = term;
+    if (searchType === "ONLY_TAGS") {
+      finalTerm = "tagged:" + term;
+    }
+    if (searchType === "ONLY_AUTHOR") {
+      finalTerm = "author:" + term;
+    }
+    setSearchTerm(finalTerm);
     setResultsTitle(humanReadableTitle(term));
     scrollToResultsTitle();
   };
@@ -194,7 +211,27 @@ const App = () => {
   };
 
   const filteredBooks = books.filter((book) => {
-    const searchIn = `${textStars(book.Stars)} ${book.ID} ${book.LibraryID} ${book.Title} ${book.OriginalTitle || ""} ${book.Author} ${book.Pages} ${book.Read} ${book.Reread} ${book.Details} ${(book.Tags || []).join(" ")}`;
+    let searchIn = "";
+    // Default search - chech all fields
+    searchIn = `${textStars(book.Stars)} ${book.ID} ${book.LibraryID} ${book.Title} ${book.OriginalTitle || ""} ${book.Author} ${book.Pages} ${book.Read} ${book.Reread} ${book.Details} ${(book.Tags || []).join(" ")}`;
+
+    // ONLY_TAGS
+    if (searchTerm.includes("tagged:")) {
+      searchIn = `${(book.Tags || []).join(" ")}`;
+      let term = searchTerm.split("tagged:")[1];
+      if (term) {
+        return searchIn.toLowerCase().includes(term.toLowerCase());
+      }
+    }
+
+    // ONLY_AUTHOR
+    if (searchTerm.includes("author:")) {
+      searchIn = `${book.Author}`;
+      let term = searchTerm.split("author:")[1];
+      if (term) {
+        return searchIn.toLowerCase().includes(term.toLowerCase());
+      }
+    }
     return searchIn.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
@@ -228,154 +265,150 @@ const App = () => {
         detaliat.)
       </p>
 
-      <div className="library-table-container">
-        <table className="library-table" border="1">
-          <tbody>
-            <tr>
-              <th>A</th>
-              <th>B</th>
-              <th>C</th>
-              <th>D</th>
-              <th>E</th>
-            </tr>
-            <tr>
-              <td>
-                <button className="pr-5" onClick={() => searchFor("A1_")}>
-                  Raftul A1
-                </button>
-                <button className="pr-5" onClick={() => searchFor("A2_")}>
-                  Raftul A2
-                </button>
-                <button className="pr-5" onClick={() => searchFor("A3_")}>
-                  Raftul A3
-                </button>
-                <button className="pr-5" onClick={() => searchFor("A4_")}>
-                  Raftul A4
-                </button>
-                <button className="pr-4" onClick={() => searchFor("A5_")}>
-                  Raftul A5
-                </button>
-                <button className="pr-3" onClick={() => searchFor("A6_")}>
-                  Raftul A6
-                </button>
-              </td>
-              <td>
-                <button className="pr-3" onClick={() => searchFor("B1_")}>
-                  Raftul B1
-                </button>
-                <button className="pr-3" onClick={() => searchFor("B2_")}>
-                  Raftul B2
-                </button>
-                <button className="pr-3" onClick={() => searchFor("B3_")}>
-                  Raftul B3
-                </button>
-                <button className="pr-1" onClick={() => searchFor("B4_")}>
-                  Raftul B4
-                </button>
-                <button className="pr-1" onClick={() => searchFor("B5_")}>
-                  Raftul B5
-                </button>
-                <button className="pr-1" onClick={() => searchFor("B6_")}>
-                  Raftul B6
-                </button>
-              </td>
-              <td>
-                <button className="pr-1" onClick={() => searchFor("C1_")}>
-                  Raftul C1
-                </button>
-                <button className="pr-1" onClick={() => searchFor("C2_")}>
-                  Raftul C2
-                </button>
-                <button className="pr-1" onClick={() => searchFor("C3_")}>
-                  Raftul C3
-                </button>
-                <button className="pr-1" onClick={() => searchFor("C4_")}>
-                  Raftul C4
-                </button>
-                <button className="pr-1" onClick={() => searchFor("C5_")}>
-                  Raftul C5
-                </button>
-                <button className="pr-1" onClick={() => searchFor("C6_")}>
-                  Raftul C6
-                </button>
-                <button className="pr-1" onClick={() => searchFor("C7_")}>
-                  Raftul C7
-                </button>
-              </td>
-              <td>
-                <button className="pr-3" onClick={() => searchFor("D1_")}>
-                  Raftul D1
-                </button>
-                <button className="pr-1" onClick={() => searchFor("D2_")}>
-                  Raftul D2
-                </button>
-                <button className="pr-1" onClick={() => searchFor("D3_")}>
-                  Raftul D3
-                </button>
-                <button className="pr-1" onClick={() => searchFor("D4_")}>
-                  Raftul D4
-                </button>
-                <button className="pr-1" onClick={() => searchFor("D5_")}>
-                  Raftul D5
-                </button>
-                <button className="pr-1" onClick={() => searchFor("D6_")}>
-                  Raftul D6
-                </button>
-              </td>
-              <td>
-                <button className="pr-3" onClick={() => searchFor("E1_")}>
-                  Raftul E1
-                </button>
-                <button className="pr-3" onClick={() => searchFor("E2_")}>
-                  Raftul E2
-                </button>
-                <button className="pr-1" onClick={() => searchFor("E3_")}>
-                  Raftul E3
-                </button>
-                <button className="pr-3" onClick={() => searchFor("E4_")}>
-                  Raftul E4
-                </button>
-                <button className="pr-3" onClick={() => searchFor("E5_")}>
-                  Raftul E5
-                </button>
-                <button className="pr-3" onClick={() => searchFor("E6_")}>
-                  Raftul E6
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div className="tags-container">
-        <div
-          style={{
-            marginTop: "20px",
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "2px",
-          }}
-        >
-          {Object.entries(tagCounts)
-            .sort((a, b) => a[0].localeCompare(b[0]))
-            .map(([tag, count]) => (
-              <span
-                key={tag}
-                onClick={() => searchFor(tag)}
-                style={{
-                  fontSize: "10px",
-                  padding: "3px 5px",
-                  border: "1px solid #ccc",
-                  borderRadius: "5px",
-                  cursor: "pointer",
-                }}
-              >
-                {tag} ({count})
-              </span>
-            ))}
+      <Accordion title="Rafturi" isOpenDefault={true}>
+        <div className="library-table-container">
+          <table className="library-table" border="1">
+            <tbody>
+              <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                <th>E</th>
+              </tr>
+              <tr>
+                <td>
+                  <button className="pr-5" onClick={() => searchFor("A1_")}>
+                    Raftul A1
+                  </button>
+                  <button className="pr-5" onClick={() => searchFor("A2_")}>
+                    Raftul A2
+                  </button>
+                  <button className="pr-5" onClick={() => searchFor("A3_")}>
+                    Raftul A3
+                  </button>
+                  <button className="pr-5" onClick={() => searchFor("A4_")}>
+                    Raftul A4
+                  </button>
+                  <button className="pr-4" onClick={() => searchFor("A5_")}>
+                    Raftul A5
+                  </button>
+                  <button className="pr-3" onClick={() => searchFor("A6_")}>
+                    Raftul A6
+                  </button>
+                </td>
+                <td>
+                  <button className="pr-3" onClick={() => searchFor("B1_")}>
+                    Raftul B1
+                  </button>
+                  <button className="pr-3" onClick={() => searchFor("B2_")}>
+                    Raftul B2
+                  </button>
+                  <button className="pr-3" onClick={() => searchFor("B3_")}>
+                    Raftul B3
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("B4_")}>
+                    Raftul B4
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("B5_")}>
+                    Raftul B5
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("B6_")}>
+                    Raftul B6
+                  </button>
+                </td>
+                <td>
+                  <button className="pr-1" onClick={() => searchFor("C1_")}>
+                    Raftul C1
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("C2_")}>
+                    Raftul C2
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("C3_")}>
+                    Raftul C3
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("C4_")}>
+                    Raftul C4
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("C5_")}>
+                    Raftul C5
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("C6_")}>
+                    Raftul C6
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("C7_")}>
+                    Raftul C7
+                  </button>
+                </td>
+                <td>
+                  <button className="pr-3" onClick={() => searchFor("D1_")}>
+                    Raftul D1
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("D2_")}>
+                    Raftul D2
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("D3_")}>
+                    Raftul D3
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("D4_")}>
+                    Raftul D4
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("D5_")}>
+                    Raftul D5
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("D6_")}>
+                    Raftul D6
+                  </button>
+                </td>
+                <td>
+                  <button className="pr-3" onClick={() => searchFor("E1_")}>
+                    Raftul E1
+                  </button>
+                  <button className="pr-3" onClick={() => searchFor("E2_")}>
+                    Raftul E2
+                  </button>
+                  <button className="pr-1" onClick={() => searchFor("E3_")}>
+                    Raftul E3
+                  </button>
+                  <button className="pr-3" onClick={() => searchFor("E4_")}>
+                    Raftul E4
+                  </button>
+                  <button className="pr-3" onClick={() => searchFor("E5_")}>
+                    Raftul E5
+                  </button>
+                  <button className="pr-3" onClick={() => searchFor("E6_")}>
+                    Raftul E6
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+      </Accordion>
+      <div className="tags-container">
+        <Accordion title="Subiecte" isOpenDefault={false}>
+          <p className="tags small">
+            {Object.entries(tagCounts)
+              .sort((a, b) => a[0].localeCompare(b[0]))
+              .map(([tag, count]) => (
+                <span key={tag} onClick={() => searchFor(tag, "ONLY_TAGS")}>
+                  {tag} ({count})
+                </span>
+              ))}
+          </p>
+        </Accordion>
+        <Accordion title="Autori" isOpenDefault={false}>
+          <p className="tags small">
+            {Object.entries(authorCounts)
+              .sort((a, b) => a[0].localeCompare(b[0]))
+              .map(([tag, count]) => (
+                <span key={tag} onClick={() => searchFor(tag, "ONLY_AUTHOR")}>
+                  {tag} ({count})
+                </span>
+              ))}
+          </p>
+        </Accordion>
       </div>
-
       <h2 ref={resultsTitleRef}>{resultsTitle}</h2>
       <input
         type="text"
@@ -398,11 +431,14 @@ const App = () => {
               </p>
               <h2>{book.Title}</h2>
               {book.OriginalTitle && (
-                <p className="original-title small light">
+                <p className="original-title small">
                   <em>({book.OriginalTitle})</em>
                 </p>
               )}
-              <p className="author" onClick={() => searchFor(book.Author)}>
+              <p
+                className="author"
+                onClick={() => searchFor(book.Author, "ONLY_AUTHOR")}
+              >
                 {book.Author}
               </p>
               <p className="small details">{book.Details}</p>
@@ -425,7 +461,10 @@ const App = () => {
               {book.Tags && (
                 <p className="small tags">
                   {book.Tags.map((tag, index) => (
-                    <span onClick={() => searchFor(tag)} key={index}>
+                    <span
+                      onClick={() => searchFor(tag, "ONLY_TAGS")}
+                      key={index}
+                    >
                       {tag}
                     </span>
                   ))}

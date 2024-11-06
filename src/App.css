@@ -83,7 +83,7 @@ input[type="text"] {
 }
 
 .small.light {
-  color: #aaa !important;
+  color: #888 !important;
 }
 
 .stars p {
@@ -182,4 +182,8 @@ button.pr-5 {
 p.news {
   padding: 10px;
   background: #f5bb00;
+}
+
+.accordion-title {
+  color: #ec9f05;
 }
