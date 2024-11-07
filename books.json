@@ -3396,8 +3396,13 @@
     "Pages": 92,
     "Reread": 0,
     "IMG": "A5/IMG_0543.png",
-    "Details": "",
-    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Relationships", "Youth"]
+    "Details": "Această carte este constituită din scrisori şi alte sfaturi pe care doamna White le-a dat cuplurilor îndrăgostite. Este plină de sfaturi chibzuite pentru toţi cei ce se gândesc la căsătorie.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Relationships", "Youth"],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2684",
+      "text": "Citește online"
+    }
   },
   {
     "ID": "0544",
@@ -3410,7 +3415,7 @@
     "Pages": 312,
     "Reread": 0,
     "IMG": "A5/IMG_0544.png",
-    "Details": "",
+    "Details": "Descoperă cauzele pentru care soții ajung să reacționeze negativ unul față de celălalt, arătându-le și cum să rezolve repede, fără dificultate și biblic conflictele care apar între ei.",
     "Tags": ["Christian", "Relationships", "Youth"]
   },
   {
@@ -3423,7 +3428,7 @@
     "Pages": 278,
     "Reread": 0,
     "IMG": "A5/IMG_0545.png",
-    "Details": "",
+    "Details": "Își propune să reliefeze trăsăturile comune ale marilor personalități biblice și să sugereze cititorului un proces gradual de dobândire și fundamentare a maturității, cu obiectivul tinderii spre acea plenitudine specifică marilor patriarhi biblici din vechime.",
     "Tags": ["Christian", "Personal development", "Character", "Youth"]
   },
   {
@@ -3436,7 +3441,8 @@
     "Pages": 344,
     "Reread": 0,
     "IMG": "A5/IMG_0546.png",
-    "Details": "",
+    "Details": "Nu este un cod de legi, nici o avalanșă de reguli  și sfaturi, ci mai degrabă o discuție liberă între eroi ai vieții, o destăinuire de experiențe cu concluzii relevante, care conturează un drum clar prin labirintul confuz cu care tinerii se confruntă în perioada dificilă, dar importantă, a adolescenței.",
+    "Stars": 5,
     "Tags": ["Christian", "Adventism", "SDARM", "Relationships", "Youth"]
   },
   {
@@ -3464,6 +3470,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0548.png",
     "Details": "",
+    "Stars": 5,
     "Tags": ["Christian", "Relationships", "Family", "Personal development"]
   },
   {
@@ -3491,6 +3498,7 @@
     "Reread": 40,
     "IMG": "A5/IMG_0550.png",
     "Details": "",
+    "Stars": 5,
     "Tags": [
       "Christian",
       "Adventism",
@@ -3582,6 +3590,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0556.png",
     "Details": "",
+    "Stars": 4,
     "Tags": ["Christian", "Relationships", "Youth"]
   },
   {
@@ -3609,6 +3618,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0558.png",
     "Details": "",
+    "Stars": 5,
     "Tags": ["Relationships", "Personal development", "Family", "Youth"]
   },
   {
@@ -3777,6 +3787,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0570.png",
     "Details": "",
+    "Stars": 5,
     "Tags": ["Christian", "Personal development", "Character"]
   },
   {
@@ -3843,6 +3854,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0575.png",
     "Details": "",
+    "Stars": 4,
     "Tags": ["Personal development", "Mind"]
   },
   {
@@ -3870,6 +3882,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0577.png",
     "Details": "",
+    "Stars": 5,
     "Tags": ["Christian", "Personal development", "Character"]
   },
   {
@@ -3923,6 +3936,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0581.png",
     "Details": "",
+    "Stars": 4,
     "Tags": ["Personal development", "Mind", "Psychology"]
   },
   {
@@ -3936,6 +3950,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0582.png",
     "Details": "",
+    "Stars": 3,
     "Tags": ["Personal development", "Mind", "Psychology", "Fun"]
   },
   {
@@ -3950,6 +3965,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0583.png",
     "Details": "",
+    "Stars": 5,
     "Tags": ["Personal development", "Psychology"]
   },
   {
@@ -4005,6 +4021,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0587.png",
     "Details": "",
+    "Stars": 4,
     "Tags": ["Personal development", "Relationships"]
   },
   {
@@ -4019,6 +4036,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0588.png",
     "Details": "",
+    "Stars": 4,
     "Tags": ["Personal development", "Relationships", "Business"]
   },
   {
@@ -4059,6 +4077,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0591.png",
     "Details": "",
+    "Stars": 4,
     "Tags": ["Mind", "Art", "Fun"]
   },
   {
@@ -4073,6 +4092,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0592.png",
     "Details": "",
+    "Stars": 4,
     "Tags": ["Philosophy", "Relationships", "Mind", "Psychology"]
   },
   {
