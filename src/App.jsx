@@ -39,7 +39,7 @@
 05.11 A2 ######################################################################
 05.11 A3 ######################################################################
 05.11 A4 ###################################################################### TODO add book
-04.11 A5 ######################################################
+04.11 A5 ######################################################################
 04.11 A6 #####?
 -------------------------------------------------------------------------------
 04.11 B1 #####?
@@ -257,12 +257,10 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>06.11.2024</strong>: NOU! Acum și raftul A4 este indexat
-        detaliat.
+        <strong>07.11.2024</strong>: NOU! Raftul A5 e indexat complet și el.
       </p>
       <p className="small">
-        În lucru... (cărți indexate: aproximativ 600/1000 din care 170+ indexate
-        detaliat.)
+        În lucru... (indexate: aproximativ 600/1000, 220+ indexate detaliat.)
       </p>
 
       <Accordion title="Rafturi" isOpenDefault={true}>
@@ -290,7 +288,7 @@ const App = () => {
                   <button className="pr-5" onClick={() => searchFor("A4_")}>
                     Raftul A4
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("A5_")}>
+                  <button className="pr-5" onClick={() => searchFor("A5_")}>
                     Raftul A5
                   </button>
                   <button className="pr-3" onClick={() => searchFor("A6_")}>
