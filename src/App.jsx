@@ -40,7 +40,7 @@
 08.11 A3 ######################################################################
 08.11 A4 ###################################################################### TODO add book
 08.11 A5 ######################################################################
-08.11 A6 ################################# TODO ############# TODO ############
+08.11 A6 ######################################################################
 -------------------------------------------------------------------------------
 08.11 B1 ##########################
 08.11 B2 ##########################
@@ -257,7 +257,8 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>07.11.2024</strong>: NOU! Raftul A5 e indexat complet și el.
+        <strong>08.11.2024</strong>: NOU! Toate rafturile din secțiunea A sunt
+        indexate detaliat.
       </p>
       <p className="small">
         În lucru... (indexate: aproximativ 600/1000, 220+ indexate detaliat.)
@@ -291,7 +292,7 @@ const App = () => {
                   <button className="pr-5" onClick={() => searchFor("A5_")}>
                     Raftul A5
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("A6_")}>
+                  <button className="pr-5" onClick={() => searchFor("A6_")}>
                     Raftul A6
                   </button>
                 </td>
