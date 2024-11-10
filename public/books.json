@@ -3950,7 +3950,7 @@
     "Reread": 0,
     "IMG": "A5/IMG_0582.png",
     "Details": "Mi-a plăcut coperta, restul e secret.",
-    "Stars": 3,
+    "Stars": 2,
     "Tags": ["Personal development", "Mind", "Psychology", "Fun"]
   },
   {
@@ -4613,8 +4613,10 @@
     "Read": 98,
     "Pages": 98,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0121.png",
+    "Details": "Am scos-o la imprimantă. Circulă fără semnalizare. Nu știu în ce an a fost scrisă, nici dacă e sau nu compilație. Tonul textului îmi dă impresia că a fost scris în perioada când relația autorului cu biserica scârțâia.",
+    "Stars": 3,
+    "Tags": ["Christian", "Adventism", "SDA", "Church"]
   },
   {
     "ID": "0122",
@@ -4625,8 +4627,10 @@
     "Read": 132,
     "Pages": 132,
     "Reread": 132,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0122.png",
+    "Details": "O carte despre lucrarea lui Isus ca profet, preot și rege și dezvoltarea caracterului creștin.",
+    "Stars": 4,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Character"]
   },
   {
     "ID": "0123",
@@ -4634,11 +4638,22 @@
     "Updated": "2024_11_01",
     "Author": "Alonzo T. Jones",
     "Title": "Legea Duminicală Națională",
+    "OriginalTitle": "National Sunday Law",
     "Read": 172,
     "Pages": 172,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0123.png",
+    "Stars": 5,
+    "Details": "O carte fascinantă pe tema luptei pentru libertate religioasă. Intervenția lui Jones în fața Comitetului pentru Muncă și Educație al Senatului Statelor Unite, 13.12.1888.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "History",
+      "Freedom",
+      "1880s",
+      "1888"
+    ]
   },
   {
     "ID": "0124",
@@ -4646,11 +4661,14 @@
     "Updated": "2024_11_01",
     "Author": "Alonzo T. Jones",
     "Title": "Împărăția Cerurilor",
+    "OriginalTitle": "Christian Patriotism and the State",
     "Read": 122,
     "Pages": 122,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0124.png",
+    "Details": "Încape într-un buzunar și totuși e cea mai consistentă carte pe care am citit-o despre relația creștinului cu politica.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "History", "Faith", "Church"]
   },
   {
     "ID": "0125",
@@ -4658,11 +4676,14 @@
     "Updated": "2024_11_01",
     "Author": "Alonzo T. Jones",
     "Title": "Solia Îngerului al Treilea 1895",
+    "OriginalTitle": "The Third Angel's Message - A.T. Jones Sermons - 1895 General Conference Bulletin",
     "Read": 302,
     "Pages": 302,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0125.png",
+    "Details": "Predici de Jones, la conferință.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church", "1890s"]
   },
   {
     "ID": "0126",
@@ -4673,8 +4694,10 @@
     "Read": 173,
     "Pages": 173,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0126.png",
+    "Stars": 5,
+    "Details": "Predici de Jones, la conferință.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church", "1890s"]
   },
   {
     "ID": "0127",
@@ -4685,8 +4708,17 @@
     "Read": 16,
     "Pages": 232,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0127.png",
+    "Details": "Studii din Galateni, articole publicate în Review and Herald între 1899-1900",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Bible",
+      "Church",
+      "1890s",
+      "1900s"
+    ]
   },
   {
     "ID": "0128",
@@ -4697,8 +4729,9 @@
     "Read": 10,
     "Pages": 228,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0128.png",
+    "Details": "O carte despre educația creștină.",
+    "Tags": ["Christian", "Adventism", "SDA", "Bible", "Education"]
   },
   {
     "ID": "0129",
@@ -4706,11 +4739,14 @@
     "Updated": "2024_11_01",
     "Author": "Alonzo T. Jones",
     "Title": "Ce înseamnă Patriotismul în Statele Unite? Libertatea religioasă",
+    "OriginalTitle": "What is Patriotism in the United States?",
     "Read": 60,
     "Pages": 60,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0129.png",
+    "Details": "O carte scurtă dar bine argumentată pe subiectul libertății religioase.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "History", "Faith", "Freedom"]
   },
   {
     "ID": "0130",
@@ -4721,8 +4757,10 @@
     "Read": 178,
     "Pages": 178,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0130.png",
+    "Details": "O colecție de articole și predici despre credință.",
+    "Stars": 4,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "1888", "1880s", "1890s"]
   },
   {
     "ID": "0131",
@@ -4733,8 +4771,9 @@
     "Read": 1,
     "Pages": 350,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0131.png",
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "Bible"]
   },
   {
     "ID": "0132",
@@ -4742,11 +4781,14 @@
     "Updated": "2024_11_01",
     "Author": "Ellet Joseph Waggoner",
     "Title": "Evanghelia în creațiune",
+    "OriginalTitle": "The Gospel in Creation",
     "Read": 100,
     "Pages": 100,
     "Reread": 100,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0132.png",
+    "Details": "O carte superbă despre evanghelia văzută în zilele creației.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Bible"]
   },
   {
     "ID": "0133",
@@ -4757,8 +4799,9 @@
     "Read": 18,
     "Pages": 168,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0133.png",
+    "Details": "Comentarii la Ioan.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Bible", "1890s"]
   },
   {
     "ID": "0134",
@@ -4769,8 +4812,9 @@
     "Read": 1,
     "Pages": 176,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0134.png",
+    "Details": "Comentarii la Galateni.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Bible", "1900s"]
   },
   {
     "ID": "0135",
@@ -4781,8 +4825,9 @@
     "Read": 1,
     "Pages": 272,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0135.png",
+    "Details": "Comentarii la Romani.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Bible", "1900s"]
   },
   {
     "ID": "0136",
@@ -4793,8 +4838,17 @@
     "Read": 30,
     "Pages": 408,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0136.png",
+    "Details": "Comentarii la Isaia.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Faith",
+      "Bible",
+      "1890s",
+      "1900s"
+    ]
   },
   {
     "ID": "0137",
@@ -4805,8 +4859,18 @@
     "Read": 122,
     "Pages": 122,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0137.png",
+    "Details": "Istorie adventistă despre Conferința Minneapolis 1888.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "History",
+      "1880s",
+      "Minneapolis 1888",
+      "1888"
+    ]
   },
   {
     "ID": "0138",
@@ -4817,8 +4881,19 @@
     "Read": 158,
     "Pages": 158,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0138.png",
+    "Details": "Despre mesajul conferinței Minneapolis 1888. De citit cu grijă.",
+    "Stars": 3,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "History",
+      "1880s",
+      "Minneapolis 1888",
+      "1888",
+      "Faith"
+    ]
   },
   {
     "ID": "0139",
@@ -4829,8 +4904,9 @@
     "Read": 19,
     "Pages": 48,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0139.png",
+    "Details": "Cum să trăiești cu un partener dificil?",
+    "Tags": ["Christian", "Adventism", "SDA", "Relationships", "Family"]
   },
   {
     "ID": "0140",
@@ -4841,8 +4917,17 @@
     "Read": 160,
     "Pages": 160,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0140.png",
+    "Details": "O carte despre puterea Evangheliei în experiența creștină.",
+    "Stars": 3,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Character",
+      "Minneapolis 1888",
+      "Faith"
+    ]
   },
   {
     "ID": "0141",
@@ -4850,11 +4935,14 @@
     "Updated": "2024_11_01",
     "Author": "Robert J. Wieland",
     "Title": "Pocăința colectivă",
+    "OriginalTitle": "Corporate Repentance",
     "Read": 148,
     "Pages": 148,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0141.png",
+    "Details": "O carte despre mesajul Minneapolis 1888 și pocăința pe care biserica trebuie să o facă.",
+    "Stars": 3,
+    "Tags": ["Christian", "Adventism", "SDA", "Minneapolis 1888", "Faith"]
   },
   {
     "ID": "0142",
@@ -4865,8 +4953,10 @@
     "Read": 56,
     "Pages": 56,
     "Reread": 56,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0142.png",
+    "Details": "Cea mai bună broșură despre Sanctuar pe care am citit-o și recitit-o. Sărbătorile ebraice din antichitate sunt simboluri și umbre ale lucrării Adevăratului Mare Preot în Sanctuarul ceresc.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Bible", "Faith"]
   },
   {
     "ID": "0143",
@@ -4877,8 +4967,20 @@
     "Read": 303,
     "Pages": 303,
     "Reread": 303,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0143.png",
+    "Details": "Comentarii verset cu verset. O carte de referință.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Bible",
+      "History",
+      "Ancient",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0144",
@@ -4889,8 +4991,19 @@
     "Read": 404,
     "Pages": 404,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0144.png",
+    "Details": "Comentarii verset cu verset. O carte de referință.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Bible",
+      "History",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0145",
@@ -4901,8 +5014,18 @@
     "Read": 72,
     "Pages": 304,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0145.png",
+    "Details": "Comentarii la Apocalipsa.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Bible",
+      "History",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0146",
@@ -4913,8 +5036,18 @@
     "Read": 1,
     "Pages": 412,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0146.png",
+    "Details": "Comentarii la Apocalipsa.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Bible",
+      "History",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0147",
@@ -4925,8 +5058,18 @@
     "Read": 1,
     "Pages": 328,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0147.png",
+    "Details": "Comentarii la Apocalipsa.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Bible",
+      "History",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0148",
@@ -4937,8 +5080,20 @@
     "Read": 264,
     "Pages": 264,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0148.png",
+    "Details": "Comentarii la Daniel.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Bible",
+      "History",
+      "Ancient",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0149",
@@ -4949,8 +5104,19 @@
     "Read": 1,
     "Pages": 512,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0149.png",
+    "Details": "Comentarii la Daniel.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Bible",
+      "History",
+      "Ancient",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0150",
@@ -4961,8 +5127,10 @@
     "Read": 198,
     "Pages": 198,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0150.png",
+    "Details": "Prezintă istoria locuitorilor insulei Pitcairn, o relatare fascinantă, care scoate în evidență în mod pregnant puterea transformatoare a Evangheliei.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "History", "Faith"]
   },
   {
     "ID": "0151",
@@ -4970,11 +5138,22 @@
     "Updated": "2024_11_01",
     "Author": "Roy Allan Anderson",
     "Title": "Desfășurând cartea Apocalipsei",
+    "Title": "Unfolding the Revelation",
     "Read": 1,
     "Pages": 250,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0151.png",
+    "Details": "Comentarii la Apocalipsa.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Bible",
+      "History",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0152",
@@ -4985,8 +5164,20 @@
     "Read": 315,
     "Pages": 315,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0152.png",
+    "Details": "Istorie adventistă scrisă frumos de unul dintre pionieri.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "History",
+      "1860s",
+      "1870s",
+      "1880s",
+      "1890s",
+      "1900s"
+    ]
   },
   {
     "ID": "0153",
@@ -4994,23 +5185,28 @@
     "Updated": "2024_11_01",
     "Author": "Donald K. Short",
     "Title": "Asemenea fraților Săi",
+    "OriginalTitle": "Made like... His Brethren",
     "Read": 140,
     "Pages": 140,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0153.png",
+    "Details": "O carte despre umanitatea lui Hristos. De citit cu grijă.",
+    "Stars": 3,
+    "Tags": ["Christian", "Adventism", "SDA", "Bible", "Jesus"]
   },
   {
     "ID": "0154",
     "LibraryID": "B1_034",
     "Updated": "2024_11_01",
     "Author": "Raoul Dederen",
-    "Title": "Teologia - baza biblică a credinței adventiste",
+    "Title": "Teologia - baza biblică a credinței adventiste - vol. 1",
+    "OriginalTitle": "Handbook of Seventh-day Adventist Theology",
     "Read": 1,
     "Pages": 320,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0154.png",
+    "Details": "O carte despre credința adventă.",
+    "Tags": ["Christian", "Adventism", "SDA", "Bible", "Faith"]
   },
   {
     "ID": "0155",
@@ -5018,11 +5214,13 @@
     "Updated": "2024_11_01",
     "Author": "Angel Manuel Rodriguez",
     "Title": "Mesajul, misiunea și unitatea bisericii",
+    "OriginalTitle": "Message, Mission and Unity of the Church",
     "Read": 1,
     "Pages": 516,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0155.png",
+    "Details": "O carte pentru biserică.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church"]
   },
   {
     "ID": "0156",
@@ -5033,8 +5231,9 @@
     "Read": 1,
     "Pages": 502,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0156.png",
+    "Details": "Comentarii biblice prin răspunsuri la întrebări dificile.",
+    "Tags": ["Christian", "Adventism", "SDA", "Bible", "Church"]
   },
   {
     "ID": "0157",
@@ -5045,8 +5244,9 @@
     "Read": 1,
     "Pages": 308,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0157.png",
+    "Details": "O carte despre căsătorie din perspective biblice.",
+    "Tags": ["Christian", "Adventism", "SDA", "Relationships", "Family"]
   },
   {
     "ID": "0158",
@@ -5054,11 +5254,13 @@
     "Updated": "2024_11_01",
     "Author": "Angel Manuel Rodriguez",
     "Title": "Introducere în teologia rămășiței",
+    "OriginalTitle": "Toward a Theology oh the Remnant. An Adventist Ecclesiological Perspective",
     "Read": 1,
     "Pages": 266,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0158.png",
+    "Details": "Comentarii despre rămășița bisericii.",
+    "Tags": ["Christian", "Adventism", "SDA", "Church"]
   },
   {
     "ID": "0159",
@@ -5069,8 +5271,17 @@
     "Read": 10,
     "Pages": 270,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0159.png",
+    "Details": "O carte despre har, închiderea harului și evenimentele viitoare.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Church",
+      "Faith",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0160",
@@ -5081,8 +5292,10 @@
     "Read": 158,
     "Pages": 158,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0160.png",
+    "Details": "Comentarii scrise frumos despre doctrinele fundamentale adventiste.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Church", "Faith"]
   },
   {
     "ID": "0161",
@@ -5093,8 +5306,10 @@
     "Read": 272,
     "Pages": 272,
     "Reread": 60,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0161.png",
+    "Details": "O carte pentru trezirea și reformarea bisericii.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Church", "Faith"]
   },
   {
     "ID": "0162",
@@ -5105,8 +5320,9 @@
     "Read": 30,
     "Pages": 504,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0162.png",
+    "Details": "O carte pentru biserică.",
+    "Tags": ["Christian", "Adventism", "SDA", "Church", "Faith"]
   },
   {
     "ID": "0163",
@@ -5114,11 +5330,13 @@
     "Updated": "2024_11_01",
     "Author": "Dave Fiedler",
     "Title": "D'sozo Reversarea celui mai mare rău",
+    "OriginalTitle": "D'sozo - Reversing the worst evil",
     "Read": 22,
     "Pages": 334,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0163.png",
+    "Details": "O carte pentru biserică.",
+    "Tags": ["Christian", "Adventism", "SDA", "Church", "Faith"]
   },
   {
     "ID": "0164",
@@ -5129,8 +5347,10 @@
     "Read": 206,
     "Pages": 206,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0164.png",
+    "Details": "O carte veche cu un mesaj dur pentru biserică. Nu mi-e clar cine suna din această trâmbiță. De răsfoit cu grijă.",
+    "Stars": 2,
+    "Tags": ["Christian", "Adventism", "SDA", "Church"]
   },
   {
     "ID": "0165",
@@ -5141,8 +5361,9 @@
     "Read": 64,
     "Pages": 160,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0165.png",
+    "Details": "O carte pentru biserică",
+    "Tags": ["Christian", "Adventism", "SDA", "Church", "Faith"]
   },
   {
     "ID": "0166",
@@ -5153,8 +5374,10 @@
     "Read": 160,
     "Pages": 160,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
-    "Details": ""
+    "IMG": "B1/IMG_0166.png",
+    "Details": "O carte veche cu un mesaj dur pentru biserică. Nu mi-e clar cine suna din această trâmbiță. De răsfoit cu grijă.",
+    "Stars": 4,
+    "Tags": ["Christian", "Adventism", "SDA", "Church"]
   },
   {
     "ID": "0167",
