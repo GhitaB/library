@@ -5571,12 +5571,14 @@
     "Updated": "2024_11_10",
     "Author": "Mark Witas",
     "Title": "Doar Isus Hristos, Cel care a fost răstignit",
-    "OriginalTitle": "",
+    "OriginalTitle": "Just Jesus",
     "Read": 175,
     "Pages": 175,
     "Reread": 0,
     "IMG": "B2/IMG_0180.png",
-    "Details": ""
+    "Details": "O carte frumoasă, hristocentrică.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Jesus"]
   },
   {
     "ID": "0181",
@@ -5584,12 +5586,12 @@
     "Updated": "2024_11_10",
     "Author": "Aurel Pălășan",
     "Title": "Solia parabolelor Domnului Hristos",
-    "OriginalTitle": "",
     "Read": 85,
     "Pages": 254,
     "Reread": 0,
     "IMG": "B2/IMG_0181.png",
-    "Details": ""
+    "Details": "Meditații asupra pildelor lui Isus.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0182",
@@ -5597,12 +5599,13 @@
     "Updated": "2024_11_10",
     "Author": "Lucian Cristescu",
     "Title": "Isus despre sfârșitul lumii",
-    "OriginalTitle": "",
     "Read": 127,
     "Pages": 127,
     "Reread": 0,
     "IMG": "B2/IMG_0182.png",
-    "Details": ""
+    "Details": "O carte despre viitor, din cuvintele lui Isus.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Prophecy", "Future"]
   },
   {
     "ID": "0183",
@@ -5610,12 +5613,12 @@
     "Updated": "2024_11_10",
     "Author": "Negoschanu Stelian",
     "Title": "Vino, Doamne Isuse",
-    "OriginalTitle": "",
     "Read": 1,
     "Pages": 343,
     "Reread": 0,
     "IMG": "B2/IMG_0183.png",
-    "Details": ""
+    "Details": "O carte despre adevărul advent în legătură cu revenirea lui Isus.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Prophecy", "Future"]
   },
   {
     "ID": "0184",
@@ -5623,12 +5626,12 @@
     "Updated": "2024_11_10",
     "Author": "Mark Finley",
     "Title": "10 zile în camera de sus",
-    "OriginalTitle": "",
     "Read": 28,
     "Pages": 138,
     "Reread": 0,
     "IMG": "B2/IMG_0184.png",
-    "Details": ""
+    "Details": "Studii biblice despre pregătirea bisericii pentru revărsarea Duhului Sfânt.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church"]
   },
   {
     "ID": "0185",
@@ -5636,12 +5639,13 @@
     "Updated": "2024_11_10",
     "Author": "Humberto M. Rasi, Nancy J. Vyhmeister",
     "Title": "Ce credem despre... răspunsuri avizate la întrebări controversate",
-    "OriginalTitle": "",
+    "OriginalTitle": "Always Prepared: Answers to Questions about our faith",
     "Read": 10,
     "Pages": 176,
     "Reread": 0,
     "IMG": "B2/IMG_0185.png",
-    "Details": ""
+    "Details": "Explicații biblice la întrebări dificile.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0186",
@@ -5649,12 +5653,12 @@
     "Updated": "2024_11_10",
     "Author": "Traian Aldea",
     "Title": "Porțile și ferestrele adventismului",
-    "OriginalTitle": "",
     "Read": 10,
     "Pages": 192,
     "Reread": 0,
     "IMG": "B2/IMG_0186.png",
-    "Details": ""
+    "Details": "Răspunde la întrebarea: Ce este adventism în adventism?",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church"]
   },
   {
     "ID": "0187",
@@ -5662,12 +5666,13 @@
     "Updated": "2024_11_10",
     "Author": "Jon Paulien",
     "Title": "Evanghelia veșnică pentru o lume veșnic în schimbare",
-    "OriginalTitle": "",
+    "OriginalTitle": "Everlasting Gospel, Everchanging World",
     "Read": 12,
     "Pages": 222,
     "Reread": 0,
     "IMG": "B2/IMG_0187.png",
-    "Details": ""
+    "Details": "Cum să-L prezinți pe Isus unei generații sceptice.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church"]
   },
   {
     "ID": "0188",
@@ -5675,12 +5680,12 @@
     "Updated": "2024_11_10",
     "Author": "Aristide Doroftei",
     "Title": "Crezul apostolilor",
-    "OriginalTitle": "",
     "Read": 1,
     "Pages": 127,
     "Reread": 0,
     "IMG": "B2/IMG_0188.png",
-    "Details": ""
+    "Details": "Meditații biblice pe temele principale din Crezul creștin.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church"]
   },
   {
     "ID": "0189",
