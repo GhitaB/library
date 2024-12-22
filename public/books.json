@@ -5385,11 +5385,14 @@
     "Updated": "2024_11_10",
     "Author": "SDA Archive",
     "Title": "The Christian Experience of William E. Foy",
+    "OriginalTitle": "The Christian Experience of William E. Foy",
     "Read": 10,
     "Pages": 10,
     "Reread": 0,
     "IMG": "B2/IMG_0167.png",
-    "Details": ""
+    "Details": "William Foy a fost un pastor baptist negru care a avut viziuni religioase și le-a împărtășit la adunările Millerite din 1842-1845. El a fost primul dintre cei trei care au primit viziuni divine în această perioadă, urmat de Hazen Foss şi Ellen G. White.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Church", "1840s", "History"]
   },
   {
     "ID": "0168",
@@ -5397,11 +5400,14 @@
     "Updated": "2024_11_10",
     "Author": "Alonzo T. Jones",
     "Title": "Marile națiuni de astăzi",
+    "OriginalTitle": "The Great Nations of Today",
     "Read": 176,
     "Pages": 176,
     "Reread": 0,
     "IMG": "B2/IMG_0168.png",
-    "Details": ""
+    "Details": "Autorul a fost un iubitor al istoriei și profeției biblice, și un apărător al libertății religioase.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "History", "Prophecy", "Future"]
   },
   {
     "ID": "0169",
@@ -5413,7 +5419,9 @@
     "Pages": 208,
     "Reread": 0,
     "IMG": "B2/IMG_0169.png",
-    "Details": ""
+    "Details": "O carte despre pregătirea pentru Revenirea lui Hristos.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Church", "Prophecy", "Future"]
   },
   {
     "ID": "0170",
@@ -5421,11 +5429,14 @@
     "Updated": "2024_11_10",
     "Author": "Loron Wade",
     "Title": "Legea cerului pentru pământeni",
+    "OriginalTitle": "The Ten Commandments (What If We Did It God's Way?)",
     "Read": 1,
     "Pages": 106,
     "Reread": 0,
     "IMG": "B2/IMG_0170.png",
-    "Details": ""
+    "Details": "Abordează, într-un mod deschis și practic, impactul pe care îl are vechiul cod divin asupra vieții omului contemporan, asupra sistemului său de relații și raportare la cei din jur și Legiuitor.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Church", "Faith"]
   },
   {
     "ID": "0171",
@@ -5437,7 +5448,8 @@
     "Pages": 164,
     "Reread": 0,
     "IMG": "B2/IMG_0171.png",
-    "Details": ""
+    "Details": "Pentru îndrumarea activităților din biserică.",
+    "Tags": ["Christian", "Adventism", "SDA", "Church"]
   },
   {
     "ID": "0172",
@@ -5449,7 +5461,9 @@
     "Pages": 128,
     "Reread": 0,
     "IMG": "B2/IMG_0172.png",
-    "Details": ""
+    "Details": "O revistă full color cu niște istorioare prezentate frumos.",
+    "Stars": 5,
+    "Tags": ["Christian", "Church", "History"]
   },
   {
     "ID": "0173",
@@ -5457,11 +5471,13 @@
     "Updated": "2024_11_10",
     "Author": "H. M. S. Richards",
     "Title": "Paște oile Mele!",
+    "OriginalTitle": "Feed My Sheep",
     "Read": 36,
     "Pages": 391,
     "Reread": 0,
     "IMG": "B2/IMG_0173.png",
-    "Details": ""
+    "Details": "Ghidul păstorului, de la Marele Păstor.",
+    "Tags": ["Christian", "Adventism", "SDA", "Church"]
   },
   {
     "ID": "0174",
