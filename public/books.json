@@ -5693,12 +5693,12 @@
     "Updated": "2024_11_10",
     "Author": "Nicu Butoi",
     "Title": "Lui Dumnezeu Îi plac întrebările",
-    "OriginalTitle": "",
     "Read": 14,
     "Pages": 359,
     "Reread": 0,
     "IMG": "B2/IMG_0189.png",
-    "Details": ""
+    "Details": "Răspunsuri biblice la fel de fel de întrebări.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church"]
   },
   {
     "ID": "0190",
@@ -5706,12 +5706,12 @@
     "Updated": "2024_11_10",
     "Author": "Eugene Prewitt",
     "Title": "Sapă mai adânc - Investigație asupra integrității temeliei noastre profetice",
-    "OriginalTitle": "",
     "Read": 1,
     "Pages": 288,
     "Reread": 0,
     "IMG": "B2/IMG_0190.png",
-    "Details": ""
+    "Details": "Discuții biblice pe teme de interes în poporul advent.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church"]
   },
   {
     "ID": "0191",
@@ -5719,12 +5719,12 @@
     "Updated": "2024_11_10",
     "Author": "Benone Burtescu",
     "Title": "Abecedând prorociile - Predica de pe cruce",
-    "OriginalTitle": "",
     "Read": 1,
     "Pages": 264,
     "Reread": 0,
     "IMG": "B2/IMG_0191.png",
-    "Details": ""
+    "Details": "Meditații biblice pe teme de actualitate.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0192",
@@ -5737,7 +5737,9 @@
     "Pages": 166,
     "Reread": 0,
     "IMG": "B2/IMG_0192.png",
-    "Details": ""
+    "Details": "O colecție de mărturii despre viciile teoriei evoluționiste culese chiar din gura savanților evoluționiști.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Science"]
   },
   {
     "ID": "0193",
@@ -5750,7 +5752,8 @@
     "Pages": 258,
     "Reread": 0,
     "IMG": "B2/IMG_0193.png",
-    "Details": ""
+    "Details": "O carte despre starea morților din perspectivă biblică.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0194",
