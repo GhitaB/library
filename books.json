@@ -5382,7 +5382,7 @@
   {
     "ID": "0167",
     "LibraryID": "B2_001",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "SDA Archive",
     "Title": "The Christian Experience of William E. Foy",
     "OriginalTitle": "The Christian Experience of William E. Foy",
@@ -5397,7 +5397,7 @@
   {
     "ID": "0168",
     "LibraryID": "B2_002",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Alonzo T. Jones",
     "Title": "Marile națiuni de astăzi",
     "OriginalTitle": "The Great Nations of Today",
@@ -5412,7 +5412,7 @@
   {
     "ID": "0169",
     "LibraryID": "B2_003",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Francis D. Nichol",
     "Title": "Iată, El vine",
     "Read": 208,
@@ -5426,7 +5426,7 @@
   {
     "ID": "0170",
     "LibraryID": "B2_004",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Loron Wade",
     "Title": "Legea cerului pentru pământeni",
     "OriginalTitle": "The Ten Commandments (What If We Did It God's Way?)",
@@ -5440,7 +5440,7 @@
   {
     "ID": "0171",
     "LibraryID": "B2_005",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "AZS",
     "Title": "Manualul prezbiterului",
     "Read": 1,
@@ -5453,7 +5453,7 @@
   {
     "ID": "0172",
     "LibraryID": "B2_006",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Semnele Timpului",
     "Title": "50 momente cruciale prin care creștinismul a schimbat istoria lumii",
     "Read": 128,
@@ -5467,7 +5467,7 @@
   {
     "ID": "0173",
     "LibraryID": "B2_007",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "H. M. S. Richards",
     "Title": "Paște oile Mele!",
     "OriginalTitle": "Feed My Sheep",
@@ -5481,7 +5481,7 @@
   {
     "ID": "0174",
     "LibraryID": "B2_008",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Stephen Bohr",
     "Title": "Închinare la tronul Satanei",
     "OriginalTitle": "Worship at Satan's Throne",
@@ -5495,7 +5495,7 @@
   {
     "ID": "0175",
     "LibraryID": "B2_009",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Lucian Cristescu",
     "Title": "Drumul meu spre Hristos",
     "Read": 128,
@@ -5509,7 +5509,7 @@
   {
     "ID": "0176",
     "LibraryID": "B2_010",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Lucian Cristescu",
     "Title": "Între viață și moarte - Marea luptă neștiută",
     "Read": 165,
@@ -5523,7 +5523,7 @@
   {
     "ID": "0177",
     "LibraryID": "B2_011",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Margaret Davis",
     "Title": "Ce să fac ca să moștenesc viața veșnică?",
     "OriginalTitle": "What shall I do to inherit eternal life?",
@@ -5537,7 +5537,7 @@
   {
     "ID": "0178",
     "LibraryID": "B2_012",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Morris Venden",
     "Title": "Asemenea lui Isus",
     "OriginalTitle": "How Jesus Treated People",
@@ -5552,7 +5552,7 @@
   {
     "ID": "0179",
     "LibraryID": "B2_013",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Alejandro Bullon",
     "Title": "Isus este totul, prietene!",
     "OriginalTitle": "",
@@ -5567,7 +5567,7 @@
   {
     "ID": "0180",
     "LibraryID": "B2_014",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Mark Witas",
     "Title": "Doar Isus Hristos, Cel care a fost răstignit",
     "OriginalTitle": "Just Jesus",
@@ -5582,7 +5582,7 @@
   {
     "ID": "0181",
     "LibraryID": "B2_015",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Aurel Pălășan",
     "Title": "Solia parabolelor Domnului Hristos",
     "Read": 85,
@@ -5595,7 +5595,7 @@
   {
     "ID": "0182",
     "LibraryID": "B2_016",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Lucian Cristescu",
     "Title": "Isus despre sfârșitul lumii",
     "Read": 127,
@@ -5604,12 +5604,20 @@
     "IMG": "B2/IMG_0182.png",
     "Details": "O carte despre viitor, din cuvintele lui Isus.",
     "Stars": 5,
-    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Prophecy", "Future"]
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Faith",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0183",
     "LibraryID": "B2_017",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Negoschanu Stelian",
     "Title": "Vino, Doamne Isuse",
     "Read": 1,
@@ -5622,7 +5630,7 @@
   {
     "ID": "0184",
     "LibraryID": "B2_018",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Mark Finley",
     "Title": "10 zile în camera de sus",
     "Read": 28,
@@ -5635,7 +5643,7 @@
   {
     "ID": "0185",
     "LibraryID": "B2_019",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Humberto M. Rasi, Nancy J. Vyhmeister",
     "Title": "Ce credem despre... răspunsuri avizate la întrebări controversate",
     "OriginalTitle": "Always Prepared: Answers to Questions about our faith",
@@ -5649,7 +5657,7 @@
   {
     "ID": "0186",
     "LibraryID": "B2_020",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Traian Aldea",
     "Title": "Porțile și ferestrele adventismului",
     "Read": 10,
@@ -5662,7 +5670,7 @@
   {
     "ID": "0187",
     "LibraryID": "B2_021",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Jon Paulien",
     "Title": "Evanghelia veșnică pentru o lume veșnic în schimbare",
     "OriginalTitle": "Everlasting Gospel, Everchanging World",
@@ -5676,7 +5684,7 @@
   {
     "ID": "0188",
     "LibraryID": "B2_022",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Aristide Doroftei",
     "Title": "Crezul apostolilor",
     "Read": 1,
@@ -5689,7 +5697,7 @@
   {
     "ID": "0189",
     "LibraryID": "B2_023",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Nicu Butoi",
     "Title": "Lui Dumnezeu Îi plac întrebările",
     "Read": 14,
@@ -5702,7 +5710,7 @@
   {
     "ID": "0190",
     "LibraryID": "B2_024",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Eugene Prewitt",
     "Title": "Sapă mai adânc - Investigație asupra integrității temeliei noastre profetice",
     "Read": 1,
@@ -5715,7 +5723,7 @@
   {
     "ID": "0191",
     "LibraryID": "B2_025",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Benone Burtescu",
     "Title": "Abecedând prorociile - Predica de pe cruce",
     "Read": 1,
@@ -5728,7 +5736,7 @@
   {
     "ID": "0192",
     "LibraryID": "B2_026",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Lucian Cristescu, Florin Ghețu",
     "Title": "Evoluționismul la bară, mărturii din culise",
     "Read": 166,
@@ -5742,7 +5750,7 @@
   {
     "ID": "0193",
     "LibraryID": "B2_027",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Virgil Dumitrescu",
     "Title": "După căderea cortinei, sfârșitul?",
     "Read": 9,
@@ -5755,7 +5763,7 @@
   {
     "ID": "0194",
     "LibraryID": "B2_028",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "George Vandeman",
     "Title": "Ruleta psihică",
     "Read": 176,
@@ -5769,7 +5777,7 @@
   {
     "ID": "0195",
     "LibraryID": "B2_029",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Kurt Hasel",
     "Title": "Vraja superstiției - povară și eliberare",
     "OriginalTitle": "",
@@ -5783,7 +5791,7 @@
   {
     "ID": "0196",
     "LibraryID": "B2_030",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Karl Haffner",
     "Title": "Experiența nu este o condiție",
     "OriginalTitle": "No Experience Necessary",
@@ -5797,7 +5805,7 @@
   {
     "ID": "0197",
     "LibraryID": "B2_031",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Randy Maxwell",
     "Title": "Tabără de instruire pentru zilele din urmă",
     "OriginalTitle": "Boot Camp for the last days",
@@ -5811,7 +5819,7 @@
   {
     "ID": "0198",
     "LibraryID": "B2_032",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Doug Batchelor",
     "Title": "Cel mai bogat om din peșteră",
     "OriginalTitle": "The Richest Caveman",
@@ -5826,7 +5834,7 @@
   {
     "ID": "0199",
     "LibraryID": "B2_033",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Doug Batchelor",
     "Title": "Cine crezi că ești?",
     "OriginalTitle": "Who do you think you are?",
@@ -5841,7 +5849,7 @@
   {
     "ID": "0200",
     "LibraryID": "B2_034",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Doug Batchelor",
     "Title": "Iată-mă! Trimite-mă!",
     "OriginalTitle": "Caveman Theology. Salvation Made Simple",
@@ -5856,7 +5864,7 @@
   {
     "ID": "0201",
     "LibraryID": "B2_035",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Licinius Chiriac",
     "Title": "Tasta de urgență",
     "Read": 151,
@@ -5870,7 +5878,7 @@
   {
     "ID": "0202",
     "LibraryID": "B2_036",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Benone Corneliu Lupu",
     "Title": "Valdenzii - Lux Lucet In Tenebris",
     "Read": 86,
@@ -5895,275 +5903,370 @@
   {
     "ID": "0203",
     "LibraryID": "B2_037",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Gary Gibbs",
     "Title": "O mărturie care cucerește - Metode dinamice de a-ți împărtăși credința",
-    "OriginalTitle": "",
+    "OriginalTitle": "Winsome Witnessing",
     "Read": 144,
     "Pages": 144,
     "Reread": 0,
     "IMG": "B2/IMG_0203.png",
-    "Details": ""
+    "Details": "Metode dinamice de a-ți împărtăși credința",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Church", "Evangelism"]
   },
   {
     "ID": "0204",
     "LibraryID": "B2_038",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Melody Mason",
     "Title": "Îndrăznește să ceri mai mult!",
-    "OriginalTitle": "",
+    "OriginalTitle": "Daring to Ask for More",
     "Read": 42,
     "Pages": 300,
     "Reread": 0,
     "IMG": "B2/IMG_0204.png",
-    "Details": ""
+    "Details": "Soluții divine pentru rugăciuni ascultate și o slujire împlinită",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0205",
     "LibraryID": "B2_039",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Doug Batchelor",
-    "Title": "La picioarele lui Isus",
-    "OriginalTitle": "",
+    "Title": "La picioarele lui Isus - Evanghelia după Maria Magdalena",
+    "OriginalTitle": "At Jesus Feet: The Gospel According to Mary Magdalena",
     "Read": 175,
     "Pages": 175,
     "Reread": 0,
     "IMG": "B2/IMG_0205.png",
-    "Details": ""
+    "Details": "Lecții din experiența Mariei Magdalena",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Bible", "Biography"]
   },
   {
     "ID": "0206",
     "LibraryID": "B2_040",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "G. Edward Reid",
     "Title": "În vremea „duminicală”!",
-    "OriginalTitle": "",
+    "OriginalTitle": "The Sunday is coming!",
     "Read": 1,
     "Pages": 248,
     "Reread": 0,
     "IMG": "B2/IMG_0206.png",
-    "Details": ""
+    "Details": "Prezintă dovezi din profeții și din desfășurarea evenimentelor actuale că în curând duminica va fi impusă.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Church",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0207",
     "LibraryID": "B2_041",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Herb Montgomery",
     "Title": "Tatăl meu cel adevărat",
-    "OriginalTitle": "",
     "Read": 236,
     "Pages": 236,
     "Reread": 0,
     "IMG": "B2/IMG_0207.png",
-    "Details": ""
+    "Details": "O carte care Îl prezintă pe Dumnezeu din perspectiva iubirii Lui pentru ființele create.",
+    "Stars": 4,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0208",
     "LibraryID": "B2_042",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Elida Oncea",
     "Title": "Fețe din profil",
-    "OriginalTitle": "",
     "Read": 74,
     "Pages": 252,
     "Reread": 0,
     "IMG": "B2/IMG_0208.png",
-    "Details": ""
+    "Details": "Despre euforia comunicării prin foto-etalare și pericolele ei.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0209",
     "LibraryID": "B2_043",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Nicușor Ghițescu",
     "Title": "Naufragiați în credință",
-    "OriginalTitle": "",
     "Read": 120,
     "Pages": 120,
     "Reread": 0,
     "IMG": "B2/IMG_0209.png",
-    "Details": ""
+    "Details": "Lecții pentru o viață spirituală sănătoasă și puternică.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0210",
     "LibraryID": "B2_044",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Nicușor Ghițescu",
     "Title": "Capcane, capcane...",
-    "OriginalTitle": "",
     "Read": 1,
     "Pages": 112,
     "Reread": 0,
     "IMG": "B2/IMG_0210.png",
-    "Details": ""
+    "Details": "O carte despre ispitele timpurilor noastre.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church"]
   },
   {
     "ID": "0211",
     "LibraryID": "B2_045",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Nicușor Ghițescu",
     "Title": "Pregătirea pentru furtună",
-    "OriginalTitle": "",
     "Read": 1,
     "Pages": 112,
     "Reread": 0,
     "IMG": "B2/IMG_0211.png",
-    "Details": ""
+    "Details": "O carte despre timpurile grele ce vin și pregătirea pentru ele.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Faith",
+      "Church",
+      "Prophecy",
+      "Future"
+    ]
   },
   {
     "ID": "0212",
     "LibraryID": "B2_046",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Nicușor Ghițescu",
     "Title": "Metodologie misionară",
-    "OriginalTitle": "",
     "Read": 1,
     "Pages": 120,
     "Reread": 0,
     "IMG": "B2/IMG_0212.png",
-    "Details": ""
+    "Details": "Despre metodele Domnului Hristos care dau succes în evanghelizare.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Church", "Evangelism"]
   },
   {
     "ID": "0213",
     "LibraryID": "B2_047",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Nicușor Ghițescu",
     "Title": "Coroana vieții",
-    "OriginalTitle": "",
     "Read": 78,
     "Pages": 78,
     "Reread": 0,
     "IMG": "B2/IMG_0213.png",
-    "Details": ""
+    "Details": "Povestiri emoționante despre martirii pentru credință din trecut.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Faith",
+      "Church",
+      "History",
+      "Biography"
+    ]
   },
   {
     "ID": "0214",
     "LibraryID": "B2_048",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Nathan Brown, Joanna Darby",
-    "Title": "Manifest",
-    "OriginalTitle": "",
+    "Title": "Manifest - chemați să fim creștini creativi",
+    "OriginalTitle": "Manifest. Our Call to Faithful Creativity",
     "Read": 6,
     "Pages": 320,
     "Reread": 0,
     "IMG": "B2/IMG_0214.png",
-    "Details": ""
+    "Details": "Descoperă propria creativitate și cum s-o manifești din dorința de a crea ceva frumos.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Faith",
+      "Evangelism",
+      "Personal development"
+    ]
   },
   {
     "ID": "0215",
     "LibraryID": "B2_049",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Ben Carson",
     "Title": "Mâini înzestrate",
-    "OriginalTitle": "",
+    "OriginalTitle": "Gifted Hands",
     "Read": 192,
     "Pages": 192,
-    "Reread": 191,
+    "Reread": 192,
     "IMG": "B2/IMG_0215.png",
-    "Details": ""
+    "Details": "A transformat imposibilul în realitate și speranțele în împliniri. O carte interesantă și emoționantă despre un medic neurochirurg cunoscut în lumea întreagă.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Biography",
+      "Health",
+      "Personal development"
+    ]
   },
   {
     "ID": "0216",
     "LibraryID": "B2_050",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Ben Carson",
     "Title": "Gândește cutezător",
-    "OriginalTitle": "",
+    "OriginalTitle": "Think Big",
     "Read": 245,
     "Pages": 245,
     "Reread": 0,
     "IMG": "B2/IMG_0216.png",
-    "Details": ""
+    "Details": "Autorul dezvăluie aici rețeta sa pentru succes.",
+    "Stars": 4,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Personal development",
+      "Character",
+      "Youth"
+    ]
   },
   {
     "ID": "0217",
     "LibraryID": "B2_051",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Ben Carson",
     "Title": "Și tu ai creier",
-    "OriginalTitle": "",
+    "OriginalTitle": "You Have a Brain",
     "Read": 1,
     "Pages": 284,
     "Reread": 0,
     "IMG": "B2/IMG_0217.png",
-    "Details": ""
+    "Details": "Îmbinând elemente autobiografice cu principii de viață pe care le-a testat personal, autorul îi îndeamnă pe tineri să-și folosească creierul pentru a-și croi drum către un viitor mai bun.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Personal development",
+      "Character",
+      "Youth"
+    ]
   },
   {
     "ID": "0218",
     "LibraryID": "B2_052",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Ben Carson",
-    "Title": "Asumă-ți riscul",
-    "OriginalTitle": "",
+    "Title": "Asumă-ți riscul: învață să identifici, să alegi și să trăiești cu o doză acceptabilă de risc",
+    "OriginalTitle": "Take the risk: Learning to Identify, Choose, and Live with Acceptable Risk",
     "Read": 303,
     "Pages": 303,
     "Reread": 0,
     "IMG": "B2/IMG_0218.png",
-    "Details": ""
+    "Details": "Într-o cultură bazată pe evitarea riscului, în care punem preț pe siguranță, autorul ne învață cum să nu pierdem aventura unei vieți trăite la potențial maxim.",
+    "Stars": 3,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Personal development",
+      "Character",
+      "Youth"
+    ]
   },
   {
     "ID": "0219",
     "LibraryID": "B2_053",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Sally Pierson Dillon",
     "Title": "Andrei întreabă de ce?",
-    "OriginalTitle": "",
     "Read": 8,
     "Pages": 167,
     "Reread": 0,
     "IMG": "B2/IMG_0219.png",
-    "Details": ""
+    "Details": "Cum să-i prezinți copilului tău cartea Tragedia Veacurilor (Marea Luptă).",
+    "Tags": ["Christian", "Adventism", "SDA", "Kids"]
   },
   {
     "ID": "0220",
     "LibraryID": "B2_054",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Ellen G. White",
     "Title": "Provocarea viitorului",
-    "OriginalTitle": "",
     "Read": 1,
     "Pages": 160,
     "Reread": 0,
     "IMG": "B2/IMG_0220.png",
-    "Details": ""
+    "Details": "O compilație în stil românesc cu fragmente din ultimele capitole din cartea Marea luptă.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Prophecy",
+      "Future",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0221",
     "LibraryID": "B2_055",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Ellen G. White",
     "Title": "Îndrumarea copilului",
-    "OriginalTitle": "",
+    "OriginalTitle": "Child Guidance (1954)",
     "Read": 1,
     "Pages": 446,
     "Reread": 0,
     "IMG": "B2/IMG_0221.png",
-    "Details": ""
+    "Details": "Mamă a patru băieţi, ea prezintă, cu autoritatea şi înţelegerea conferite de experienţă, învăţăturile pe care ea însăşi le-a primit.",
+    "Tags": ["Christian", "Adventism", "SDA", "Education", "Family"]
   },
   {
     "ID": "0222",
     "LibraryID": "B2_056",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Jacques B. Doukhan",
     "Title": "Enigmele Bibliei - Cartea profetică Apocalipsa",
-    "OriginalTitle": "",
+    "OriginalTitle": "Secrets of Revelation: The Apocalypse Through Hebrew Eyes",
     "Read": 1,
     "Pages": 216,
     "Reread": 0,
     "IMG": "B2/IMG_0222.png",
-    "Details": ""
+    "Details": "Cugetări la temele importante din Apocalipsa.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Bible",
+      "Prophecy",
+      "Future",
+      "History",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0223",
     "LibraryID": "B2_057",
-    "Updated": "2024_11_10",
+    "Updated": "2024_11_01",
     "Author": "Institute in Basic Life Principles",
     "Title": "Puterea pentru un Succes Autentic - Cum să-ți construiești caracterul în viață",
-    "OriginalTitle": "",
+    "OriginalTitle": "The Power for True Success: How to Build Character in Your Life",
     "Read": 50,
     "Pages": 190,
     "Reread": 0,
     "IMG": "B2/IMG_0223.png",
-    "Details": ""
+    "Details": "Cele 49 de calități ale caracterului prezentate în această carte sunt expresii ale dragostei adevărate. Fiecare dintre ele are o explicație din Biblie - sursa supremă de înțelepciune și caracter.",
+    "Tags": ["Christian", "Bible", "Education", "Character", "Youth"]
   },
   {
     "ID": "0224",
