@@ -5435,7 +5435,6 @@
     "Reread": 0,
     "IMG": "B2/IMG_0170.png",
     "Details": "Abordează, într-un mod deschis și practic, impactul pe care îl are vechiul cod divin asupra vieții omului contemporan, asupra sistemului său de relații și raportare la cei din jur și Legiuitor.",
-    "Stars": 5,
     "Tags": ["Christian", "Adventism", "SDA", "Church", "Faith"]
   },
   {
@@ -5732,7 +5731,6 @@
     "Updated": "2024_11_10",
     "Author": "Lucian Cristescu, Florin Ghețu",
     "Title": "Evoluționismul la bară, mărturii din culise",
-    "OriginalTitle": "",
     "Read": 166,
     "Pages": 166,
     "Reread": 0,
@@ -5747,7 +5745,6 @@
     "Updated": "2024_11_10",
     "Author": "Virgil Dumitrescu",
     "Title": "După căderea cortinei, sfârșitul?",
-    "OriginalTitle": "",
     "Read": 9,
     "Pages": 258,
     "Reread": 0,
@@ -5761,12 +5758,13 @@
     "Updated": "2024_11_10",
     "Author": "George Vandeman",
     "Title": "Ruleta psihică",
-    "OriginalTitle": "",
     "Read": 176,
     "Pages": 176,
     "Reread": 176,
     "IMG": "B2/IMG_0194.png",
-    "Details": ""
+    "Details": "O carte scrisă captivant (cu povestioare horror) despre starea morților și ocultism.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0195",
@@ -5779,7 +5777,8 @@
     "Pages": 136,
     "Reread": 0,
     "IMG": "B2/IMG_0195.png",
-    "Details": ""
+    "Details": "O carte care dezvăluie ce se află în spatele superstițiilor și ocultismului așa cum sunt ele întâlnite în lumea contemporană.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0196",
@@ -5787,12 +5786,13 @@
     "Updated": "2024_11_10",
     "Author": "Karl Haffner",
     "Title": "Experiența nu este o condiție",
-    "OriginalTitle": "",
+    "OriginalTitle": "No Experience Necessary",
     "Read": 1,
     "Pages": 142,
     "Reread": 0,
     "IMG": "B2/IMG_0196.png",
-    "Details": ""
+    "Details": "O carte despre evanghelizarea personală, metode de a transmite lumina Evangheliei.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Evangelism"]
   },
   {
     "ID": "0197",
@@ -5800,12 +5800,13 @@
     "Updated": "2024_11_10",
     "Author": "Randy Maxwell",
     "Title": "Tabără de instruire pentru zilele din urmă",
-    "OriginalTitle": "",
+    "OriginalTitle": "Boot Camp for the last days",
     "Read": 21,
     "Pages": 120,
     "Reread": 0,
     "IMG": "B2/IMG_0197.png",
-    "Details": ""
+    "Details": "Cum să trăiești pentru Isus în ceasul judecății istoriei Pământului",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Evangelism"]
   },
   {
     "ID": "0198",
@@ -5813,12 +5814,14 @@
     "Updated": "2024_11_10",
     "Author": "Doug Batchelor",
     "Title": "Cel mai bogat om din peșteră",
-    "OriginalTitle": "",
+    "OriginalTitle": "The Richest Caveman",
     "Read": 206,
     "Pages": 206,
     "Reread": 0,
     "IMG": "B2/IMG_0198.png",
-    "Details": ""
+    "Details": "O autobiografie cum rar ai citit.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Biography"]
   },
   {
     "ID": "0199",
@@ -5826,12 +5829,14 @@
     "Updated": "2024_11_10",
     "Author": "Doug Batchelor",
     "Title": "Cine crezi că ești?",
-    "OriginalTitle": "",
+    "OriginalTitle": "Who do you think you are?",
     "Read": 174,
     "Pages": 174,
     "Reread": 0,
     "IMG": "B2/IMG_0199.png",
-    "Details": ""
+    "Details": "O invitație la introspecție în perspectiva veșniciei, o perspectivă care te conduce spre răspuns.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Evangelism"]
   },
   {
     "ID": "0200",
@@ -5839,12 +5844,14 @@
     "Updated": "2024_11_10",
     "Author": "Doug Batchelor",
     "Title": "Iată-mă! Trimite-mă!",
-    "OriginalTitle": "",
+    "OriginalTitle": "Caveman Theology. Salvation Made Simple",
     "Read": 174,
     "Pages": 174,
     "Reread": 0,
     "IMG": "B2/IMG_0200.png",
-    "Details": ""
+    "Details": "Nouă versete care îți vor orienta teologia, șapte pași care te vor apropia de cer, o perspectivă care îți va schimba povestea.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Evangelism"]
   },
   {
     "ID": "0201",
@@ -5852,12 +5859,13 @@
     "Updated": "2024_11_10",
     "Author": "Licinius Chiriac",
     "Title": "Tasta de urgență",
-    "OriginalTitle": "",
     "Read": 151,
     "Pages": 151,
     "Reread": 0,
     "IMG": "B2/IMG_0201.png",
-    "Details": ""
+    "Details": "Mesajul Bibliei este recontextualizat pentru cititorul de azi prin povestioare cu personaje și întâmplări din Biblie.",
+    "Stars": 4,
+    "Tags": ["Christian", "Adventism", "SDA", "Bible"]
   },
   {
     "ID": "0202",
@@ -5865,12 +5873,24 @@
     "Updated": "2024_11_10",
     "Author": "Benone Corneliu Lupu",
     "Title": "Valdenzii - Lux Lucet In Tenebris",
-    "OriginalTitle": "",
     "Read": 86,
     "Pages": 210,
     "Reread": 0,
     "IMG": "B2/IMG_0202.png",
-    "Details": ""
+    "Details": "O istorie adevărată, cutremurător de tristă și de frumoasă, a unor oameni care au iubit adevărul, au crezut în el și au luptat să-l păstreze curat.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "History",
+      "Church",
+      "1000s",
+      "1100s",
+      "1200s",
+      "1300s",
+      "1400s",
+      "1500s"
+    ]
   },
   {
     "ID": "0203",
