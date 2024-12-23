@@ -31,7 +31,7 @@
 
   TODO:Anul publicării - ar putea fi util pentru o sortare viitoare
 
-310 =(32 +42+47+56+50+37)+(46) < indexate detaliat
+367 =(32 +42+47+56+50+37+46) + (57) < indexate detaliat
 
 ===============================================================================
       STATUS: 1    2         3        4                             5
@@ -45,7 +45,7 @@
 08.11 A6 ######################################################################
 -------------------------------------------------------------------------------
 08.11 B1 ######################################################################
-08.11 B2 ##################################
+08.11 B2 ######################################################################
 08.11 B3 ##########################
 08.11 B4 ##?
 08.11 B5 ##?
@@ -259,10 +259,10 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>10.11.2024</strong>: NOU! Indexat complet raftul B1.
+        <strong>23.12.2024</strong>: NOU! Indexat complet raftul B2.
       </p>
       <p className="small">
-        În lucru... (indexate: aproximativ 600/1000, 310 indexate detaliat.)
+        În lucru... (indexate: aproximativ 600/1000, 367 indexate detaliat.)
       </p>
 
       <Accordion title="Rafturi" isOpenDefault={true}>
@@ -301,7 +301,7 @@ const App = () => {
                   <button className="pr-5" onClick={() => searchFor("B1_")}>
                     Raftul B1
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("B2_")}>
+                  <button className="pr-5" onClick={() => searchFor("B2_")}>
                     Raftul B2
                   </button>
                   <button className="pr-3" onClick={() => searchFor("B3_")}>
