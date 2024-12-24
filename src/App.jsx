@@ -285,7 +285,8 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>23.12.2024</strong>: NOU! Indexat complet raftul B2.
+        <strong>25.12.2024</strong>: NOU! Imagini cu coperta pentru toate
+        cărțile indexate.
       </p>
       <p className="small">
         În lucru... (indexate: aproximativ 600/1000, 367 indexate detaliat.)
