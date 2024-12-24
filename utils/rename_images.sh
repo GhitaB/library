@@ -16,17 +16,35 @@ fi
 
 cd "$target_folder" || exit 1
 
-counter_length=${#counter}
-
+# 1. Replace spaces with '_'
 for file in *; do
   if [ -f "$file" ]; then
-    echo "Processing: $file"
+    new_name="${file// /_}"
+    if [ "$file" != "$new_name" ]; then
+      mv "$file" "$new_name"
+      echo "Renamed: $file -> $new_name"
+    fi
+  fi
+done
+
+# 2. Rename files in natural order
+counter_length=${#counter}
+
+# Use ls -v for natural sort
+ls -v | while IFS= read -r file; do
+  if [ -f "$file" ]; then
     extension="${file##*.}"
     new_name=$(printf "%s%0*d.%s" "$prefix" "$counter_length" "$counter" "$extension")
-    mv "$file" "$new_name"
+
+    # Check to avoid overwriting
+    if [ "$file" != "$new_name" ]; then
+      mv "$file" "$new_name"
+      echo "Renamed: $file -> $new_name"
+    fi
+
     counter=$((10#$counter + 1))
   fi
 done
 
-echo "Files renamed in $target_folder with prefix '$prefix' starting from $3"
+echo "All files processed in $target_folder"
 

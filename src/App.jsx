@@ -68,13 +68,14 @@
 24.12 D5 ##?
 24.12 D6 ##?
 -------------------------------------------------------------------------------
-24.12 E1 ##########################
+24.12 E1 ##################################
 24.12 E2 ##########################
 24.12 E3 ##?
 24.12 E4 ##########################
 24.12 E5 ##########################
 24.12 E6 ##########################
 ===============================================================================
+              1.1  2.1  2.2  3.1  3.2 4.1  4.2  4.3  4.4  4.5  4.6  5.1  5.2
  ^ Last update
 */
 import { useState, useEffect, useRef } from "react";
@@ -125,10 +126,11 @@ const App = () => {
     console.log(data);
     // Fix image url using library ID for each item
     const processedData = data
-      .filter((item) => item.LibraryID.startsWith("D1_"))
+      .filter((item) => item.LibraryID.startsWith("E1_"))
       .map((item) => {
-        const newIMG = `D1/IMG_${item.ID}.png`;
-        return { ...item, IMG: newIMG };
+        const newIMG = `E1/IMG_${item.ID}.png`;
+        const newUpdated = "2024_12_24";
+        return { ...item, IMG: newIMG, Updated: newUpdated };
       });
     console.log(processedData);
   };
@@ -385,7 +387,7 @@ const App = () => {
                   </button>
                 </td>
                 <td>
-                  <button className="pr-3" onClick={() => searchFor("E1_")}>
+                  <button className="pr-4" onClick={() => searchFor("E1_")}>
                     Raftul E1
                   </button>
                   <button className="pr-3" onClick={() => searchFor("E2_")}>
