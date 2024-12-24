@@ -116,21 +116,21 @@ const App = () => {
 
   const TEMPOperation = (data) => {
     console.log(data);
-    // // Use it for custom operations with json books
-    // if (data === undefined) {
-    //   console.log("AAA");
-    //   return;
-    // }
-    //
-    // console.log(data);
-    // // Fix image url using library ID for each item
-    // const processedData = data
-    //   .filter((item) => item.LibraryID.startsWith("B3_"))
-    //   .map((item) => {
-    //     const newIMG = `B3/IMG_${item.ID}.png`;
-    //     return { ...item, IMG: newIMG };
-    //   });
-    // console.log(processedData);
+    // Use it for custom operations with json books
+    if (data === undefined) {
+      console.log("AAA");
+      return;
+    }
+
+    console.log(data);
+    // Fix image url using library ID for each item
+    const processedData = data
+      .filter((item) => item.LibraryID.startsWith("D1_"))
+      .map((item) => {
+        const newIMG = `D1/IMG_${item.ID}.png`;
+        return { ...item, IMG: newIMG };
+      });
+    console.log(processedData);
   };
 
   useEffect(() => {
