@@ -71,7 +71,7 @@
 24.12 E1 ##################################
 24.12 E2 ##################################
 24.12 E3 ##?
-24.12 E4 ##########################
+24.12 E4 ##################################
 24.12 E5 ##########################
 24.12 E6 ##########################
 ===============================================================================
@@ -126,9 +126,9 @@ const App = () => {
     console.log(data);
     // Fix image url using library ID for each item
     const processedData = data
-      .filter((item) => item.LibraryID.startsWith("E2_"))
+      .filter((item) => item.LibraryID.startsWith("E4_"))
       .map((item) => {
-        const newIMG = `E2/IMG_${item.ID}.png`;
+        const newIMG = `E4/IMG_${item.ID}.png`;
         const newUpdated = "2024_12_24";
         return { ...item, IMG: newIMG, Updated: newUpdated };
       });
@@ -396,7 +396,7 @@ const App = () => {
                   <button className="pr-1" onClick={() => searchFor("E3_")}>
                     Raftul E3
                   </button>
-                  <button className="pr-3" onClick={() => searchFor("E4_")}>
+                  <button className="pr-4" onClick={() => searchFor("E4_")}>
                     Raftul E4
                   </button>
                   <button className="pr-3" onClick={() => searchFor("E5_")}>
