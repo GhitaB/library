@@ -4,6 +4,8 @@
     $ mogrify -format png *.jpeg
  Resize width 300 px for all pngs in this folder:
     $ mogrify -resize 300x *.png
+ Cleanup
+    $ rm *.jpeg
 
  TODO: Plan indexare cărți:
  Un raft nu primește culoarea următoare decât după ce sunt bifate toDateString();
@@ -46,7 +48,7 @@
 -------------------------------------------------------------------------------
 24.12 B1 ######################################################################
 24.12 B2 ######################################################################
-24.12 B3 #############################
+24.12 B3 ##################################
 24.12 B4 ##?
 24.12 B5 ##?
 24.12 B6 ##?
@@ -111,6 +113,25 @@ const App = () => {
   const [resultsTitle, setResultsTitle] = useState("Toate cărțile");
   const [tagCounts, setTagCounts] = useState({});
   const [authorCounts, setAuthorCounts] = useState({});
+
+  const TEMPOperation = (data) => {
+    console.log(data);
+    // // Use it for custom operations with json books
+    // if (data === undefined) {
+    //   console.log("AAA");
+    //   return;
+    // }
+    //
+    // console.log(data);
+    // // Fix image url using library ID for each item
+    // const processedData = data
+    //   .filter((item) => item.LibraryID.startsWith("B3_"))
+    //   .map((item) => {
+    //     const newIMG = `B3/IMG_${item.ID}.png`;
+    //     return { ...item, IMG: newIMG };
+    //   });
+    // console.log(processedData);
+  };
 
   useEffect(() => {
     const tagMap = {};
@@ -202,7 +223,10 @@ const App = () => {
   useEffect(() => {
     fetch("books.json")
       .then((response) => response.json())
-      .then((data) => setBooks(data));
+      .then((data) => {
+        setBooks(data);
+        TEMPOperation(data);
+      });
   }, []);
 
   const textStars = (stars) => {
@@ -304,7 +328,7 @@ const App = () => {
                   <button className="pr-5" onClick={() => searchFor("B2_")}>
                     Raftul B2
                   </button>
-                  <button className="pr-3" onClick={() => searchFor("B3_")}>
+                  <button className="pr-4" onClick={() => searchFor("B3_")}>
                     Raftul B3
                   </button>
                   <button className="pr-1" onClick={() => searchFor("B4_")}>
