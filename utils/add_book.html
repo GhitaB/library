@@ -52,13 +52,13 @@
           finalJsonObject.LibraryID = row.B;
           finalJsonObject.Author = row.C;
           finalJsonObject.Title = row.D;
-          finalJsonObject.Read = row.E;
-          finalJsonObject.Pages = row.F;
-          finalJsonObject.ReRead = row.J;
-          finalJsonObject.IMG = "TODO";
-          finalJsonObject.Updated = "TODO";
+          finalJsonObject.OriginalTitle = "";
+          finalJsonObject.Read = parseInt(row.E);
+          finalJsonObject.Pages = parseInt(row.F);
+          finalJsonObject.ReRead = parseInt(row.J);
+          finalJsonObject.IMG = "IMG_0000.png";
+          finalJsonObject.Updated = "YYYY_MM_DD";
           finalJsonObject.Details = "";
-          finalJsonObject.Stars = "";
 
           console.log(finalJsonObject);
         });

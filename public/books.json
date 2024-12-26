@@ -6268,7 +6268,18 @@
     "Details": "Cele 49 de calități ale caracterului prezentate în această carte sunt expresii ale dragostei adevărate. Fiecare dintre ele are o explicație din Biblie - sursa supremă de înțelepciune și caracter.",
     "Tags": ["Christian", "Bible", "Education", "Character", "Youth"]
   },
-
+  {
+    "ID": "0630",
+    "LibraryID": "B3_001-",
+    "Author": "Gheorghe Modoran",
+    "Title": "Biserica prin pustiul roșu - vol. 1",
+    "Read": 0,
+    "Pages": 640,
+    "ReRead": 0,
+    "IMG": "IMG_0000.png",
+    "Updated": "2024_12_01",
+    "Details": ""
+  },
   {
     "ID": "0224",
     "LibraryID": "B3_001",
@@ -6279,6 +6290,30 @@
     "Pages": 640,
     "Reread": 0,
     "IMG": "B3/IMG_0224.png",
+    "Details": ""
+  },
+  {
+    "ID": "0631",
+    "LibraryID": "B3_001+",
+    "Author": "Gheorghe Modoran",
+    "Title": "Biserica prin pustiul roșu - vol. 3",
+    "Read": 0,
+    "Pages": 526,
+    "ReRead": 0,
+    "IMG": "IMG_0000.png",
+    "Updated": "2024_12_01",
+    "Details": ""
+  },
+  {
+    "ID": "0632",
+    "LibraryID": "B3_001++",
+    "Author": "Gheorghe Modoran",
+    "Title": "Biserica prin pustiul roșu - vol. 4",
+    "Read": 100,
+    "Pages": 510,
+    "ReRead": 0,
+    "IMG": "IMG_0000.png",
+    "Updated": "2024_12_01",
     "Details": ""
   },
   {
@@ -6738,8 +6773,34 @@
     "Details": ""
   },
   {
-    "ID": "0352",
+    "ID": "0633",
     "LibraryID": "B3_040",
+    "Author": "Arhiepiscopia Romano-Catolică",
+    "Title": "Conciliul Ecumenic Vatican II",
+    "OriginalTitle": "",
+    "Read": 12,
+    "Pages": 400,
+    "ReRead": 0,
+    "IMG": "IMG_0000.png",
+    "Updated": "2024_12_01",
+    "Details": ""
+  },
+  {
+    "ID": "0634",
+    "LibraryID": "B3_041",
+    "Author": "Arhiepiscopia Romano-Catolică",
+    "Title": "Catehismul Bisericii Catolice",
+    "OriginalTitle": "",
+    "Read": 0,
+    "Pages": 688,
+    "ReRead": 0,
+    "IMG": "IMG_0000.png",
+    "Updated": "2024_12_01",
+    "Details": ""
+  },
+  {
+    "ID": "0352",
+    "LibraryID": "B4_040TODOMOVE",
     "Updated": "2024_12_01",
     "Author": "Jean Calvin",
     "Title": "Institutio Christianae Religionis - Învățătura religiei creștine - Vol 1",
@@ -6751,7 +6812,7 @@
   },
   {
     "ID": "0353",
-    "LibraryID": "B3_041",
+    "LibraryID": "B4_041TODOMOVE",
     "Updated": "2024_12_01",
     "Author": "Jean Calvin",
     "Title": "Institutio Christianae Religionis - Învățătura religiei creștine - Vol 2",
