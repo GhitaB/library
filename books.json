@@ -3951,7 +3951,7 @@
     "IMG": "A5/IMG_0582.png",
     "Details": "Mi-a plăcut coperta, restul e secret.",
     "Stars": 2,
-    "Tags": ["Personal development", "Mind", "Psychology", "Fun"]
+    "Tags": ["Personal development", "Mind", "Psychology", "Fun", "Other"]
   },
   {
     "ID": "0583",
@@ -6292,7 +6292,17 @@
     "Reread": 0,
     "IMG": "B3/IMG_0630.png",
     "Updated": "2024_12_01",
-    "Details": ""
+    "Details": "Rezistență și compromis în adventismul din România în perioada comunistă 1944-1965",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Church",
+      "History",
+      "1940s",
+      "1950s",
+      "1960s"
+    ]
   },
   {
     "ID": "0224",
@@ -6304,7 +6314,16 @@
     "Pages": 640,
     "Reread": 0,
     "IMG": "B3/IMG_0224.png",
-    "Details": ""
+    "Details": "Biserica Adventistă din România sub comunism 1965-1975",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Church",
+      "History",
+      "1960s",
+      "1970s"
+    ]
   },
   {
     "ID": "0631",
@@ -6316,7 +6335,16 @@
     "Reread": 0,
     "IMG": "B3/IMG_0631.png",
     "Updated": "2024_12_01",
-    "Details": ""
+    "Details": "Biserica Adventistă din România sub comunism 1975-1989",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Church",
+      "History",
+      "1970s",
+      "1980s"
+    ]
   },
   {
     "ID": "0632",
@@ -6328,7 +6356,16 @@
     "Reread": 0,
     "IMG": "B3/IMG_0632.png",
     "Updated": "2024_12_01",
-    "Details": ""
+    "Details": "Biserica Adventistă din România sub comunism 1975-1989",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Church",
+      "History",
+      "1970s",
+      "1980s"
+    ]
   },
   {
     "ID": "0225",
@@ -6340,7 +6377,8 @@
     "Pages": 96,
     "Reread": 0,
     "IMG": "B3/IMG_0225.png",
-    "Details": ""
+    "Details": "Meditații din Scriptură frumos scrise.",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0226",
@@ -6352,7 +6390,8 @@
     "Pages": 185,
     "Reread": 0,
     "IMG": "B3/IMG_0226.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0227",
@@ -6364,7 +6403,8 @@
     "Pages": 94,
     "Reread": 0,
     "IMG": "B3/IMG_0227.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0228",
@@ -6376,7 +6416,8 @@
     "Pages": 114,
     "Reread": 0,
     "IMG": "B3/IMG_0228.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDARM", "History", "Faith"]
   },
   {
     "ID": "0229",
@@ -6388,7 +6429,8 @@
     "Pages": 134,
     "Reread": 0,
     "IMG": "B3/IMG_0229.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0230",
@@ -6400,7 +6442,9 @@
     "Pages": 301,
     "Reread": 301,
     "IMG": "B3/IMG_0230.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Biography"]
   },
   {
     "ID": "0231",
@@ -6412,7 +6456,8 @@
     "Pages": 426,
     "Reread": 0,
     "IMG": "B3/IMG_0231.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0232",
@@ -6424,7 +6469,9 @@
     "Pages": 278,
     "Reread": 0,
     "IMG": "B3/IMG_0232.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 4,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Fiction"]
   },
   {
     "ID": "0233",
@@ -6436,7 +6483,9 @@
     "Pages": 414,
     "Reread": 0,
     "IMG": "B3/IMG_0233.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 4,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Fiction", "Future"]
   },
   {
     "ID": "0234",
@@ -6448,7 +6497,8 @@
     "Pages": 510,
     "Reread": 0,
     "IMG": "B3/IMG_0234.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Fiction"]
   },
   {
     "ID": "0235",
@@ -6460,7 +6510,9 @@
     "Pages": 224,
     "Reread": 0,
     "IMG": "B3/IMG_0235.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith"]
   },
   {
     "ID": "0236",
@@ -6472,7 +6524,8 @@
     "Pages": 422,
     "Reread": 0,
     "IMG": "B3/IMG_0236.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Education", "Evangelism"]
   },
   {
     "ID": "0237",
@@ -6484,7 +6537,8 @@
     "Pages": 181,
     "Reread": 0,
     "IMG": "B3/IMG_0237.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0238",
@@ -6496,7 +6550,9 @@
     "Pages": 114,
     "Reread": 0,
     "IMG": "B3/IMG_0238.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 4,
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0239",
@@ -6508,7 +6564,8 @@
     "Pages": 184,
     "Reread": 0,
     "IMG": "B3/IMG_0239.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0240",
@@ -6520,7 +6577,9 @@
     "Pages": 96,
     "Reread": 0,
     "IMG": "B3/IMG_0240.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 4,
+    "Tags": ["Christian", "Adventism", "SDARM", "Faith", "History"]
   },
   {
     "ID": "0241",
@@ -6532,7 +6591,9 @@
     "Pages": 64,
     "Reread": 0,
     "IMG": "B3/IMG_0241.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 4,
+    "Tags": ["Christian", "Education"]
   },
   {
     "ID": "0242",
@@ -6544,7 +6605,8 @@
     "Pages": 224,
     "Reread": 0,
     "IMG": "B3/IMG_0242.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Education"]
   },
   {
     "ID": "0243",
@@ -6556,7 +6618,8 @@
     "Pages": 72,
     "Reread": 0,
     "IMG": "B3/IMG_0243.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Adventism", "SDA", "Education"]
   },
   {
     "ID": "0244",
@@ -6568,7 +6631,9 @@
     "Pages": 326,
     "Reread": 326,
     "IMG": "B3/IMG_0244.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 3,
+    "Tags": ["Christian", "History"]
   },
   {
     "ID": "0245",
@@ -6580,7 +6645,8 @@
     "Pages": 484,
     "Reread": 0,
     "IMG": "B3/IMG_0245.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0246",
@@ -6592,7 +6658,8 @@
     "Pages": 155,
     "Reread": 0,
     "IMG": "B3/IMG_0246.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0247",
@@ -6604,7 +6671,8 @@
     "Pages": 151,
     "Reread": 0,
     "IMG": "B3/IMG_0247.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Bible"]
   },
   {
     "ID": "0248",
@@ -6616,7 +6684,8 @@
     "Pages": 401,
     "Reread": 0,
     "IMG": "B3/IMG_0248.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "History", "Jesus"]
   },
   {
     "ID": "0249",
@@ -6628,7 +6697,8 @@
     "Pages": 120,
     "Reread": 120,
     "IMG": "B3/IMG_0249.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith", "Jesus"]
   },
   {
     "ID": "0250",
@@ -6640,7 +6710,8 @@
     "Pages": 392,
     "Reread": 0,
     "IMG": "B3/IMG_0250.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "History", "Jesus"]
   },
   {
     "ID": "0251",
@@ -6652,7 +6723,8 @@
     "Pages": 111,
     "Reread": 0,
     "IMG": "B3/IMG_0251.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "History"]
   },
   {
     "ID": "0252",
@@ -6664,7 +6736,9 @@
     "Pages": 296,
     "Reread": 0,
     "IMG": "B3/IMG_0252.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 5,
+    "Tags": ["Christian", "History"]
   },
   {
     "ID": "0253",
@@ -6676,7 +6750,8 @@
     "Pages": 212,
     "Reread": 0,
     "IMG": "B3/IMG_0253.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0254",
@@ -6688,7 +6763,8 @@
     "Pages": 148,
     "Reread": 0,
     "IMG": "B3/IMG_0254.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0255",
@@ -6700,7 +6776,8 @@
     "Pages": 352,
     "Reread": 0,
     "IMG": "B3/IMG_0255.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0345",
@@ -6712,7 +6789,8 @@
     "Pages": 84,
     "Reread": 0,
     "IMG": "B3/IMG_0345.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0346",
@@ -6724,7 +6802,8 @@
     "Pages": 221,
     "Reread": 0,
     "IMG": "B3/IMG_0346.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0347",
@@ -6736,7 +6815,9 @@
     "Pages": 180,
     "Reread": 0,
     "IMG": "B3/IMG_0347.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 3,
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0348",
@@ -6748,7 +6829,8 @@
     "Pages": 275,
     "Reread": 0,
     "IMG": "B3/IMG_0348.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0349",
@@ -6760,7 +6842,8 @@
     "Pages": 129,
     "Reread": 0,
     "IMG": "B3/IMG_0349.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith"]
   },
   {
     "ID": "0350",
@@ -6772,7 +6855,8 @@
     "Pages": 240,
     "Reread": 0,
     "IMG": "B3/IMG_0350.png",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Christian", "Faith", "Fiction"]
   },
   {
     "ID": "0351",
@@ -6784,7 +6868,9 @@
     "Pages": 292,
     "Reread": 0,
     "IMG": "B3/IMG_0351.png",
-    "Details": ""
+    "Details": "",
+    "Stars": 5,
+    "Tags": ["Christian", "Faith", "Fiction", "Kids", "Youth"]
   },
   {
     "ID": "0633",
@@ -6797,7 +6883,8 @@
     "Reread": 0,
     "IMG": "B3/IMG_0633.png",
     "Updated": "2024_12_01",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Other"]
   },
   {
     "ID": "0634",
@@ -6810,7 +6897,8 @@
     "Reread": 0,
     "IMG": "B3/IMG_0634.png",
     "Updated": "2024_12_01",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Other"]
   },
   {
     "ID": "0352",
