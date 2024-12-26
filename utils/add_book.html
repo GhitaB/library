@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert to JSON</title>
+  </head>
+  <body>
+    <h1>JSON Converter</h1>
+    <label for="textInput">Paste book row from Google Sheets (A to J):</label>
+    <br />
+    <textarea
+      id="textInput"
+      rows="5"
+      cols="50"
+      placeholder="Paste your tab-separated values here..."
+    ></textarea>
+    <br />
+    <button id="convertButton">Convert to JSON</button>
+
+    <script>
+      document
+        .getElementById("convertButton")
+        .addEventListener("click", function () {
+          // Get the value from the textarea
+          const inputText = document.getElementById("textInput").value;
+
+          // Check if input is empty
+          if (!inputText.trim()) {
+            console.warn("Input is empty. Please provide valid data.");
+            return;
+          }
+
+          // Split the input into parts by tabs
+          const values = inputText.split("\t");
+
+          // Map the values to keys A-Z
+          const keys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+          const row = {};
+
+          keys.forEach((key, index) => {
+            if (index < values.length) {
+              row[key] = values[index];
+            }
+          });
+
+          // Log the result as JSON
+          console.log(row);
+
+          const finalJsonObject = {};
+          finalJsonObject.ID = row.A;
+          finalJsonObject.LibraryID = row.B;
+          finalJsonObject.Author = row.C;
+          finalJsonObject.Title = row.D;
+          finalJsonObject.Read = row.E;
+          finalJsonObject.Pages = row.F;
+          finalJsonObject.ReRead = row.J;
+          finalJsonObject.IMG = "TODO";
+          finalJsonObject.Updated = "TODO";
+          finalJsonObject.Details = "";
+          finalJsonObject.Stars = "";
+
+          console.log(finalJsonObject);
+        });
+    </script>
+  </body>
+</html>
