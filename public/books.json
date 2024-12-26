@@ -5120,7 +5120,7 @@
   },
   {
     "ID": "0150",
-    "LibraryID": "B1_030",
+    "LibraryID": "B5_030TODOMOVE",
     "Updated": "2024_12_01",
     "Author": "Dumitru Popa",
     "Title": "Pitcairn",
@@ -5154,6 +5154,20 @@
       "Future",
       "Eschatology"
     ]
+  },
+  {
+    "ID": "0635",
+    "LibraryID": "B1_032-",
+    "Author": "John Norton Loughborough",
+    "Title": "Marea Mișcare Adventă - Apariția și dezvoltarea ei - vol. I",
+    "OriginalTitle": "",
+    "Read": 0,
+    "Pages": 288,
+    "Reread": 0,
+    "IMG": "B1/IMG_0635.png",
+    "Updated": "2024_12_01",
+    "Details": "Istorie adventistă scrisă frumos de unul dintre pionieri.",
+    "Tags": ["Christian", "Adventism", "SDA", "History", "1840s", "1850s"]
   },
   {
     "ID": "0152",
