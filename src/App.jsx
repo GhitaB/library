@@ -70,7 +70,7 @@
 -------------------------------------------------------------------------------
 24.12 E1 ##################################
 24.12 E2 ##################################
-24.12 E3 ############################
+24.12 E3 ##################################
 24.12 E4 ##################################
 24.12 E5 ##################################
 24.12 E6 ##################################
@@ -126,10 +126,10 @@ const App = () => {
     console.log(data);
     // Fix image url using library ID for each item
     const processedData = data
-      .filter((item) => item.LibraryID.startsWith("E6_"))
+      .filter((item) => item.LibraryID.startsWith("E3_"))
       .map((item) => {
-        const newIMG = `E6/IMG_${item.ID}.png`;
-        const newUpdated = "2024_12_23";
+        const newIMG = `E3/IMG_${item.ID}.png`;
+        const newUpdated = "2024_12_27";
         return { ...item, IMG: newIMG, Updated: newUpdated };
       });
     console.log(processedData);
@@ -285,7 +285,7 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>27.12.2024</strong>: NOU! În lucru raftul E3.
+        <strong>27.12.2024</strong>: NOU! Indexat și raftul E3.
       </p>
       <p className="small">
         În lucru... (indexate: aproximativ 650/1000, 367 indexate detaliat.)
@@ -393,7 +393,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("E2_")}>
                     Raftul E2
                   </button>
-                  <button className="pr-3" onClick={() => searchFor("E3_")}>
+                  <button className="pr-4" onClick={() => searchFor("E3_")}>
                     Raftul E3
                   </button>
                   <button className="pr-4" onClick={() => searchFor("E4_")}>
