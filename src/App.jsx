@@ -70,7 +70,7 @@
 -------------------------------------------------------------------------------
 24.12 E1 ##################################
 24.12 E2 ##################################
-24.12 E3 ##?
+24.12 E3 ############################
 24.12 E4 ##################################
 24.12 E5 ##################################
 24.12 E6 ##################################
@@ -285,11 +285,10 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>25.12.2024</strong>: NOU! Imagini cu coperta pentru toate
-        cărțile indexate.
+        <strong>27.12.2024</strong>: NOU! În lucru raftul E3.
       </p>
       <p className="small">
-        În lucru... (indexate: aproximativ 600/1000, 367 indexate detaliat.)
+        În lucru... (indexate: aproximativ 650/1000, 367 indexate detaliat.)
       </p>
 
       <Accordion title="Rafturi" isOpenDefault={true}>
@@ -394,7 +393,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("E2_")}>
                     Raftul E2
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("E3_")}>
+                  <button className="pr-3" onClick={() => searchFor("E3_")}>
                     Raftul E3
                   </button>
                   <button className="pr-4" onClick={() => searchFor("E4_")}>
