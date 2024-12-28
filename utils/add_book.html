@@ -31,36 +31,42 @@
             return;
           }
 
-          // Split the input into parts by tabs
-          const values = inputText.split("\t");
+          result = [];
 
-          // Map the values to keys A-Z
-          const keys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-          const row = {};
+          // It's working with multiple rows, too
+          const books = inputText.split("\n");
 
-          keys.forEach((key, index) => {
-            if (index < values.length) {
-              row[key] = values[index];
-            }
-          });
+          for (let book of books) {
+            // Split the input into parts by tabs
+            let values = book.split("\t");
 
-          // Log the result as JSON
-          console.log(row);
+            // Map the values to keys A-Z
+            let keys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+            let row = {};
 
-          const finalJsonObject = {};
-          finalJsonObject.ID = row.A;
-          finalJsonObject.LibraryID = row.B;
-          finalJsonObject.Author = row.C;
-          finalJsonObject.Title = row.D;
-          finalJsonObject.OriginalTitle = "";
-          finalJsonObject.Read = parseInt(row.E);
-          finalJsonObject.Pages = parseInt(row.F);
-          finalJsonObject.Reread = parseInt(row.J);
-          finalJsonObject.IMG = "IMG_0000.png";
-          finalJsonObject.Updated = "YYYY_MM_DD";
-          finalJsonObject.Details = "";
+            keys.forEach((key, index) => {
+              if (index < values.length) {
+                row[key] = values[index];
+              }
+            });
 
-          console.log(finalJsonObject);
+            let finalJsonObject = {};
+            finalJsonObject.ID = row.A;
+            finalJsonObject.LibraryID = row.B;
+            finalJsonObject.Author = row.C;
+            finalJsonObject.Title = row.D;
+            finalJsonObject.OriginalTitle = "";
+            finalJsonObject.Read = parseInt(row.E);
+            finalJsonObject.Pages = parseInt(row.F);
+            finalJsonObject.Reread = parseInt(row.J);
+            finalJsonObject.IMG = "IMG_0000.png";
+            finalJsonObject.Updated = "YYYY_MM_DD";
+            finalJsonObject.Details = "";
+
+            result.push(finalJsonObject);
+          }
+
+          console.log(result);
         });
     </script>
   </body>
