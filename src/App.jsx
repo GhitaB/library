@@ -497,8 +497,10 @@ const App = () => {
                 </p>
               )}
               <p className="small light book-stats">
-                Citit: {book.Read} / {book.Pages} pagini. Recitit: {book.Reread}{" "}
-                pagini.
+                Citit: {book.Read} / {book.Pages} pagini.{" "}
+                {book.Reread > 0 && (
+                  <span>Recitit: {book.Reread} pagini. </span>
+                )}
               </p>
             </div>
             {book.Stars && (
