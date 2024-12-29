@@ -387,7 +387,7 @@ const App = () => {
         multe criterii.
       </p>
       <p className="small">
-        În lucru... (indexate: aproximativ 770/1000, 367 indexate detaliat.)
+        În lucru... (indexate: aproximativ 780/1000, 367 indexate detaliat.)
       </p>
 
       <Accordion title="Rafturi" isOpenDefault={true}>
