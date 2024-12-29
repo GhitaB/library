@@ -126,10 +126,10 @@ const App = () => {
     console.log(data);
     // Fix image url using library ID for each item
     const processedData = data
-      .filter((item) => item.LibraryID.startsWith("B4_"))
+      .filter((item) => item.LibraryID.startsWith("B5_"))
       .map((item) => {
-        const newIMG = `B4/IMG_${item.ID}.png`;
-        const newUpdated = "2024_12_28";
+        const newIMG = `B5/IMG_${item.ID}.png`;
+        const newUpdated = "2024_12_29";
         return { ...item, IMG: newIMG, Updated: newUpdated };
       });
     console.log(processedData);

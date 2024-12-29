@@ -5184,20 +5184,6 @@
     ]
   },
   {
-    "ID": "0150",
-    "LibraryID": "B5_030TODOMOVE",
-    "Updated": "2024_12_01",
-    "Author": "Dumitru Popa",
-    "Title": "Pitcairn",
-    "Read": 198,
-    "Pages": 198,
-    "Reread": 0,
-    "IMG": "B1/IMG_0150.png",
-    "Details": "Prezintă istoria locuitorilor insulei Pitcairn, o relatare fascinantă, care scoate în evidență în mod pregnant puterea transformatoare a Evangheliei.",
-    "Stars": 5,
-    "Tags": ["Christian", "Adventism", "SDA", "History", "Faith"]
-  },
-  {
     "ID": "0151",
     "LibraryID": "B1_031",
     "Updated": "2024_12_01",
@@ -7524,6 +7510,20 @@
     "Details": ""
   },
   {
+    "ID": "0150",
+    "LibraryID": "B5_030TODOMOVE",
+    "Updated": "2024_12_29",
+    "Author": "Dumitru Popa",
+    "Title": "Pitcairn",
+    "Read": 198,
+    "Pages": 198,
+    "Reread": 0,
+    "IMG": "B5/IMG_0150.png",
+    "Details": "Prezintă istoria locuitorilor insulei Pitcairn, o relatare fascinantă, care scoate în evidență în mod pregnant puterea transformatoare a Evangheliei.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "History", "Faith"]
+  },
+  {
     "ID": "0710",
     "LibraryID": "B5_001",
     "Author": "William G. Johnsson",
@@ -7532,7 +7532,7 @@
     "Read": 150,
     "Pages": 150,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0710.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7545,7 +7545,7 @@
     "Read": 85,
     "Pages": 195,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0711.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7558,7 +7558,7 @@
     "Read": 0,
     "Pages": 48,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0712.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7571,7 +7571,7 @@
     "Read": 0,
     "Pages": 134,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0713.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7584,7 +7584,7 @@
     "Read": 0,
     "Pages": 142,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0714.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7597,7 +7597,7 @@
     "Read": 0,
     "Pages": 150,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0715.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7610,7 +7610,7 @@
     "Read": 0,
     "Pages": 260,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0716.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7623,7 +7623,7 @@
     "Read": 130,
     "Pages": 130,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0717.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7636,7 +7636,7 @@
     "Read": 15,
     "Pages": 194,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0718.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7649,7 +7649,7 @@
     "Read": 30,
     "Pages": 150,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0719.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7662,7 +7662,7 @@
     "Read": 0,
     "Pages": 100,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0720.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7675,7 +7675,7 @@
     "Read": 0,
     "Pages": 167,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0721.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7688,7 +7688,7 @@
     "Read": 111,
     "Pages": 111,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0722.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7701,7 +7701,7 @@
     "Read": 122,
     "Pages": 122,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0723.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7714,7 +7714,7 @@
     "Read": 230,
     "Pages": 230,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0724.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7727,7 +7727,7 @@
     "Read": 10,
     "Pages": 208,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0725.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7740,7 +7740,7 @@
     "Read": 128,
     "Pages": 128,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0726.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7753,7 +7753,7 @@
     "Read": 21,
     "Pages": 181,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0727.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7766,7 +7766,7 @@
     "Read": 0,
     "Pages": 116,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0728.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7779,7 +7779,7 @@
     "Read": 0,
     "Pages": 240,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0729.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7792,7 +7792,7 @@
     "Read": 136,
     "Pages": 136,
     "Reread": 136,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0730.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7805,7 +7805,7 @@
     "Read": 128,
     "Pages": 128,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0731.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7818,7 +7818,7 @@
     "Read": 50,
     "Pages": 184,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0732.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7831,7 +7831,7 @@
     "Read": 302,
     "Pages": 302,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0733.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7844,7 +7844,7 @@
     "Read": 0,
     "Pages": 240,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0734.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7857,7 +7857,7 @@
     "Read": 117,
     "Pages": 117,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0735.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7870,7 +7870,7 @@
     "Read": 0,
     "Pages": 368,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0736.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7883,7 +7883,7 @@
     "Read": 178,
     "Pages": 178,
     "Reread": 178,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0737.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7896,7 +7896,7 @@
     "Read": 350,
     "Pages": 350,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0738.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7909,7 +7909,7 @@
     "Read": 230,
     "Pages": 230,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0739.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7922,7 +7922,7 @@
     "Read": 61,
     "Pages": 194,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0740.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7935,7 +7935,7 @@
     "Read": 92,
     "Pages": 92,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0741.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7948,7 +7948,7 @@
     "Read": 0,
     "Pages": 103,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0742.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7961,7 +7961,7 @@
     "Read": 20,
     "Pages": 146,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0743.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7974,7 +7974,7 @@
     "Read": 0,
     "Pages": 120,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0744.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -7987,7 +7987,7 @@
     "Read": 71,
     "Pages": 71,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0745.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8000,7 +8000,7 @@
     "Read": 0,
     "Pages": 78,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0746.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8013,7 +8013,7 @@
     "Read": 0,
     "Pages": 160,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0747.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8026,7 +8026,7 @@
     "Read": 0,
     "Pages": 68,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0748.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8039,7 +8039,7 @@
     "Read": 0,
     "Pages": 80,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0749.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8052,7 +8052,7 @@
     "Read": 152,
     "Pages": 152,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0750.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8065,7 +8065,7 @@
     "Read": 0,
     "Pages": 132,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0751.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8078,7 +8078,7 @@
     "Read": 5,
     "Pages": 376,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0752.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8091,7 +8091,7 @@
     "Read": 62,
     "Pages": 62,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0753.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8104,7 +8104,7 @@
     "Read": 0,
     "Pages": 220,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0754.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8117,7 +8117,7 @@
     "Read": 20,
     "Pages": 216,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0755.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8130,7 +8130,7 @@
     "Read": 0,
     "Pages": 390,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0756.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8143,7 +8143,7 @@
     "Read": 0,
     "Pages": 222,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0757.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8156,7 +8156,7 @@
     "Read": 0,
     "Pages": 210,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0758.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8169,7 +8169,7 @@
     "Read": 0,
     "Pages": 160,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0759.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8182,7 +8182,7 @@
     "Read": 60,
     "Pages": 60,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0760.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8195,7 +8195,7 @@
     "Read": 188,
     "Pages": 188,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0761.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8208,7 +8208,7 @@
     "Read": 114,
     "Pages": 114,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0762.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8221,7 +8221,7 @@
     "Read": 94,
     "Pages": 94,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0763.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8234,7 +8234,7 @@
     "Read": 0,
     "Pages": 320,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0764.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8247,7 +8247,7 @@
     "Read": 0,
     "Pages": 176,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0765.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8260,7 +8260,7 @@
     "Read": 0,
     "Pages": 168,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0766.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
@@ -8273,7 +8273,7 @@
     "Read": 0,
     "Pages": 144,
     "Reread": 0,
-    "IMG": "IMG_0000.png",
+    "IMG": "B5/IMG_0767.png",
     "Updated": "2024_12_29",
     "Details": ""
   },
