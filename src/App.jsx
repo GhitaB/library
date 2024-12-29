@@ -50,8 +50,8 @@
 24.12 B2 ######################################################################
 24.12 B3 ##################################
 24.12 B4 ##################################
-24.12 B5 #############################
-24.12 B6 ##?
+24.12 B5 ##################################
+24.12 B6 #############################
 -------------------------------------------------------------------------------
 24.12 C1 ##?
 24.12 C2 ##?
@@ -387,7 +387,7 @@ const App = () => {
         multe criterii.
       </p>
       <p className="small">
-        În lucru... (indexate: aproximativ 780/1000, 367 indexate detaliat.)
+        În lucru... (indexate: aproximativ 820/1000, 367 indexate detaliat.)
       </p>
 
       <Accordion title="Rafturi" isOpenDefault={true}>
@@ -438,7 +438,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("B5_")}>
                     Raftul B5
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("B6_")}>
+                  <button className="pr-3" onClick={() => searchFor("B6_")}>
                     Raftul B6
                   </button>
                 </td>
