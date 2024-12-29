@@ -1709,6 +1709,19 @@
     "Tags": ["Christian", "Bible", "History", "Ancient"]
   },
   {
+    "ID": "0705",
+    "LibraryID": "A3_002-",
+    "Author": "VDC, KJV",
+    "Title": "Biblia - Holy Bible - ediție bilingvă",
+    "OriginalTitle": "",
+    "Read": 10,
+    "Pages": 1930,
+    "Reread": 0,
+    "IMG": "IMG_0000.png",
+    "Updated": "2024_12_29",
+    "Details": ""
+  },
+  {
     "ID": "0075",
     "LibraryID": "A3_002",
     "Updated": "2024_12_01",
@@ -2515,7 +2528,7 @@
   },
   {
     "ID": "0118",
-    "LibraryID": "A3_045",
+    "LibraryID": "A3_045TODOMOVE",
     "Updated": "2024_12_01",
     "Author": "AZSMR",
     "Title": "Ce se află în spatele Noii Ordini Mondiale?",
@@ -2537,7 +2550,7 @@
   },
   {
     "ID": "0119",
-    "LibraryID": "A3_046",
+    "LibraryID": "A3_046TODOMOVE",
     "Updated": "2024_12_01",
     "Author": "Ariel A. Roth",
     "Title": "Origini - Sunt Știința și Scriptura ireconciliabile?",
@@ -2551,7 +2564,7 @@
   },
   {
     "ID": "0120",
-    "LibraryID": "A3_047",
+    "LibraryID": "A3_047TODOMOVE",
     "Updated": "2024_12_01",
     "Author": "AZSMR",
     "Title": "Evanghelia în umbră și realitate",
@@ -4603,6 +4616,58 @@
     "IMG": "A6/IMG_0629.png",
     "Details": "Carte ilustrată pentru copii.",
     "Tags": ["Christian", "Bible", "Kids"]
+  },
+  {
+    "ID": "0706",
+    "LibraryID": "A6_038",
+    "Author": "Sueli Ferreira de Oliveira, Marcos De Benedicto",
+    "Title": "Povestea lui Moise în bandă desenată",
+    "OriginalTitle": "",
+    "Read": 0,
+    "Pages": 48,
+    "Reread": 0,
+    "IMG": "IMG_0000.png",
+    "Updated": "2024_12_29",
+    "Details": ""
+  },
+  {
+    "ID": "0707",
+    "LibraryID": "A6_039",
+    "Author": "Societatea Misionară Română",
+    "Title": "Tânărul creștin - Manualul lucrătorului cu tinerii creștini",
+    "OriginalTitle": "",
+    "Read": 0,
+    "Pages": 214,
+    "Reread": 0,
+    "IMG": "IMG_0000.png",
+    "Updated": "2024_12_29",
+    "Details": ""
+  },
+  {
+    "ID": "0708",
+    "LibraryID": "A6_040",
+    "Author": "Ralph Kirby, John Bunyan",
+    "Title": "Călătoria Creștinului în imagini",
+    "OriginalTitle": "",
+    "Read": 126,
+    "Pages": 126,
+    "Reread": 126,
+    "IMG": "IMG_0000.png",
+    "Updated": "2024_12_29",
+    "Details": ""
+  },
+  {
+    "ID": "0709",
+    "LibraryID": "A6_041",
+    "Author": "Ralph Kirby, John Bunyan",
+    "Title": "Călătoria Creștinului în imagini",
+    "OriginalTitle": "",
+    "Read": 122,
+    "Pages": 122,
+    "Reread": 0,
+    "IMG": "IMG_0000.png",
+    "Updated": "2024_12_29",
+    "Details": ""
   },
   {
     "ID": "0121",
