@@ -276,6 +276,7 @@ const App = () => {
   };
 
   const sortOptions = [
+    { value: "library_id", label: "Ordinea implicită" },
     { value: "last_updated", label: "Actualizate recent" },
     { value: "pages_asc", label: "Pagini (crescător)" },
     { value: "pages_desc", label: "Pagini (descrescător)" },
@@ -283,7 +284,7 @@ const App = () => {
     { value: "to_read", label: "Cu ce să încep?" },
   ];
 
-  const [selectedSort, setSelectedSort] = useState("last_updated");
+  const [selectedSort, setSelectedSort] = useState("library_id");
 
   const handleChangeSort = (event) => {
     const value = event.target.value;
@@ -291,6 +292,39 @@ const App = () => {
   };
 
   const getSortedBooks = (books, sort) => {
+    if (sort === "library_id") {
+      const booksDefaultOrder = [...books].sort((a, b) => {
+        const extractParts = (id) => {
+          const match = id.match(/^([A-Za-z0-9_]+)([-+]*$)/);
+          return {
+            base: match[1], // ex. A3_005
+            suffix: match[2] || "", // "++" "---"
+          };
+        };
+
+        const { base: baseA, suffix: suffixA } = extractParts(a.LibraryID);
+        const { base: baseB, suffix: suffixB } = extractParts(b.LibraryID);
+
+        if (baseA > baseB) return 1;
+        if (baseA < baseB) return -1;
+
+        if (suffixA === suffixB) return 0;
+        if (suffixA === "" && suffixB.startsWith("-")) return 1;
+        if (suffixB === "" && suffixA.startsWith("-")) return -1;
+
+        const countMinusA = suffixA.split("-").length - 1;
+        const countMinusB = suffixB.split("-").length - 1;
+        const countPlusA = suffixA.split("+").length - 1;
+        const countPlusB = suffixB.split("+").length - 1;
+
+        if (countMinusA !== countMinusB) return countMinusA - countMinusB;
+        if (countPlusA !== countPlusB) return countPlusA - countPlusB;
+
+        return 0;
+      });
+      return booksDefaultOrder;
+    }
+
     if (sort === "last_updated") {
       const booksLatestUpdated = [...books].sort((a, b) => {
         if (a.Updated < b.Updated) return 1;
