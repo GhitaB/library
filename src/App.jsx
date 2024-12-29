@@ -50,7 +50,7 @@
 24.12 B2 ######################################################################
 24.12 B3 ##################################
 24.12 B4 ##################################
-24.12 B5 ##?
+24.12 B5 #############################
 24.12 B6 ##?
 -------------------------------------------------------------------------------
 24.12 C1 ##?
@@ -285,10 +285,10 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>28.12.2024</strong>: NOU! Indexat și raftul B4.
+        <strong>29.12.2024</strong>: NOU! Indexat și raftul B5.
       </p>
       <p className="small">
-        În lucru... (indexate: aproximativ 700/1000, 367 indexate detaliat.)
+        În lucru... (indexate: aproximativ 750/1000, 367 indexate detaliat.)
       </p>
 
       <Accordion title="Rafturi" isOpenDefault={true}>
@@ -336,7 +336,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("B4_")}>
                     Raftul B4
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("B5_")}>
+                  <button className="pr-3" onClick={() => searchFor("B5_")}>
                     Raftul B5
                   </button>
                   <button className="pr-1" onClick={() => searchFor("B6_")}>
