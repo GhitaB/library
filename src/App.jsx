@@ -263,12 +263,6 @@ const App = () => {
     return searchIn.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
-  const booksLatestUpdated = [...filteredBooks].sort((a, b) => {
-    if (a.Updated < b.Updated) return 1;
-    if (a.Updated > b.Updated) return -1;
-    return 0;
-  });
-
   const bookStatusClass = (read, pages) => {
     if (read === pages) {
       return "read";
@@ -281,11 +275,82 @@ const App = () => {
     }
   };
 
+  const sortOptions = [
+    { value: "last_updated", label: "Actualizate recent" },
+    { value: "pages_asc", label: "Pagini (crescător)" },
+    { value: "pages_desc", label: "Pagini (descrescător)" },
+    { value: "rating", label: "Cele mai bune" },
+    { value: "to_read", label: "Cu ce să încep?" },
+  ];
+
+  const [selectedSort, setSelectedSort] = useState("last_updated");
+
+  const handleChangeSort = (event) => {
+    const value = event.target.value;
+    setSelectedSort(value);
+  };
+
+  const getSortedBooks = (books, sort) => {
+    if (sort === "last_updated") {
+      const booksLatestUpdated = [...books].sort((a, b) => {
+        if (a.Updated < b.Updated) return 1;
+        if (a.Updated > b.Updated) return -1;
+        return 0;
+      });
+      return booksLatestUpdated;
+    }
+    if (sort === "pages_asc") {
+      const booksPagesAsc = [...books].sort((a, b) => {
+        if (a.Pages > b.Pages) return 1;
+        if (a.Pages < b.Pages) return -1;
+        return 0;
+      });
+      return booksPagesAsc;
+    }
+    if (sort === "pages_desc") {
+      const booksPagesDesc = [...books].sort((a, b) => {
+        if (a.Pages < b.Pages) return 1;
+        if (a.Pages > b.Pages) return -1;
+        return 0;
+      });
+      return booksPagesDesc;
+    }
+    if (sort === "rating") {
+      const booksRating = [...books].sort((a, b) => {
+        if (a.Stars === undefined && b.Stars === undefined) return 0;
+        if (a.Stars === undefined) return 1;
+        if (b.Stars === undefined) return -1;
+        if (a.Stars < b.Stars) return 1;
+        if (a.Stars > b.Stars) return -1;
+        return 0;
+      });
+      return booksRating;
+    }
+    if (sort === "to_read") {
+      const booksToRead = [...books].sort((a, b) => {
+        let a_remaining = a.Pages - a.Read;
+        let b_remaining = b.Pages - b.Read;
+
+        if (a_remaining === 0 && b_remaining === 0) return 0;
+        if (a_remaining === 0) return 1;
+        if (b_remaining === 0) return -1;
+
+        if (a_remaining < b_remaining) return -1;
+        if (a_remaining > b_remaining) return 1;
+
+        return 0;
+      });
+      return booksToRead;
+    }
+    return [];
+  };
+
   return (
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>29.12.2024</strong>: NOU! Indexat și raftul B5.
+        <strong>29.12.2024</strong>: NOU! Acum poți ordona cărțile după mai
+        multe criterii.
       </p>
       <p className="small">
         În lucru... (indexate: aproximativ 750/1000, 367 indexate detaliat.)
@@ -336,7 +401,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("B4_")}>
                     Raftul B4
                   </button>
-                  <button className="pr-3" onClick={() => searchFor("B5_")}>
+                  <button className="pr-4" onClick={() => searchFor("B5_")}>
                     Raftul B5
                   </button>
                   <button className="pr-1" onClick={() => searchFor("B6_")}>
@@ -443,9 +508,18 @@ const App = () => {
         onChange={(e) => searchFor(e.target.value)}
       />
 
+      <select id="sort-select" value={selectedSort} onChange={handleChangeSort}>
+        {sortOptions.map((option) => (
+          <option key={option.value} value={option.value}>
+            {option.label}
+          </option>
+        ))}
+      </select>
+
       <div className="book-list">
         <Stats books={filteredBooks} />
-        {booksLatestUpdated.map((book) => (
+
+        {getSortedBooks(filteredBooks, selectedSort).map((book) => (
           <div
             key={book.ID}
             className={`book ${bookStatusClass(book.Read, book.Pages)}`}
