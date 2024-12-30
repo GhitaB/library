@@ -126,9 +126,9 @@ const App = () => {
     console.log(data);
     // Fix image url using library ID for each item
     const processedData = data
-      .filter((item) => item.LibraryID.startsWith("B6_"))
+      .filter((item) => item.LibraryID.startsWith("D2_"))
       .map((item) => {
-        const newIMG = `B6/IMG_${item.ID}.png`;
+        const newIMG = `D2/IMG_${item.ID}.png`;
         const newUpdated = "2024_12_30";
         return { ...item, IMG: newIMG, Updated: newUpdated };
       });
@@ -468,7 +468,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("D1_")}>
                     Raftul D1
                   </button>
-                  <button className="pr-3" onClick={() => searchFor("D2_")}>
+                  <button className="pr-4" onClick={() => searchFor("D2_")}>
                     Raftul D2
                   </button>
                   <button className="pr-1" onClick={() => searchFor("D3_")}>
