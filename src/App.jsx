@@ -64,7 +64,7 @@
 24.12 D1 ##################################
 24.12 D2 ##################################
 24.12 D3 ##################################
-24.12 D4 ##?
+24.12 D4 #############################
 24.12 D5 ##?
 24.12 D6 ##?
 -------------------------------------------------------------------------------
@@ -383,7 +383,7 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>30.12.2024</strong>: NOU! Cărțile din raftul D3.
+        <strong>30.12.2024</strong>: NOU! Cărțile din raftul D4.
       </p>
       <p className="small">
         În lucru... (indexate: aproximativ 900/1000, 367 indexate detaliat.)
@@ -474,7 +474,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("D3_")}>
                     Raftul D3
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("D4_")}>
+                  <button className="pr-3" onClick={() => searchFor("D4_")}>
                     Raftul D4
                   </button>
                   <button className="pr-1" onClick={() => searchFor("D5_")}>
