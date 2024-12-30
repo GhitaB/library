@@ -62,8 +62,8 @@
 24.12 C7 ##?
 -------------------------------------------------------------------------------
 24.12 D1 ##################################
-24.12 D2 ############################
-24.12 D3 ##?
+24.12 D2 ##################################
+24.12 D3 ############################
 24.12 D4 ##?
 24.12 D5 ##?
 24.12 D6 ##?
@@ -471,7 +471,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("D2_")}>
                     Raftul D2
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("D3_")}>
+                  <button className="pr-3" onClick={() => searchFor("D3_")}>
                     Raftul D3
                   </button>
                   <button className="pr-1" onClick={() => searchFor("D4_")}>
