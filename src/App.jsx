@@ -2,8 +2,8 @@
  HOW TO:
  Convert all jpegs to png:
     $ mogrify -format png *.jpeg
- Resize width 300 px for all pngs in this folder:
-    $ mogrify -resize 300x *.png
+ Resize width 200 px for all pngs in this folder:
+    $ mogrify -resize 200x *.png
  Cleanup
     $ rm *.jpeg
 
@@ -66,7 +66,7 @@
 30.12 D3 ##################################
 30.12 D4 ##################################
 31.12 D5 ##################################
-31.12 D6 ############################
+31.12 D6 ##################################
 -------------------------------------------------------------------------------
 24.12 E1 ##################################
 24.12 E2 ##################################
@@ -126,9 +126,9 @@ const App = () => {
     console.log(data);
     // Fix image url using library ID for each item
     const processedData = data
-      .filter((item) => item.LibraryID.startsWith("D5_"))
+      .filter((item) => item.LibraryID.startsWith("D6_"))
       .map((item) => {
-        const newIMG = `D5/IMG_${item.ID}.png`;
+        const newIMG = `D6/IMG_${item.ID}.png`;
         const newUpdated = "2024_12_31";
         return { ...item, IMG: newIMG, Updated: newUpdated };
       });
@@ -480,7 +480,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("D5_")}>
                     Raftul D5
                   </button>
-                  <button className="pr-3" onClick={() => searchFor("D6_")}>
+                  <button className="pr-4" onClick={() => searchFor("D6_")}>
                     Raftul D6
                   </button>
                 </td>
