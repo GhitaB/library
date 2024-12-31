@@ -54,7 +54,7 @@
 30.12 B6 ##################################
 -------------------------------------------------------------------------------
 31.12 C1 ##################################
-24.12 C2 ##?
+01.01 C2 ##############################
 24.12 C3 ##?
 24.12 C4 ##?
 24.12 C5 ##?
@@ -445,7 +445,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("C1_")}>
                     Raftul C1
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("C2_")}>
+                  <button className="pr-3" onClick={() => searchFor("C2_")}>
                     Raftul C2
                   </button>
                   <button className="pr-1" onClick={() => searchFor("C3_")}>
