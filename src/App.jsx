@@ -53,7 +53,7 @@
 30.12 B5 ##################################
 30.12 B6 ##################################
 -------------------------------------------------------------------------------
-31.12 C1 ##############################
+31.12 C1 ##################################
 24.12 C2 ##?
 24.12 C3 ##?
 24.12 C4 ##?
@@ -116,23 +116,23 @@ const App = () => {
   const [authorCounts, setAuthorCounts] = useState({});
 
   const TEMPOperation = (data) => {
-    console.log(data);
-    // Use it for custom operations with json books
-    if (data === undefined) {
-      console.log("AAA");
-      return;
-    }
-
-    console.log(data);
-    // Fix image url using library ID for each item
-    const processedData = data
-      .filter((item) => item.LibraryID.startsWith("D6_"))
-      .map((item) => {
-        const newIMG = `D6/IMG_${item.ID}.png`;
-        const newUpdated = "2024_12_31";
-        return { ...item, IMG: newIMG, Updated: newUpdated };
-      });
-    console.log(processedData);
+    // console.log(data);
+    // // Use it for custom operations with json books
+    // if (data === undefined) {
+    //   console.log("AAA");
+    //   return;
+    // }
+    //
+    // console.log(data);
+    // // Fix image url using library ID for each item
+    // const processedData = data
+    //   .filter((item) => item.LibraryID.startsWith("C1_"))
+    //   .map((item) => {
+    //     const newIMG = `C1/IMG_${item.ID}.png`;
+    //     const newUpdated = "2024_12_31";
+    //     return { ...item, IMG: newIMG, Updated: newUpdated };
+    //   });
+    // console.log(processedData);
   };
 
   useEffect(() => {
@@ -442,7 +442,7 @@ const App = () => {
                   </button>
                 </td>
                 <td>
-                  <button className="pr-3" onClick={() => searchFor("C1_")}>
+                  <button className="pr-4" onClick={() => searchFor("C1_")}>
                     Raftul C1
                   </button>
                   <button className="pr-1" onClick={() => searchFor("C2_")}>
