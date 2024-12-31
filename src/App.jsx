@@ -65,7 +65,7 @@
 30.12 D2 ##################################
 30.12 D3 ##################################
 30.12 D4 ##################################
-31.12 D5 ############################
+31.12 D5 ##################################
 24.12 D6 ##?
 -------------------------------------------------------------------------------
 24.12 E1 ##################################
@@ -126,10 +126,10 @@ const App = () => {
     console.log(data);
     // Fix image url using library ID for each item
     const processedData = data
-      .filter((item) => item.LibraryID.startsWith("D4_"))
+      .filter((item) => item.LibraryID.startsWith("D5_"))
       .map((item) => {
-        const newIMG = `D4/IMG_${item.ID}.png`;
-        const newUpdated = "2024_12_30";
+        const newIMG = `D5/IMG_${item.ID}.png`;
+        const newUpdated = "2024_12_31";
         return { ...item, IMG: newIMG, Updated: newUpdated };
       });
     console.log(processedData);
@@ -383,10 +383,10 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>30.12.2024</strong>: NOU! Cărțile din raftul D4.
+        <strong>31.12.2024</strong>: NOU! Cărțile din raftul D5.
       </p>
       <p className="small">
-        În lucru... (indexate: aproximativ 950/1000, 367 indexate detaliat.)
+        În lucru... (indexate: aproximativ 980/1100, 367 indexate detaliat.)
       </p>
 
       <Accordion title="Rafturi" isOpenDefault={true}>
@@ -477,7 +477,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("D4_")}>
                     Raftul D4
                   </button>
-                  <button className="pr-3" onClick={() => searchFor("D5_")}>
+                  <button className="pr-4" onClick={() => searchFor("D5_")}>
                     Raftul D5
                   </button>
                   <button className="pr-1" onClick={() => searchFor("D6_")}>
