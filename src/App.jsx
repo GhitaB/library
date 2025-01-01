@@ -55,11 +55,11 @@
 -------------------------------------------------------------------------------
 31.12 C1 ##################################
 01.01 C2 ##################################
-24.12 C3 ##?
-24.12 C4 ##?
-24.12 C5 ##?
-24.12 C6 ##?
-24.12 C7 ##?
+01.01 C3 #############################
+01.01 C4 ## EMPTY
+01.01 C5 ## EMPTY
+01.01 C6 ## EMPTY
+01.01 C7 ## EMPTY
 -------------------------------------------------------------------------------
 30.12 D1 ##################################
 30.12 D2 ##################################
@@ -383,10 +383,10 @@ const App = () => {
     <div className="App">
       <h1 onClick={() => searchFor("")}>Ghiță B. - Biblioteca personală</h1>
       <p className="news">
-        <strong>01.01.2024</strong>: NOU! Cărțile din raftul C2.
+        Cu libertate, cărți, flori și lună, cine n-ar fi fericit?
       </p>
       <p className="small">
-        În lucru... (indexate: aproximativ 1080/1150, 367 indexate detaliat.)
+        Acum toate cărțile mele sunt aici. 367 din 1114 sunt indexate detaliat.
       </p>
 
       <Accordion title="Rafturi" isOpenDefault={true}>
@@ -448,20 +448,20 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("C2_")}>
                     Raftul C2
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("C3_")}>
+                  <button className="pr-3" onClick={() => searchFor("C3_")}>
                     Raftul C3
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("C4_")}>
-                    Raftul C4
+                  <button className="pr-0" onClick={() => searchFor("C4_")}>
+                    C4 empty
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("C5_")}>
-                    Raftul C5
+                  <button className="pr-0" onClick={() => searchFor("C5_")}>
+                    C5 empty
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("C6_")}>
-                    Raftul C6
+                  <button className="pr-0" onClick={() => searchFor("C6_")}>
+                    C6 empty
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("C7_")}>
-                    Raftul C7
+                  <button className="pr-0" onClick={() => searchFor("C7_")}>
+                    C7 empty
                   </button>
                 </td>
                 <td>
