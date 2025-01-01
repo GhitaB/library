@@ -55,7 +55,7 @@
 -------------------------------------------------------------------------------
 31.12 C1 ##################################
 01.01 C2 ##################################
-01.01 C3 #############################
+01.01 C3 ##################################
 01.01 C4 ## EMPTY
 01.01 C5 ## EMPTY
 01.01 C6 ## EMPTY
@@ -126,9 +126,9 @@ const App = () => {
     // console.log(data);
     // // Fix image url using library ID for each item
     // const processedData = data
-    //   .filter((item) => item.LibraryID.startsWith("C2_"))
+    //   .filter((item) => item.LibraryID.startsWith("C3_"))
     //   .map((item) => {
-    //     const newIMG = `C2/IMG_${item.ID}.png`;
+    //     const newIMG = `C3/IMG_${item.ID}.png`;
     //     const newUpdated = "2025_01_01";
     //     return { ...item, IMG: newIMG, Updated: newUpdated };
     //   });
@@ -448,7 +448,7 @@ const App = () => {
                   <button className="pr-4" onClick={() => searchFor("C2_")}>
                     Raftul C2
                   </button>
-                  <button className="pr-3" onClick={() => searchFor("C3_")}>
+                  <button className="pr-4" onClick={() => searchFor("C3_")}>
                     Raftul C3
                   </button>
                   <button className="pr-0" onClick={() => searchFor("C4_")}>
