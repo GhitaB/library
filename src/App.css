@@ -105,6 +105,10 @@ p.tags span {
   margin-bottom: 3px;
   padding: 2px 4px;
   display: inline-block;
+}
+
+span.clickable {
+  color: #bf3100;
   cursor: pointer;
 }
 

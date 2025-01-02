@@ -221,6 +221,9 @@ const App = () => {
       if (searchType === "ONLY_AUTHOR") {
         finalTerm = "author:" + term;
       }
+      if (searchType === "ONLY_BOOK") {
+        finalTerm = "book:" + term;
+      }
       setSearchTerm(finalTerm);
       setSearchParams({ q: finalTerm });
       setResultsTitle(humanReadableTitle(term));
@@ -263,6 +266,15 @@ const App = () => {
     if (searchTerm.includes("author:")) {
       searchIn = `${book.Author}`;
       let term = searchTerm.split("author:")[1];
+      if (term) {
+        return searchIn.toLowerCase().includes(term.toLowerCase());
+      }
+    }
+
+    // ONLY_BOOK
+    if (searchTerm.includes("book:")) {
+      searchIn = `${book.ID}`;
+      let term = searchTerm.split("book:")[1];
       if (term) {
         return searchIn.toLowerCase().includes(term.toLowerCase());
       }
@@ -395,6 +407,8 @@ const App = () => {
         type = "ONLY_TAGS";
       } else if (query.startsWith("author:")) {
         type = "ONLY_AUTHOR";
+      } else if (query.startsWith("book:")) {
+        type = "ONLY_BOOK";
       }
 
       const actualTerm = type ? query.split(":")[1] : query;
@@ -585,7 +599,21 @@ const App = () => {
             <img src={`/library/images/${book.IMG}`} alt={book.Title} />
             <div className="book-info">
               <p className="small light">
-                {book.ID} / {book.LibraryID}
+                <span
+                  className="clickable"
+                  title="Selectează cartea"
+                  onClick={() => searchFor(book.ID, "ONLY_BOOK")}
+                >
+                  {book.ID}
+                </span>{" "}
+                /{" "}
+                <span
+                  className="clickable"
+                  title="Cărțile de pe acest raft"
+                  onClick={() => searchFor(book.LibraryID.split("_")[0] + "_")}
+                >
+                  {book.LibraryID}
+                </span>
               </p>
               <h2>{book.Title}</h2>
               {book.OriginalTitle && (
