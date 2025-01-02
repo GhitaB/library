@@ -105,6 +105,7 @@ p.tags span {
   margin-bottom: 3px;
   padding: 2px 4px;
   display: inline-block;
+  cursor: pointer;
 }
 
 span.clickable {
