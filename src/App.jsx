@@ -78,9 +78,10 @@
               1.1  2.1  2.2  3.1  3.2 4.1  4.2  4.3  4.4  4.5  4.6  5.1  5.2
  ^ Last update
 */
-import { useState, useEffect, useRef } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import "./App.css";
 import Accordion from "./Accordion";
+import { useSearchParams } from "react-router-dom";
 
 const Stats = (props) => {
   /* eslint-disable react/prop-types */
@@ -114,6 +115,7 @@ const App = () => {
   const [resultsTitle, setResultsTitle] = useState("Toate cărțile");
   const [tagCounts, setTagCounts] = useState({});
   const [authorCounts, setAuthorCounts] = useState({});
+  const [searchParams, setSearchParams] = useSearchParams();
 
   const TEMPOperation = (data) => {
     // console.log(data);
@@ -209,18 +211,23 @@ const App = () => {
     }
   };
 
-  const searchFor = (term, searchType = undefined) => {
-    let finalTerm = term;
-    if (searchType === "ONLY_TAGS") {
-      finalTerm = "tagged:" + term;
-    }
-    if (searchType === "ONLY_AUTHOR") {
-      finalTerm = "author:" + term;
-    }
-    setSearchTerm(finalTerm);
-    setResultsTitle(humanReadableTitle(term));
-    scrollToResultsTitle();
-  };
+  const searchFor = useCallback(
+    (term, searchType = undefined) => {
+      console.log(`Searching for: ${term}, type: ${searchType}`);
+      let finalTerm = term;
+      if (searchType === "ONLY_TAGS") {
+        finalTerm = "tagged:" + term;
+      }
+      if (searchType === "ONLY_AUTHOR") {
+        finalTerm = "author:" + term;
+      }
+      setSearchTerm(finalTerm);
+      setSearchParams({ q: finalTerm });
+      setResultsTitle(humanReadableTitle(term));
+      scrollToResultsTitle();
+    },
+    [setSearchParams],
+  );
 
   useEffect(() => {
     fetch("books.json")
@@ -378,6 +385,24 @@ const App = () => {
     }
     return [];
   };
+
+  useEffect(() => {
+    const query = searchParams.get("q");
+    if (query) {
+      let type = undefined;
+
+      if (query.startsWith("tagged:")) {
+        type = "ONLY_TAGS";
+      } else if (query.startsWith("author:")) {
+        type = "ONLY_AUTHOR";
+      }
+
+      const actualTerm = type ? query.split(":")[1] : query;
+
+      setSearchTerm(actualTerm);
+      searchFor(actualTerm, type);
+    }
+  }, [searchFor, searchParams]);
 
   return (
     <div className="App">
