@@ -1897,15 +1897,28 @@
   {
     "ID": "0084",
     "LibraryID": "A3_011",
-    "Updated": "2024_12_01",
+    "Updated": "2025_01_02",
     "Author": "AZSMR",
     "Title": "Cine a schimbat vremurile și legea?",
-    "Read": 1,
+    "Read": 16,
     "Pages": 16,
     "Reread": 0,
     "IMG": "A3/IMG_0084.png",
-    "Details": "Broșură veche, cred că se distribuia gratuit.",
-    "Tags": ["Christian", "Adventism", "SDARM"]
+    "Details": "Broșură veche (1947), cred că se distribuia gratuit. Despre profeții ale VT și NT cu privire la fiară, chipul fiarei, semnul fiarei și păzirea poruncilor la timpul sfârșitului.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDARM",
+      "Prophecy",
+      "History",
+      "Future",
+      "1940s"
+    ],
+    "Review": {
+      "url": "https://ghitab.net/2025/01/02/cine-a-schimbat-vremurile-si-legea-azsmr/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0085",
