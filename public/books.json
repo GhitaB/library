@@ -10903,14 +10903,20 @@
   {
     "ID": "0299",
     "LibraryID": "D1_043",
-    "Updated": "2024_12_01",
+    "Updated": "2025_01_02",
     "Author": "Atelier TM",
     "Title": "Atelier - rețete culinare raw",
-    "Read": 10,
-    "Pages": 20,
+    "Read": 18,
+    "Pages": 18,
     "Reread": 0,
     "IMG": "D1/IMG_0299.png",
-    "Details": ""
+    "Details": "Pagini de rețete culinare, de la un atelier, primite de la un participant. Mi le-am tipărit, să le am la îndemână. Miaam.",
+    "Stars": 5,
+    "Tags": ["Health", "Food", "Read 2025"],
+    "Review": {
+      "url": "https://ghitab.net/2025/01/02/retete-culinare-raw-notite/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0300",
