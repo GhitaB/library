@@ -8626,7 +8626,9 @@
     "Reread": 0,
     "IMG": "B6/IMG_0791.png",
     "Updated": "2024_12_30",
-    "Details": ""
+    "Details": "",
+    "Stars": 5,
+    "Tags": ["Dinotopia", "Kids", "Fiction"]
   },
   {
     "ID": "0792",
@@ -8639,24 +8641,13 @@
     "Reread": 0,
     "IMG": "B6/IMG_0792.png",
     "Updated": "2024_12_30",
-    "Details": ""
-  },
-  {
-    "ID": "0793",
-    "LibraryID": "B6_013",
-    "Author": "James Gurney",
-    "Title": "Dinotopia - Journey to Chandara",
-    "OriginalTitle": "",
-    "Read": 35,
-    "Pages": 190,
-    "Reread": 0,
-    "IMG": "B6/IMG_0793.png",
-    "Updated": "2025_01_03",
-    "Details": ""
+    "Details": "",
+    "Stars": 5,
+    "Tags": ["Dinotopia", "Kids", "Fiction"]
   },
   {
     "ID": "0794",
-    "LibraryID": "B6_014",
+    "LibraryID": "B6_013",
     "Author": "James Gurney",
     "Title": "Dinotopia - First Flight",
     "OriginalTitle": "",
@@ -8665,7 +8656,26 @@
     "Reread": 0,
     "IMG": "B6/IMG_0794.png",
     "Updated": "2024_12_30",
-    "Details": ""
+    "Details": "",
+    "Tags": ["Dinotopia", "Kids", "Fiction"]
+  },
+  {
+    "ID": "0793",
+    "LibraryID": "B6_014",
+    "Author": "James Gurney",
+    "Title": "Dinotopia - Journey to Chandara",
+    "Read": 190,
+    "Pages": 190,
+    "Reread": 0,
+    "IMG": "B6/IMG_0793.png",
+    "Updated": "2025_01_03",
+    "Details": "A patra carte din seria Dinotopia, bogată în ilustrații color realizate superb.",
+    "Stars": 5,
+    "Review": {
+      "url": "https://ghitab.net/2025/01/03/dinotopia-journey-to-chandara-james-gurney/",
+      "text": "Recenzia mea"
+    },
+    "Tags": ["Dinotopia", "Kids", "Fiction", "Read 2025"]
   },
   {
     "ID": "0795",
