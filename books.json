@@ -4993,15 +4993,27 @@
   {
     "ID": "0139",
     "LibraryID": "B1_019",
-    "Updated": "2024_12_01",
+    "Updated": "2025_01_03",
     "Author": "Robert J. Wieland",
     "Title": "Vindecarea căsătoriei",
-    "Read": 19,
+    "Read": 48,
     "Pages": 48,
     "Reread": 0,
     "IMG": "B1/IMG_0139.png",
-    "Details": "Cum să trăiești cu un partener dificil?",
-    "Tags": ["Christian", "Adventism", "SDA", "Relationships", "Family"]
+    "Details": "Cum să trăiești cu un partener dificil? Despre rezolvarea problemelor între partenerii de viață.",
+    "Stars": 3,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Relationships",
+      "Family",
+      "Read 2025"
+    ],
+    "Review": {
+      "url": "https://ghitab.net/2025/01/03/vindecarea-casatoriei-robert-j-wieland/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0140",
@@ -8635,11 +8647,11 @@
     "Author": "James Gurney",
     "Title": "Dinotopia - Journey to Chandara",
     "OriginalTitle": "",
-    "Read": 0,
+    "Read": 35,
     "Pages": 190,
     "Reread": 0,
     "IMG": "B6/IMG_0793.png",
-    "Updated": "2024_12_30",
+    "Updated": "2025_01_03",
     "Details": ""
   },
   {
