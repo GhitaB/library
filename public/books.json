@@ -1278,16 +1278,29 @@
   {
     "ID": "0056",
     "LibraryID": "A2_024",
-    "Updated": "2024_12_01",
-    "Author": "Ellen G. White",
+    "Updated": "2025_01_03",
+    "Author": "SDARM",
     "Title": "Timpul și lucrarea",
-    "OriginalTitle": "-- ?? --",
-    "Read": 1,
+    "Read": 24,
     "Pages": 24,
     "Reread": 0,
     "IMG": "A2/IMG_0056.png",
-    "Details": "O carte pentru biserică.",
-    "Tags": ["Christian", "Adventism", "SDA", "EGW", "Church"]
+    "Details": "O carte pentru biserică (1928?) despre înțelegerea timpului și implicarea în lucrarea misionară.",
+    "Stars": 3,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDARM",
+      "Church",
+      "Evangelism",
+      "Prophecy",
+      "Future",
+      "Read 2025"
+    ],
+    "Review": {
+      "url": "https://ghitab.net/2025/01/03/timpul-si-lucrarea-sdarm/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0057",
