@@ -555,26 +555,37 @@ const App = () => {
         <Accordion title="Subiecte" isOpenDefault={false}>
           <p className="tags small">
             {Object.entries(tagCounts)
-              .sort((a, b) => a[0].localeCompare(b[0]))
-              .map(([tag, count]) => (
-                <span key={tag} onClick={() => searchFor(tag, "ONLY_TAGS")}>
-                  {tag} ({count})
-                </span>
-              ))}
+              .sort((a, b) => b[1] - a[1])
+              .map(([tag, count]) => {
+                const fontSize = Math.min(16, Math.max(10, 10 + count));
+                return (
+                  <span
+                    key={tag}
+                    onClick={() => searchFor(tag, "ONLY_TAGS")}
+                    style={{ fontSize: `${fontSize}px` }}
+                  >
+                    {tag} ({count})
+                  </span>
+                );
+              })}
           </p>
         </Accordion>
         <Accordion title="Autori" isOpenDefault={false}>
           <p className="tags small">
             {Object.entries(authorCounts)
-              .sort((a, b) => a[0].localeCompare(b[0]))
-              .map(([author, count]) => (
-                <span
-                  key={author}
-                  onClick={() => searchFor(author, "ONLY_AUTHOR")}
-                >
-                  {author} ({count})
-                </span>
-              ))}
+              .sort((a, b) => b[1] - a[1])
+              .map(([author, count]) => {
+                const fontSize = Math.min(16, Math.max(10, 10 + count));
+                return (
+                  <span
+                    key={author}
+                    onClick={() => searchFor(author, "ONLY_AUTHOR")}
+                    style={{ fontSize: `${fontSize}px` }}
+                  >
+                    {author} ({count})
+                  </span>
+                );
+              })}
           </p>
         </Accordion>
       </div>
