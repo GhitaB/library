@@ -150,7 +150,10 @@ const App = () => {
   useEffect(() => {
     const tagMap = {};
     books.forEach((book) => {
-      tagMap[book.Author] = (tagMap[book.Author] || 0) + 1;
+      const authors = book.Author.split(",").map((author) => author.trim());
+      authors.forEach((author) => {
+        tagMap[author] = (tagMap[author] || 0) + 1;
+      });
     });
     setAuthorCounts(tagMap);
   }, [books]);
@@ -564,9 +567,12 @@ const App = () => {
           <p className="tags small">
             {Object.entries(authorCounts)
               .sort((a, b) => a[0].localeCompare(b[0]))
-              .map(([tag, count]) => (
-                <span key={tag} onClick={() => searchFor(tag, "ONLY_AUTHOR")}>
-                  {tag} ({count})
+              .map(([author, count]) => (
+                <span
+                  key={author}
+                  onClick={() => searchFor(author, "ONLY_AUTHOR")}
+                >
+                  {author} ({count})
                 </span>
               ))}
           </p>
