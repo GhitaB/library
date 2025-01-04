@@ -8355,13 +8355,18 @@
     "LibraryID": "B5_062",
     "Author": "Mark A. Frees",
     "Title": "Ce am găsit",
-    "OriginalTitle": "",
-    "Read": 0,
+    "Read": 31,
     "Pages": 31,
     "Reread": 0,
     "IMG": "B5/IMG_0774.png",
-    "Updated": "2024_12_29",
-    "Details": ""
+    "Updated": "2025_01_04",
+    "Details": "Un pastor demisionează pentru a se alătura unei adunări a fraților din Plymouth. Explică aici ce experiență superioară i-a adus această schimbare. (Spoiler: s-a rătăcit pe o altă cărare – ceva mai îngustă.)",
+    "Stars": 2,
+    "Review": {
+      "url": "https://ghitab.net/2025/01/04/ce-am-gasit-mark-a-frees/",
+      "text": "Recenzia mea"
+    },
+    "Tags": ["Other", "Read 2025"]
   },
   {
     "ID": "0775",
@@ -10313,7 +10318,7 @@
     "Author": "Florin Lăiu",
     "Title": "Sindromul Minneapolis",
     "OriginalTitle": "",
-    "Read": 0,
+    "Read": 26,
     "Pages": 300,
     "Reread": 0,
     "IMG": "C3/IMG_1104.png",
