@@ -621,11 +621,16 @@ const App = () => {
                   <em>({book.OriginalTitle})</em>
                 </p>
               )}
-              <p
-                className="author"
-                onClick={() => searchFor(book.Author, "ONLY_AUTHOR")}
-              >
-                {book.Author}
+              <p className="author">
+                {book.Author.split(",").map((author, index) => (
+                  <span
+                    key={index}
+                    onClick={() => searchFor(author.trim(), "ONLY_AUTHOR")}
+                  >
+                    {author.trim()}
+                    {index < book.Author.split(",").length - 1 && ", "}
+                  </span>
+                ))}
               </p>
               <p className="small details">{book.Details}</p>
               {book.ReadOnline?.url && (
