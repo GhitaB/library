@@ -1997,15 +1997,20 @@
   {
     "ID": "0089",
     "LibraryID": "A3_016",
-    "Updated": "2024_12_01",
-    "Author": "AZSMR",
+    "Updated": "2025_01_04",
+    "Author": "SDA",
     "Title": "Harul, da! Dar legea?",
-    "Read": 1,
+    "Read": 32,
     "Pages": 32,
     "Reread": 0,
     "IMG": "A3/IMG_0089.png",
-    "Details": "Broșură veche, cred că se distribuia gratuit.",
-    "Tags": ["Christian", "Adventism", "SDARM"]
+    "Details": "Broșură veche, cred că se distribuia gratuit. Clarifică faptul că legea divină e neschimbătoare și nu intră deloc în conflict cu harul - ambele fiind exprimări ale iubirii lui Dumnezeu față de om. Legea ne descoperă păcatul, harul ne schimbă.",
+    "Stars": 5,
+    "Tags": ["Christian", "Adventism", "SDA", "Faith", "Bible", "Read 2025"],
+    "Review": {
+      "url": "https://ghitab.net/2025/01/04/harul-da-dar-legea/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0090",
