@@ -11488,13 +11488,19 @@
     "LibraryID": "D2_034",
     "Author": "Jeff Keller",
     "Title": "Atitudinea este totul",
-    "OriginalTitle": "",
+    "OriginalTitle": "Attitude is Everything",
     "Read": 170,
     "Pages": 170,
     "Reread": 0,
     "IMG": "D2/IMG_0859.png",
-    "Updated": "2024_12_30",
-    "Details": ""
+    "Updated": "2020_12_30",
+    "Details": "Gândurile ne influențează acțiunile. Și o adunătură de alte zicale, bla bla.",
+    "Tags": ["Education", "Psychology", "Personal development", "Read 2020"],
+    "Stars": 3,
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/atitudinea-este-totul/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0860",
@@ -12242,26 +12248,38 @@
     "LibraryID": "D4_008",
     "Author": "Chris Anderson",
     "Title": "TED Talks - ghidul oficial TED pentru vorbit în public",
-    "OriginalTitle": "",
+    "OriginalTitle": "TED Talks: The Official TED Guide to Public Speaking",
     "Read": 320,
     "Pages": 320,
     "Reread": 0,
     "IMG": "D4/IMG_0917.png",
-    "Updated": "2024_12_30",
-    "Details": ""
+    "Updated": "2020_12_30",
+    "Details": "Cea mai bună carte despre cum să ții un discurs cu public din ce am găsit.",
+    "Stars": 5,
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/ted-talks-ghidul-oficial-ted-pentru-vorbit-in-public-de-chris-anderson-citate/",
+      "text": "Recenzia mea"
+    },
+    "Tags": ["Education", "Personal development", "Read 2020"]
   },
   {
     "ID": "0918",
     "LibraryID": "D4_009",
     "Author": "Ashlee Vance",
     "Title": "Elon Musk. Tesla. SpaceX",
-    "OriginalTitle": "",
+    "OriginalTitle": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
     "Read": 434,
     "Pages": 434,
     "Reread": 0,
     "IMG": "D4/IMG_0918.png",
     "Updated": "2024_12_30",
-    "Details": ""
+    "Stars": 4,
+    "Tags": ["Biography", "Science", "Read 2020"],
+    "Details": "Povestea detaliată a acestui om.",
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/cate-ceva-despre-elon-musk-1/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0919",
@@ -13605,14 +13623,21 @@
   {
     "ID": "0423",
     "LibraryID": "E1_014",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "Hans-Joachim Gehrke",
     "Title": "Alexandru cel Mare",
+    "OriginalTitle": "Alexander der Grosse",
     "Read": 120,
     "Pages": 120,
     "Reread": 0,
     "IMG": "E1/IMG_0423.png",
-    "Details": ""
+    "Details": "O istorie pe scurt.",
+    "Stars": 4,
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/alexandru-cel-mare-de-hans-joachim-gehrke/",
+      "text": "Recenzia mea"
+    },
+    "Tags": ["History", "Biography", "Read 2020"]
   },
   {
     "ID": "0424",
