@@ -3924,7 +3924,7 @@
   {
     "ID": "0581",
     "LibraryID": "A5_039",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "Rolf Dobelli",
     "Title": "Arta de a trăi fără știri!",
     "Read": 185,
@@ -3932,8 +3932,12 @@
     "Reread": 0,
     "IMG": "A5/IMG_0581.png",
     "Details": "Suntem un dezastru în materie de receptare a știrilor. Ne temem de terorism, dar nu avem nicio problemă să ne facem selfie pe marginea prăpastiei.",
-    "Stars": 4,
-    "Tags": ["Personal development", "Mind", "Psychology"]
+    "Stars": 5,
+    "Tags": ["Personal development", "Mind", "Psychology", "Read 2020"],
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/arta-de-a-trai-fara-stiri-rolf-dobelli/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0582",
@@ -4009,8 +4013,8 @@
   {
     "ID": "0587",
     "LibraryID": "A5_045",
-    "Updated": "2024_12_01",
-    "Author": "Călin",
+    "Updated": "2020_12_30",
+    "Author": "Eugen Mihăescu",
     "Title": "Codul bunelor maniere pentru toate vârstele",
     "Read": 112,
     "Pages": 112,
@@ -4018,7 +4022,11 @@
     "IMG": "A5/IMG_0587.png",
     "Details": "Exact ce zice titlul.",
     "Stars": 4,
-    "Tags": ["Personal development", "Relationships"]
+    "Tags": ["Personal development", "Relationships", "Read 2020"],
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/codul-bunelor-maniere-pentru-toate-varstele-eugen-mihaescu/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0588",
@@ -4851,7 +4859,7 @@
   {
     "ID": "0130",
     "LibraryID": "B1_010",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "Alonzo T. Jones, Ellet Joseph Waggoner",
     "Title": "Articole și predici - Lecții despre credință",
     "Read": 178,
@@ -4859,8 +4867,21 @@
     "Reread": 0,
     "IMG": "B1/IMG_0130.png",
     "Details": "O colecție de articole și predici despre credință.",
-    "Stars": 4,
-    "Tags": ["Christian", "Adventism", "SDA", "Faith", "1888", "1880s", "1890s"]
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Faith",
+      "1888",
+      "1880s",
+      "1890s",
+      "Read 2020"
+    ],
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/lectii-despre-credinta-a-t-jones-si-e-j-waggoner/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0131",
@@ -5494,7 +5515,7 @@
   {
     "ID": "0167",
     "LibraryID": "B2_001",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "SDA Archive",
     "Title": "The Christian Experience of William E. Foy",
     "OriginalTitle": "The Christian Experience of William E. Foy",
@@ -5504,7 +5525,19 @@
     "IMG": "B2/IMG_0167.png",
     "Details": "William Foy a fost un pastor baptist negru care a avut viziuni religioase și le-a împărtășit la adunările Millerite din 1842-1845. El a fost primul dintre cei trei care au primit viziuni divine în această perioadă, urmat de Hazen Foss şi Ellen G. White.",
     "Stars": 5,
-    "Tags": ["Christian", "Adventism", "SDA", "Church", "1840s", "History"]
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Church",
+      "1840s",
+      "History",
+      "Read 2020"
+    ],
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/the-christian-experience-of-william-e-foy/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0168",
@@ -6508,15 +6541,27 @@
   {
     "ID": "0228",
     "LibraryID": "B3_005",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "Zoltan Boldischar",
     "Title": "Chiar dacă se va nărui cerul",
     "Read": 114,
     "Pages": 114,
     "Reread": 0,
     "IMG": "B3/IMG_0228.png",
-    "Details": "",
-    "Tags": ["Christian", "Adventism", "SDARM", "History", "Faith"]
+    "Details": "Experiențe, pagini de istorie ale bisericii în timpul comunismului.",
+    "Stars": 5,
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDARM",
+      "History",
+      "Faith",
+      "Read 2020"
+    ],
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/chiar-daca-se-va-narui-cerul-zoltan-boldischar/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0229",
@@ -10931,14 +10976,21 @@
   {
     "ID": "0296",
     "LibraryID": "D1_039",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "John Hudson",
     "Title": "Lecții de supraviețuire în condiții extreme",
+    "OriginalTitle": "How to Survive",
     "Read": 256,
     "Pages": 256,
     "Reread": 0,
     "IMG": "D1/IMG_0296.png",
-    "Details": ""
+    "Details": "Instructor șef de supraviețuire al armatei britanice, arată cum strategiile pentru situații de viață sau de moarte ne pot ajuta să excelăm în viața de zi cu zi.",
+    "Stars": 5,
+    "Tags": ["Education", "Personal development", "Survival", "Read 2020"],
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/lectii-de-supravietuire-in-conditii-extreme-john-hudson/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0297",
@@ -11436,13 +11488,19 @@
     "LibraryID": "D2_030",
     "Author": "Robert T. Kiyosaki",
     "Title": "Tată bogat, tată sărac",
-    "OriginalTitle": "",
+    "OriginalTitle": "Rich Dad Poor Dad",
     "Read": 10,
     "Pages": 190,
     "Reread": 0,
     "IMG": "D2/IMG_0855.png",
-    "Updated": "2024_12_30",
-    "Details": ""
+    "Updated": "2020_12_30",
+    "Details": "Foarte mult bla bla.",
+    "Stars": 2,
+    "Tags": ["Education", "Personal development", "Read 2020"],
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/tata-bogat-tata-sarac-robert-t-kiyosaki/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0856",
@@ -13599,14 +13657,21 @@
   {
     "ID": "0421",
     "LibraryID": "E1_012",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "Sun Tzu",
     "Title": "Arta războiului",
+    "OriginalTitle": "The Art of War",
     "Read": 158,
     "Pages": 158,
     "Reread": 158,
     "IMG": "E1/IMG_0421.png",
-    "Details": ""
+    "Details": "Când ofițerii se înfurie ușor, înseamnă că sunt epuizați.",
+    "Stars": 4,
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/arta-razboiului-sun-tzu/",
+      "text": "Recenzia mea"
+    },
+    "Tags": ["Education", "Survival", "Personal development", "Read 2020"]
   },
   {
     "ID": "0422",
@@ -14050,14 +14115,21 @@
   {
     "ID": "0458",
     "LibraryID": "E2_007",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "John Boyne",
     "Title": "Băiatul cu pijamale în dungi",
+    "OriginalTitle": "The Boy in the Striped Pyjamas",
     "Read": 230,
     "Pages": 230,
     "Reread": 0,
     "IMG": "E2/IMG_0458.png",
-    "Details": ""
+    "Details": "O poveste emoționantă care se întâmplă la Out-With (numele dat de autor pentru Auschwitz).",
+    "Stars": 5,
+    "Tags": ["Fiction", "Read 2020"],
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/baiatul-cu-pijamale-in-dungi-john-boyne/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0459",
@@ -14086,14 +14158,21 @@
   {
     "ID": "0461",
     "LibraryID": "E2_010",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "Władysław Szpilman",
     "Title": "Pianistul - amintiri din Varșovia",
+    "OriginalTitle": "The Pianist: The Extraordinary True Story of One Man's Survival in Warsaw, 1939-1945",
     "Read": 275,
     "Pages": 275,
     "Reread": 0,
     "IMG": "E2/IMG_0461.png",
-    "Details": ""
+    "Details": "O carte document, istoria unui pianist evreu care supraviețuiește la limită și ajunge să fie salvat de un ofițer german.",
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/pianistul-amintiri-din-varsovia-wladyslaw-szpilman/",
+      "text": "Recenzia mea"
+    },
+    "Tags": ["History", "1930s", "1940s", "Survival", "Read 2020"],
+    "Stars": 5
   },
   {
     "ID": "0462",
@@ -14290,14 +14369,20 @@
   {
     "ID": "0478",
     "LibraryID": "E2_027",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "Gavril Cornuțiu",
     "Title": "Tragedia și suferințele omului Mihai Eminescu - ultimii șase ani din viață",
     "Read": 125,
     "Pages": 125,
     "Reread": 0,
     "IMG": "E2/IMG_0478.png",
-    "Details": ""
+    "Details": "O analiză din punct de vedere medical al ultimilor ani de viață ai lui Eminescu.",
+    "Stars": 5,
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/tragedia-si-suferintele-omului-mihai-eminescu-ultimii-sase-ani-din-viata-gavril-cornutiu/",
+      "text": "Recenzia mea"
+    },
+    "Tags": ["History", "Biography", "Health", "Read 2020"]
   },
   {
     "ID": "0479",
@@ -14942,26 +15027,40 @@
   {
     "ID": "0502",
     "LibraryID": "E4_008",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "George Orwell",
     "Title": "1984",
+    "OriginalTitle": "Nineteen Eighty-Four",
     "Read": 344,
     "Pages": 344,
     "Reread": 344,
     "IMG": "E4/IMG_0502.png",
-    "Details": ""
+    "Details": "Îl aducem de partea noastră nu aparent, ci de-adevăratelea, din tot sufletul. Îl transformăm într-unul de-ai noștri înainte de a-l omorî.",
+    "Stars": 3,
+    "Tags": ["Fiction", "Read 2020"],
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/o-mie-noua-sute-optzeci-si-patru-george-orwell/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0503",
     "LibraryID": "E4_009",
-    "Updated": "2024_12_01",
+    "Updated": "2020_12_30",
     "Author": "George Orwell",
     "Title": "Ferma animalelor",
+    "OriginalTitle": "Animal Farm",
     "Read": 205,
     "Pages": 205,
     "Reread": 205,
     "IMG": "E4/IMG_0503.png",
-    "Details": ""
+    "Details": "Toate animalele sunt egale. Dar unele animale sunt mai egale decât altele.",
+    "Stars": 4,
+    "Tags": ["Fiction", "Read 2020"],
+    "Review": {
+      "url": "https://ghitab.net/2020/12/30/ferma-animalelor-george-orwell/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0504",
