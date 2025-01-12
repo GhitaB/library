@@ -9808,13 +9808,18 @@
     "LibraryID": "C2_014",
     "Author": "Antologie",
     "Title": "Muguri iertați - crâmpeie antologice de debut",
-    "OriginalTitle": "",
-    "Read": 0,
+    "Read": 118,
     "Pages": 118,
     "Reread": 0,
     "IMG": "C2/IMG_1061.png",
-    "Updated": "2025_01_01",
-    "Details": ""
+    "Updated": "2025_01_12",
+    "Details": "Colecție de poezii creștine, moderne ca stil.",
+    "Stars": 3,
+    "Tags": ["Christian", "Poetry", "Read 2025"],
+    "Review": {
+      "url": "https://ghitab.net/2025/01/12/muguri-iertati-crampeie-antologice-de-debut/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "1062",
