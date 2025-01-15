@@ -427,9 +427,6 @@ const App = () => {
       <p className="news">
         Cu libertate, cărți, flori și lună, cine n-ar fi fericit?
       </p>
-      <p className="small">
-        Acum toate cărțile mele sunt aici. 367 din 1114 sunt indexate detaliat.
-      </p>
 
       <Accordion title="Rafturi" isOpenDefault={true}>
         <div className="library-table-container">
