@@ -8705,14 +8705,18 @@
     "LibraryID": "B6_013",
     "Author": "James Gurney",
     "Title": "Dinotopia - First Flight",
-    "OriginalTitle": "",
-    "Read": 0,
+    "Read": 110,
     "Pages": 110,
     "Reread": 0,
     "IMG": "B6/IMG_0794.png",
-    "Updated": "2024_12_30",
-    "Details": "",
-    "Tags": ["Dinotopia", "Kids", "Fiction"]
+    "Updated": "2025_01_17",
+    "Details": "A treia carte din Dinotopia, cu ilustrații full color.",
+    "Tags": ["Dinotopia", "Kids", "Fiction", "Read 2025"],
+    "Stars": 4,
+    "Review": {
+      "url": "https://ghitab.net/2025/01/17/dinotopia-first-flight-james-gurney/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0793",
