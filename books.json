@@ -7767,8 +7767,14 @@
     "Pages": 111,
     "Reread": 0,
     "IMG": "B5/IMG_0722.png",
-    "Updated": "2024_12_29",
-    "Details": ""
+    "Updated": "2021_01_26",
+    "Stars": 5,
+    "Details": "Despre Louis Passebois, unul dintre primii adventiști din Europa, misionar.",
+    "Review": {
+      "url": "https://ghitab.net/2021/01/26/uriasul-mic-de-statura-mabel-robinson-miller/",
+      "text": "Recenzia mea"
+    },
+    "Tags": ["Christian", "Adventism", "SDA", "History", "Biography"]
   },
   {
     "ID": "0723",
@@ -7879,13 +7885,27 @@
     "LibraryID": "B5_022",
     "Author": "June Strong",
     "Title": "Proiect Sunlight",
-    "OriginalTitle": "",
+    "OriginalTitle": "Project Sunlight",
     "Read": 128,
     "Pages": 128,
     "Reread": 0,
     "IMG": "B5/IMG_0731.png",
-    "Updated": "2024_12_29",
-    "Details": ""
+    "Updated": "2021_01_29",
+    "Details": "O poveste care se întâmplă în viitor, în legătură cu evenimentele descrise în Apocalipsa.",
+    "Stars": 4,
+    "Review": {
+      "url": "https://ghitab.net/2021/01/29/proiect-sunlight-june-strong/",
+      "text": "Recenzia mea"
+    },
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "Future",
+      "Fiction",
+      "Prophecy",
+      "Eschatology"
+    ]
   },
   {
     "ID": "0732",
@@ -11540,13 +11560,18 @@
     "LibraryID": "D2_026",
     "Author": "Liviu Coriolan Dejeu, Magdalena Georgescu",
     "Title": "Tăierea și conducerea viței de vie",
-    "OriginalTitle": "",
     "Read": 20,
     "Pages": 126,
     "Reread": 0,
     "IMG": "D2/IMG_0851.png",
-    "Updated": "2024_12_30",
-    "Details": ""
+    "Updated": "2021_01_04",
+    "Details": "Te învață cum să îngrijești vița de vie.",
+    "Stars": 4,
+    "Tags": ["Garden", "Education"],
+    "Review": {
+      "url": "https://ghitab.net/2021/01/04/taierea-si-conducerea-vitei-de-vie-liviu-coriolan-dejeu/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0852",
@@ -15277,14 +15302,20 @@
   {
     "ID": "0513",
     "LibraryID": "E4_019",
-    "Updated": "2024_12_01",
+    "Updated": "2021_01_24",
     "Author": "Vasile Alecsandri",
     "Title": "Porojan",
     "Read": 88,
     "Pages": 88,
     "Reread": 0,
     "IMG": "E4/IMG_0513.png",
-    "Details": ""
+    "Details": "Porojan, Borsec, Balta-Albă",
+    "Stars": 3,
+    "Tags": ["Kids", "Youth"],
+    "Review": {
+      "url": "https://ghitab.net/2021/01/24/porojan-vasile-alecsandri/",
+      "text": "Recenzia mea"
+    }
   },
   {
     "ID": "0514",
