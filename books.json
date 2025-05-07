@@ -13373,7 +13373,7 @@
     "Updated": "2025_05_02",
     "Details": "Frumos legată. Se citește cam în timpul în care ai mânca o înghețată. Și e delicioasă.",
     "Stars": 5,
-    "Tags": ["Art", "Kids", "Youth", "Read 2025"]
+    "Tags": ["Art", "Kids", "Youth", "Fiction", "Read 2025"]
   },
   {
     "ID": "1123",
@@ -13388,7 +13388,7 @@
     "Updated": "2025_05_05",
     "Details": "Mistică și filosofică, dar au fost și pasaje care mi-au plăcut.",
     "Stars": 2,
-    "Tags": ["Other", "Read 2025"]
+    "Tags": ["Other", "Fiction", "Read 2025"]
   },
   {
     "ID": "1124",
@@ -13404,6 +13404,27 @@
     "Details": "Îți bagă în cap o imagine (pildă) despre adaptarea la schimbare, pe care n-ai cum să o uiți.",
     "Stars": 4,
     "Tags": ["Personal development", "Education", "Youth", "Read 2025"]
+  },
+  {
+    "ID": "1125",
+    "LibraryID": "D5_037",
+    "Author": "Richard Bach",
+    "Title": "Pescărușul Jonathan Livingstone",
+    "OriginalTitle": "Jonathan Livingstone Seagull",
+    "Read": 140,
+    "Pages": 140,
+    "Reread": 0,
+    "IMG": "D5/IMG_1125.png",
+    "Updated": "2025_05_07",
+    "Details": "O cărticică drăguță despre curajul de a fi diferit, căutarea perfecțiunii, urmărirea propriului vis, dragoste și compasiune.",
+    "Stars": 4,
+    "Tags": [
+      "Personal development",
+      "Education",
+      "Youth",
+      "Read 2025",
+      "Fiction"
+    ]
   },
   {
     "ID": "0983",
