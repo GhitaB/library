@@ -644,7 +644,11 @@ const App = () => {
               {book.ReadOnline?.url && (
                 <p className="small align-right">
                   ►
-                  <a href={book.ReadOnline.url} target="_blank">
+                  <a
+                    href={book.ReadOnline.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {book.ReadOnline.text}
                   </a>
                 </p>
@@ -652,7 +656,11 @@ const App = () => {
               {book.Review?.url && (
                 <p className="small align-right">
                   ►
-                  <a href={book.Review.url} target="_blank">
+                  <a
+                    href={book.Review.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {book.Review.text}
                   </a>
                 </p>
