@@ -110,6 +110,11 @@ const App = () => {
   const [tagCounts, setTagCounts] = useState({});
   const [authorCounts, setAuthorCounts] = useState({});
   const [searchParams, setSearchParams] = useSearchParams();
+  const getAuthors = (author = "") =>
+    author
+      .split(",")
+      .map((name) => name.trim())
+      .filter(Boolean);
 
   const TEMPOperation = (data) => {
     // console.log(data);
@@ -144,8 +149,7 @@ const App = () => {
   useEffect(() => {
     const tagMap = {};
     books.forEach((book) => {
-      const authors = book.Author.split(",").map((author) => author.trim());
-      authors.forEach((author) => {
+      getAuthors(book.Author).forEach((author) => {
         tagMap[author] = (tagMap[author] || 0) + 1;
       });
     });
@@ -630,13 +634,13 @@ const App = () => {
                 </p>
               )}
               <p className="author">
-                {book.Author.split(",").map((author, index) => (
+                {getAuthors(book.Author).map((author, index, list) => (
                   <span
-                    key={index}
-                    onClick={() => searchFor(author.trim(), "ONLY_AUTHOR")}
+                    key={author}
+                    onClick={() => searchFor(author, "ONLY_AUTHOR")}
                   >
-                    {author.trim()}
-                    {index < book.Author.split(",").length - 1 && ", "}
+                    {author}
+                    {index < list.length - 1 && ", "}
                   </span>
                 ))}
               </p>
