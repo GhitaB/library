@@ -1,1 +1,4 @@
+Do not implement tests or do tests, I will test.
+
+List of commands:
 MOVE: see move.txt
