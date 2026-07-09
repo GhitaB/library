@@ -12,3 +12,8 @@ $ npm install
 $ npm run dev
 http://localhost:5173/library/
 ```
+
+## Deploy (gh-pages)
+```
+$ npm run deploy
+```
