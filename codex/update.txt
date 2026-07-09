@@ -1,0 +1,6 @@
+UPDATE command will update the Updated field of each book in books.json for a given category.
+For example: UPDATE A2
+You will search for each book having LibraryID starting with A2_ then
+you will update the Updated field with a new date.
+Default date is current date (use existing format).
+Else use the date I will give you, example: UPDATE A2 2025_12_31 (in this case you will use my date)

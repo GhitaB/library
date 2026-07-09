@@ -34,7 +34,7 @@
 ===============================================================================
 YY.MM         1.1  2.1  2.2  3.1  3.2 4.1  4.2  4.3  4.4  4.5  4.6  5.1
 26.07 A1 ######################################################################
------ A2
+26.07 A2 #################### TODO update photo for history book
 ----- A3
 ----- A4
 ----- A5
@@ -446,7 +446,7 @@ const App = () => {
                   <button className="pr-5" onClick={() => searchFor("A1_")}>
                     Raftul A1
                   </button>
-                  <button className="pr-1" onClick={() => searchFor("A2_")}>
+                  <button className="pr-2" onClick={() => searchFor("A2_")}>
                     Raftul A2
                   </button>
                   <button className="pr-1" onClick={() => searchFor("A3_")}>

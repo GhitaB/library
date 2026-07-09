@@ -3,3 +3,4 @@ Do not implement tests or do tests, I will test.
 List of commands:
 MOVE: see move.txt
 FIX IMAGES: see fix_images.txt
+UPDATE: see update.txt
