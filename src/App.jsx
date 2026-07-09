@@ -230,7 +230,7 @@ const App = () => {
       setResultsTitle(humanReadableTitle(term));
       scrollToResultsTitle();
     },
-    [setSearchParams],
+    [setSearchParams]
   );
 
   useEffect(() => {
@@ -252,7 +252,11 @@ const App = () => {
   const filteredBooks = books.filter((book) => {
     let searchIn = "";
     // Default search - chech all fields
-    searchIn = `${textStars(book.Stars)} ${book.ID} ${book.LibraryID} ${book.Title} ${book.OriginalTitle || ""} ${book.Author} ${book.Pages} ${book.Read} ${book.Reread} ${book.Details} ${(book.Tags || []).join(" ")}`;
+    searchIn = `${textStars(book.Stars)} ${book.ID} ${book.LibraryID} ${
+      book.Title
+    } ${book.OriginalTitle || ""} ${book.Author} ${book.Pages} ${book.Read} ${
+      book.Reread
+    } ${book.Details} ${(book.Tags || []).join(" ")}`;
 
     // ONLY_TAGS
     if (searchTerm.includes("tagged:")) {
@@ -682,10 +686,8 @@ const App = () => {
                 </p>
               )}
               <p className="small light book-stats">
-                Citit: {book.Read} / {book.Pages} pagini.{" "}
-                {book.Reread > 0 && (
-                  <span>Recitit: {book.Reread} pagini. </span>
-                )}
+                Update: {book.Updated} Citit: {book.Read} / {book.Pages} p.{" "}
+                {book.Reread > 0 && <span>Recitit: {book.Reread} p. </span>}
               </p>
             </div>
             {book.Stars && (
