@@ -1,0 +1,8 @@
+In books.json file, each book has a category like A2 and a Library ID starting with this category like A2_001 (meaning first book in A2 category).
+After we move some books from a category to another one the images of each book are not in the correct folder anymore.
+With FIX IMAGES command we will fix this, so each image will be moved in the correct folder and the path in json file will be updated.
+
+Example: FIX IMAGES A2
+You will verify each book in A2 (Library ID starting with A2_), you will check the IMG field.
+If the image is not in A2, then first you will go to images folder and move the image file to the correct folder.
+Then you will update the IMG field "IMG": "A4/IMG_0373.png", -> "IMG": "A2/IMG_0373.png", - for example - note the ID must remain unchanged.
