@@ -1,0 +1,3 @@
+CODEX: To move a book in json you will search for old ID (LibraryID), replace it with the new ID, and move the item in json file in the right section (we try to keep it sorted as the books are in library).
+Example of command: Move A3_027 -> A2_018
+A3_027 is the old LibraryID, A2_018 is the new LibraryID
