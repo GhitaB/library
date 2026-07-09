@@ -33,14 +33,14 @@
       STATUS: 1    2         3        4                             5
 ===============================================================================
 YY.MM         1.1  2.1  2.2  3.1  3.2 4.1  4.2  4.3  4.4  4.5  4.6  5.1
-25.12 A1 ######################################################################
-25.12 A2 ######################################################################
-25.12 A3 ######################################################################
-25.12 A4 ######################################################################
-25.12 A5 ######################################################################
-25.12 A6 ######################################################################
+26.07 A1 ######################################################################
+----- A2
+----- A3
+----- A4
+----- A5
+----- A6
 -------------------------------------------------------------------------------
-26.01 B1 ######################################################################
+----- B1
 ----- B2
 ----- B3
 ----- B4
@@ -446,102 +446,102 @@ const App = () => {
                   <button className="pr-5" onClick={() => searchFor("A1_")}>
                     Raftul A1
                   </button>
-                  <button className="pr-5" onClick={() => searchFor("A2_")}>
+                  <button className="pr-1" onClick={() => searchFor("A2_")}>
                     Raftul A2
                   </button>
-                  <button className="pr-5" onClick={() => searchFor("A3_")}>
+                  <button className="pr-1" onClick={() => searchFor("A3_")}>
                     Raftul A3
                   </button>
-                  <button className="pr-5" onClick={() => searchFor("A4_")}>
+                  <button className="pr-1" onClick={() => searchFor("A4_")}>
                     Raftul A4
                   </button>
-                  <button className="pr-5" onClick={() => searchFor("A5_")}>
+                  <button className="pr-1" onClick={() => searchFor("A5_")}>
                     Raftul A5
                   </button>
-                  <button className="pr-5" onClick={() => searchFor("A6_")}>
+                  <button className="pr-1" onClick={() => searchFor("A6_")}>
                     Raftul A6
                   </button>
                 </td>
                 <td>
-                  <button className="pr-5" onClick={() => searchFor("B1_")}>
+                  <button className="pr-1" onClick={() => searchFor("B1_")}>
                     Raftul B1
                   </button>
-                  <button className="pr-5" onClick={() => searchFor("B2_")}>
+                  <button className="pr-1" onClick={() => searchFor("B2_")}>
                     Raftul B2
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("B3_")}>
+                  <button className="pr-1" onClick={() => searchFor("B3_")}>
                     Raftul B3
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("B4_")}>
+                  <button className="pr-1" onClick={() => searchFor("B4_")}>
                     Raftul B4
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("B5_")}>
+                  <button className="pr-1" onClick={() => searchFor("B5_")}>
                     Raftul B5
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("B6_")}>
+                  <button className="pr-1" onClick={() => searchFor("B6_")}>
                     Raftul B6
                   </button>
                 </td>
                 <td>
-                  <button className="pr-4" onClick={() => searchFor("C1_")}>
+                  <button className="pr-1" onClick={() => searchFor("C1_")}>
                     Raftul C1
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("C2_")}>
+                  <button className="pr-1" onClick={() => searchFor("C2_")}>
                     Raftul C2
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("C3_")}>
+                  <button className="pr-1" onClick={() => searchFor("C3_")}>
                     Raftul C3
                   </button>
-                  <button className="pr-0" onClick={() => searchFor("C4_")}>
+                  <button className="pr-1" onClick={() => searchFor("C4_")}>
                     C4 empty
                   </button>
-                  <button className="pr-0" onClick={() => searchFor("C5_")}>
+                  <button className="pr-1" onClick={() => searchFor("C5_")}>
                     C5 empty
                   </button>
-                  <button className="pr-0" onClick={() => searchFor("C6_")}>
+                  <button className="pr-1" onClick={() => searchFor("C6_")}>
                     C6 empty
                   </button>
-                  <button className="pr-0" onClick={() => searchFor("C7_")}>
+                  <button className="pr-1" onClick={() => searchFor("C7_")}>
                     C7 empty
                   </button>
                 </td>
                 <td>
-                  <button className="pr-4" onClick={() => searchFor("D1_")}>
+                  <button className="pr-1" onClick={() => searchFor("D1_")}>
                     Raftul D1
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("D2_")}>
+                  <button className="pr-1" onClick={() => searchFor("D2_")}>
                     Raftul D2
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("D3_")}>
+                  <button className="pr-1" onClick={() => searchFor("D3_")}>
                     Raftul D3
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("D4_")}>
+                  <button className="pr-1" onClick={() => searchFor("D4_")}>
                     Raftul D4
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("D5_")}>
+                  <button className="pr-1" onClick={() => searchFor("D5_")}>
                     Raftul D5
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("D6_")}>
+                  <button className="pr-1" onClick={() => searchFor("D6_")}>
                     Raftul D6
                   </button>
                 </td>
                 <td>
-                  <button className="pr-4" onClick={() => searchFor("E1_")}>
+                  <button className="pr-1" onClick={() => searchFor("E1_")}>
                     Raftul E1
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("E2_")}>
+                  <button className="pr-1" onClick={() => searchFor("E2_")}>
                     Raftul E2
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("E3_")}>
+                  <button className="pr-1" onClick={() => searchFor("E3_")}>
                     Raftul E3
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("E4_")}>
+                  <button className="pr-1" onClick={() => searchFor("E4_")}>
                     Raftul E4
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("E5_")}>
+                  <button className="pr-1" onClick={() => searchFor("E5_")}>
                     Raftul E5
                   </button>
-                  <button className="pr-4" onClick={() => searchFor("E6_")}>
+                  <button className="pr-1" onClick={() => searchFor("E6_")}>
                     Raftul E6
                   </button>
                 </td>
