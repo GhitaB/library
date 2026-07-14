@@ -1,6 +1,9 @@
 Do not implement tests or do tests, I will test.
+books.json is in public folder.
 
 List of commands:
 MOVE: see move.txt
 FIX IMAGES: see fix_images.txt
 UPDATE: see update.txt
+NUMBERS: see numbers.txt
+VERIFY: see verify.txt

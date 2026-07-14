@@ -1,0 +1,89 @@
+With VERIFY command I want a quick check of books in a category.
+For example: VERIFY A2
+I want to verify the books having LibraryID starting with A2_
+
+Checks:
+
+ID must be unique in the entire json file
+-- else you will report for example: DUPLICATE ID: "0056"
+
+ID must have a number format like: "0010", "0123", "1215" etc
+-- if not you will report for example: WRONG ID: "abcd"
+
+LibraryID must have all numbers between A2_001 and A2_034 if 34 is the total number of books in A2 category
+-- else you will report for example: MISSING BOOK A2_015
+
+LibraryID must be unique, too, in the entire json file.
+-- else you will report for example: DUPLICATE LibraryID: "A2_003"
+
+Updated must be today
+-- else just tell me: You forgot to update the datetime
+
+Author must be non-empty.
+-- else: MISSING AUTHOR for A2_004
+
+Title is required.
+-- else: MISSING TITLE for A2_004
+
+Read and Reread can be 0 or a number.
+
+Pages must be a number, not 0.
+
+IMG must be in the correct folder, for example A2/...
+-- else: IMG in WRONG FOLDER for A2_005
+
+Details must be not empty.
+-- else: MISSING DETAILS for A2_007
+
+Tags must be a list of tags and it is not optional.
+-- else: MISSING TAGS for...
+
+ReadOnline is optional - see the correct format in the example
+-- else: INCORRECT ReadOnline format for...
+
+Review is optional - see the correct format in the example
+-- else: INCORRECT Review format for...
+
+OriginalTitle is a nice to have, but please notify me if it is missing
+-- example: MISSING OriginalTitle for A2_010
+
+Each book must be unique in the library. I mean, sometimes I have duplicates with different IDs, LibraryIDs, but the same title.
+-- else: DUPLICATE BOOK found A2_010 = C3_001
+
+Example of a book item:
+  {
+    "ID": "0041",
+    "LibraryID": "A2_009",
+    "Updated": "2026_07_14",
+    "Author": "Ellen G. White",
+    "Title": "Sfaturi pentru părinți, educatori și elevi",
+    "OriginalTitle": "Counsels to Parents, Teachers, and Students",
+    "Read": 60,
+    "Pages": 480,
+    "Reread": 0,
+    "IMG": "A2/IMG_0041.png",
+    "Details": "În această carte, sunt oferite sfaturi pentru conducerea unei şcoli, cu o atenţie specială acordată materiilor, disciplinei şi obiectivelor ce trebuiesc accentuate.",
+    "Tags": [
+      "Christian",
+      "Adventism",
+      "SDA",
+      "EGW",
+      "Church",
+      "Education",
+      "Youth",
+      "Family",
+      "Relationships"
+    ],
+    "ReadOnline": {
+      "url": "https://egwwritings.org/book/b2700",
+      "text": "Citește online"
+    },
+    "Review": {
+      "url": "https://ghitab.net/2025/01/11/sfaturi-pentru-parinti-etc/",
+      "text": "Recenzia mea"
+    }
+  },
+
+Your report will be easy to read. For example, you can merge the same issue in a list, for example: MISSING TAGS for [A2_003, A2_010, A2_013]
+Feel free to add your notes in case you see something else being wrong.
+Do not change the files.

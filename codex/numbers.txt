@@ -1,0 +1,17 @@
+in books.json, each book has an ID. Usually a number like "0001", "0002", "1012" etc.
+
+The goal is to have a book for each ID, I mean I don't want to have a book numbered with 0100 without having 0098, 0099 etc.
+But I already wrote a number on each book in my library. So, we also cannot use the same number for other books.
+It happens sometime to remove books from my library and also from this application.
+This is why we have missing numbers in books.json.
+I want to re-use a missing number every time when I add a new book in the library.
+
+So, when all my books will be inserted in the application, the maximum number used for IDs, will also be the total number of my books.
+
+With NUMBERS command I need to find:
+1. The maximum number you find to be used in the ID field of the books.
+2. The total number of book items in json file.
+3. The missing numbers list
+4. also wrong IDs (for example some random string instead of that number format 0012 etc)
+
+You can give me the report like: MAX ID: 1236, TOTAL BOOKS: 1213, MISSING IDs: [0010, 0034, 0100], SEEMS WRONG: [A2_378, 9996]
